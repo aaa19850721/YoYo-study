@@ -246,7 +246,17 @@ header{text-align:center;padding:16px 8px 6px}
 </style>
 </head>
 <body data-page-node-id="GMYBpIb1WsJb5E8xkUGKa4">
-<a id="yyHomeBtn" href="./index.html" title="返回红火箭主页" onclick="event.preventDefault();location.href=(location.protocol==='file:' ? './index.html' : 'https://www.workbuddy.cn/space/d/MZcSsAEoflJhicyKoAJG94');"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.6 2.5 11h2.8v9.4h5.3v-6h3v6h5.3V11h2.8L12 2.6z"/></svg>返回主页</a>
+<a id="yyHomeBtn" href="./index.html" title="返回红火箭主页"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.6 2.5 11h2.8v9.4h5.3v-6h3v6h5.3V11h2.8L12 2.6z"/></svg>返回主页</a>
+<script>
+(function(){
+  var b = document.getElementById('yyHomeBtn');
+  if (!b) return;
+  b.addEventListener('click', function(ev){
+    ev.preventDefault();
+    location.href = (location.protocol === 'file:') ? './index.html' : 'https://www.workbuddy.cn/space/d/MZcSsAEoflJhicyKoAJG94';
+  });
+})();
+</script>
 
 <div data-page-node-id="WuMBG8SjNuuF4dvuENfqSw" class="wrap">
 <header data-page-node-id="mQletblBpDjnXIXutVdesj">
