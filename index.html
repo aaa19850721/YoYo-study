@@ -238,7 +238,9 @@ body{
       card.style.transform = 'perspective(1000px) rotateX(' + rx + 'deg) rotateY(' + ry + 'deg) scale(1.02)';
       card.style.boxShadow = '0 18px 40px rgba(91,66,160,.32), 0 0 0 4px rgba(255,214,110,.4)';
       card.style.zIndex = '5';
-      var target = (location.protocol === 'file:') ? card.getAttribute('href') : card.getAttribute('data-online');
+      /* 本地/GitHub Pages 等正常托管走相对链接；资料库页面 CDN 相对路径失效，走线上节点 */
+      var onLibCdn = location.protocol !== 'file:' && location.pathname.indexOf('/page/') === 0;
+      var target = onLibCdn ? card.getAttribute('data-online') : card.getAttribute('href');
       setTimeout(function(){ location.href = target; }, 500);
     });
   }

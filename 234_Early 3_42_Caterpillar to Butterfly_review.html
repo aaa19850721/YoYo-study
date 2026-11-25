@@ -253,10 +253,12 @@ header{text-align:center;padding:16px 8px 6px}
   if (!b) return;
   b.addEventListener('click', function(ev){
     ev.preventDefault();
-    location.href = (location.protocol === 'file:') ? './index.html' : 'https://www.workbuddy.cn/space/d/MZcSsAEoflJhicyKoAJG94';
+    var onLibCdn = location.protocol !== 'file:' && location.pathname.indexOf('/page/') === 0;
+    location.href = onLibCdn ? 'https://www.workbuddy.cn/space/d/MZcSsAEoflJhicyKoAJG94' : './index.html';
   });
 })();
 </script>
+
 
 <div data-page-node-id="WuMBG8SjNuuF4dvuENfqSw" class="wrap">
 <header data-page-node-id="mQletblBpDjnXIXutVdesj">
