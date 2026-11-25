@@ -36,7 +36,8 @@ body{
 .brand{margin-top:12px;font-size:15px;color:var(--muted);font-weight:600;letter-spacing:2px}
 .brand b{color:var(--purple-d)}
 
-.layout{display:grid;grid-template-columns:minmax(280px,.76fr) minmax(520px,1.5fr);gap:20px;align-items:start}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+.col{display:flex;flex-direction:column;gap:20px;min-width:0}
 .panel{background:var(--card);border:1px solid var(--line);border-top:3px solid #eadcff;border-radius:var(--radius);box-shadow:var(--shadow)}
 .panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:15px 18px 4px}
 .panel-head h2{font-size:17px;font-weight:900;display:flex;align-items:center;gap:9px}
@@ -100,6 +101,28 @@ body{
 .card:hover .card-tag{background:linear-gradient(transparent,rgba(36,25,66,.9))}
 .hint{margin-top:12px;text-align:center;font-size:12px;color:#9b93ad}
 
+/* 历史上的今天 */
+.hist{padding:4px 18px 16px}
+.hist-box{
+  margin-top:10px;padding:14px 16px;border-radius:14px;
+  background:linear-gradient(100deg,#f2edff,#eef7ff);border:1px dashed #cdbcf0;
+}
+.hist-date{font-size:12px;font-weight:800;color:var(--purple-d);letter-spacing:1px}
+.hist-text{margin-top:6px;font-size:13px;line-height:1.85;color:#4c4465}
+
+/* 名人名言 */
+.quote{padding:4px 18px 16px}
+.quote-box{
+  margin-top:10px;padding:14px 18px 12px;border-radius:14px;position:relative;
+  background:linear-gradient(100deg,#fff8e8,#f7f1ff);border:1px dashed #f0d9a0;
+}
+.quote-box::before{
+  content:"“";position:absolute;left:10px;top:0;font-size:34px;font-weight:900;
+  color:#ffd77a;font-family:Georgia,serif;line-height:1;
+}
+.quote-text{font-size:13px;line-height:1.85;color:#4c4465;font-weight:600}
+.quote-author{margin-top:7px;text-align:right;font-size:12px;font-weight:800;color:var(--gold-d)}
+
 @media(max-width:900px){
   .layout{grid-template-columns:1fr}
   .book-grid{gap:10px}
@@ -123,6 +146,7 @@ body{
   </header>
 
   <main class="layout">
+    <div class="col">
     <section class="panel">
       <div class="panel-head">
         <h2>
@@ -156,6 +180,24 @@ body{
     <section class="panel">
       <div class="panel-head">
         <h2>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#7b61d6" d="M12 2a7 7 0 0 0-4 12.7V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 2zM9 20h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1z"/></svg>
+          <span id="histTitle">历史上的今天</span>
+        </h2>
+        <span class="sub" id="histSub"></span>
+      </div>
+      <div class="hist">
+        <div class="hist-box">
+          <div class="hist-date" id="histDate"></div>
+          <div class="hist-text" id="histText"></div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="col">
+    <section class="panel">
+      <div class="panel-head">
+        <h2>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#7b61d6" d="M4 4h7a3 3 0 0 1 3 3v13a2.5 2.5 0 0 0-2.5-2.5H4V4zm16 0h-4a3 3 0 0 0-3 3v13a2.5 2.5 0 0 1 2.5-2.5H20V4z"/></svg>
           今天读哪一本？
         </h2>
@@ -170,6 +212,23 @@ body{
         <div class="hint">读完一本，回到这里再点亮今天的星星吧。</div>
       </div>
     </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#7b61d6" d="M3 17.25V21h3.75L17.8 9.94l-3.75-3.75L3 17.25zM20.7 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+          名人名言
+        </h2>
+        <span class="sub">每天一句 · 365天内不重复</span>
+      </div>
+      <div class="quote">
+        <div class="quote-box">
+          <div class="quote-text" id="quoteText"></div>
+          <div class="quote-author" id="quoteAuthor"></div>
+        </div>
+      </div>
+    </section>
+    </div>
   </main>
 </div>
 
@@ -215,6 +274,183 @@ body{
   document.getElementById('prevM').addEventListener('click', function(){ view.setMonth(view.getMonth()-1); render(); });
   document.getElementById('nextM').addEventListener('click', function(){ view.setMonth(view.getMonth()+1); render(); });
   render();
+
+  /* ---------- 历史上的今天 ---------- */
+  var WEEK = ['日','一','二','三','四','五','六'];
+  var md = pad(now.getMonth()+1) + '-' + pad(now.getDate());
+  function hash(s){ var h = 0; for(var i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) >>> 0; } return h; }
+  var EVENTS = {
+    '01-01':['1801年，意大利天文学家皮亚齐发现了第一颗小行星——谷神星。','1892年，美国纽约的埃利斯岛正式开放，成为千百万移民进入美国的大门。'],
+    '01-02':['1959年，苏联“月球1号”探测器飞掠月球，成为第一个靠近月球的人造物体。'],
+    '01-03':['1959年，阿拉斯加正式成为美国第49个州。'],
+    '01-04':['1809年，“盲文的发明者”路易·布莱叶出生，他让盲人也能自由地读书写字。'],
+    '01-06':['1838年，莫尔斯首次公开演示了他发明的电报机，消息从此可以“飞”过电线。'],
+    '01-09':['1809年，美国作家爱伦·坡出生，他被称为“侦探小说之父”。'],
+    '01-10':['1863年，世界第一条地铁在伦敦通车，人们第一次坐火车穿过城市地下。'],
+    '01-11':['1922年，胰岛素第一次用于治疗糖尿病，挽救了无数人的生命。'],
+    '01-15':['1929年，美国民权运动领袖马丁·路德·金出生。'],
+    '01-17':['1706年，本杰明·富兰克林出生，他是科学家、发明家，也是著名的政治家。'],
+    '01-18':['1778年，英国探险家库克船长航行到达夏威夷群岛，欧洲人第一次见到这里。'],
+    '01-19':['1736年，改良蒸汽机的英国工程师瓦特出生。'],
+    '01-24':['1848年，有人在加州的河流里发现金矿，掀起了著名的“淘金热”。'],
+    '01-27':['1756年，音乐神童莫扎特出生，他5岁就开始作曲。'],
+    '02-07':['1812年，英国大作家狄更斯出生，他写下了《雾都孤儿》等名著。'],
+    '02-12':['1809年，生物学家达尔文出生，他提出了伟大的进化论；同一天，美国总统林肯也出生了。'],
+    '02-15':['1564年，天文学家伽利略出生，他被称为“现代科学之父”。'],
+    '02-19':['1473年，天文学家哥白尼出生，他提出了“地球绕着太阳转”的日心说。'],
+    '02-22':['1732年，美国第一任总统华盛顿出生。'],
+    '02-26':['1802年，法国大文豪雨果出生，他写下了《悲惨世界》。'],
+    '03-03':['1847年，电话的发明人贝尔出生。'],
+    '03-06':['1475年，文艺复兴巨匠米开朗基罗出生，他雕刻了著名的大卫像。'],
+    '03-07':['1876年，贝尔获得了电话的发明专利。'],
+    '03-08':['1909年起，3月8日成为全世界妇女共同的节日——国际妇女节。'],
+    '03-10':['1876年，贝尔对着话筒说出了人类历史上第一句电话：“沃森，快来！”'],
+    '03-14':['1879年，伟大的物理学家爱因斯坦出生。'],
+    '03-25':['1655年，荷兰天文学家惠更斯发现了土星最大的卫星——土卫六。'],
+    '03-27':['1845年，发现X射线的物理学家伦琴出生。'],
+    '03-30':['1853年，荷兰画家梵高出生，他画下了《向日葵》和《星空》。'],
+    '03-31':['1889年，埃菲尔铁塔落成，它一度是世界上最高的建筑。'],
+    '04-02':['1805年，童话大王安徒生出生，他写下了《丑小鸭》和《卖火柴的小女孩》。'],
+    '04-06':['1909年，美国探险家皮里经过长途跋涉，宣称第一个到达北极点。'],
+    '04-12':['1961年，苏联宇航员加加林乘坐“东方1号”飞船，成为进入太空的第一人。'],
+    '04-15':['1912年，号称“永不沉没”的泰坦尼克号撞上冰山沉没，敲响了航海安全的警钟。'],
+    '04-22':['1970年，人们迎来了第一个“世界地球日”，号召大家一起爱护地球。'],
+    '04-23':['1564年，戏剧大师莎士比亚出生，后来联合国把这一天定为“世界读书日”。'],
+    '04-25':['1953年，关于DNA双螺旋结构的论文在《自然》杂志发表，打开了生命科学的密码。'],
+    '04-30':['1789年，华盛顿就任美国第一任总统。'],
+    '05-01':['1886年，芝加哥工人大罢工争取到8小时工作制，后来这一天成为国际劳动节。'],
+    '05-06':['1954年，英国医生班尼斯特第一次在4分钟内跑完了一英里，创造了人类奇迹。'],
+    '05-08':['1886年，药剂师彭伯顿第一次卖出了可口可乐，这种饮料后来风靡全世界。'],
+    '05-10':['1869年，美国首条横贯大陆的铁路通车，东西海岸从此连在一起。'],
+    '05-20':['1873年，李维·斯特劳斯为蓝色牛仔裤申请了专利，牛仔裤从此走上世界舞台。'],
+    '05-22':['1859年，“福尔摩斯之父”柯南·道尔出生。'],
+    '05-24':['1844年，莫尔斯发出了世界上第一封电报：“上帝创造了何等的奇迹！”'],
+    '05-27':['1937年，美国旧金山的金门大桥建成通车，它曾是世界最长悬索桥。'],
+    '05-29':['1953年，希拉里和丹增第一次登顶珠穆朗玛峰，把脚印留在了世界之巅。'],
+    '06-01':['6月1日是属于全世界小朋友的节日——国际儿童节。'],
+    '06-02':['1896年，马可尼获得了无线电报的专利，人类开始用“电波”传递消息。'],
+    '06-23':['1894年，国际奥林匹克委员会成立，现代奥运会从此有了自己的家。'],
+    '06-30':['1908年，西伯利亚通古斯河上空发生了神秘的大爆炸，两千平方公里内的树木被放倒。'],
+    '07-05':['1687年，牛顿的科学巨著《自然哲学的数学原理》出版，奠定了经典物理学的基础。'],
+    '07-11':['1987年，世界人口达到50亿，这一天后来被定为“世界人口日”。'],
+    '07-14':['1789年，巴黎民众攻占了巴士底狱，法国大革命由此爆发。'],
+    '07-20':['1969年，美国宇航员阿姆斯特朗踏上月球，他说：“这是个人的一小步，却是人类的一大步。”'],
+    '07-29':['1958年，美国国家航空航天局（NASA）成立，人类探索太空的脚步大大加快。'],
+    '08-03':['1492年，哥伦布率领三艘船从西班牙启航，去寻找传说中的新大陆。'],
+    '08-15':['1945年，日本宣布无条件投降，第二次世界大战走向结束。'],
+    '08-28':['1963年，马丁·路德·金发表了著名演讲《我有一个梦想》。'],
+    '09-05':['1977年，“旅行者1号”探测器发射升空，它至今仍是飞得最远的人造物体。'],
+    '09-10':['9月10日是中国的教师节，别忘了向老师道一声谢谢。'],
+    '09-23':['1846年，天文学家伽勒根据计算结果在望远镜里找到了海王星。'],
+    '09-25':['1513年，探险家巴尔博亚穿越巴拿马，成为第一个看见太平洋的欧洲人。'],
+    '09-28':['相传这一天是大教育家孔子的诞辰，后来也被定为教师节。'],
+    '10-01':['1949年，中华人民共和国成立。'],
+    '10-04':['1957年，人类第一颗人造卫星“斯普特尼克1号”发射升空，太空时代从此开启。'],
+    '10-10':['1911年，辛亥革命爆发。'],
+    '10-24':['1945年，联合国正式成立，这一天后来成为“联合国日”。'],
+    '11-07':['1867年，伟大的科学家居里夫人出生，她两次获得诺贝尔奖。'],
+    '11-09':['1989年，矗立了近30年的柏林墙开放，人们涌上街头庆祝。'],
+    '11-14':['1840年，印象派大师莫奈出生，他画下了《日出·印象》。'],
+    '11-17':['1869年，连接地中海和红海的苏伊士运河正式通航。'],
+    '11-21':['1783年，蒙戈尔菲耶兄弟的热气球载着两位乘客升空，完成了人类首次载人飞行。'],
+    '11-24':['1859年，达尔文的《物种起源》正式出版，讲述了生命演化的秘密。'],
+    '11-26':['1865年，刘易斯·卡罗尔的童话《爱丽丝梦游仙境》正式出版，掉进兔子洞的奇妙冒险从此风靡世界。','1922年，考古学家卡特打开了图坦卡蒙法老墓室的大门，沉睡3000多年的宝藏重见天日。'],
+    '12-01':['1955年，罗莎·帕克斯在公交车上拒绝给白人让座，点燃了美国民权运动。'],
+    '12-10':['1896年，诺贝尔奖的创立者诺贝尔逝世；此后每年这一天，著名的诺贝尔奖都会举行颁奖典礼。'],
+    '12-17':['1903年，莱特兄弟制造的飞机首次试飞成功，人类飞上天空的梦想实现了。'],
+    '12-28':['1895年，卢米埃尔兄弟在巴黎第一次售票放映电影，电影艺术由此诞生。']
+  };
+  var histTitleEl = document.getElementById('histTitle');
+  var histDateEl = document.getElementById('histDate');
+  var histTextEl = document.getElementById('histText');
+  histDateEl.textContent = (now.getMonth()+1) + '月' + now.getDate() + '日 · 星期' + WEEK[now.getDay()];
+  var pool = EVENTS[md];
+  if(pool && pool.length){
+    histTitleEl.textContent = '历史上的今天';
+    histTextEl.textContent = pool[hash(todayKey) % pool.length];
+  } else {
+    histTitleEl.textContent = '历史上的大事件';
+    var allE = [];
+    for(var ek in EVENTS){ for(var ei=0; ei<EVENTS[ek].length; ei++){ allE.push(EVENTS[ek][ei]); } }
+    histTextEl.textContent = allE[hash(todayKey) % allE.length];
+  }
+
+  /* ---------- 名人名言：随机一句，365 天内不重复 ---------- */
+  var QUOTES = [
+    ['学而时习之，不亦说乎？','孔子'],
+    ['温故而知新，可以为师矣。','孔子'],
+    ['学而不思则罔，思而不学则殆。','孔子'],
+    ['三人行，必有我师焉。','孔子'],
+    ['知之者不如好之者，好之者不如乐之者。','孔子'],
+    ['敏而好学，不耻下问。','孔子'],
+    ['不积跬步，无以至千里；不积小流，无以成江海。','荀子'],
+    ['学不可以已。','荀子'],
+    ['业精于勤，荒于嬉；行成于思，毁于随。','韩愈'],
+    ['书山有路勤为径，学海无涯苦作舟。','韩愈'],
+    ['读书有三到，谓心到、眼到、口到。','朱熹'],
+    ['问渠那得清如许？为有源头活水来。','朱熹'],
+    ['纸上得来终觉浅，绝知此事要躬行。','陆游'],
+    ['书到用时方恨少，事非经过不知难。','陆游'],
+    ['读书破万卷，下笔如有神。','杜甫'],
+    ['旧书不厌百回读，熟读深思子自知。','苏轼'],
+    ['盛年不重来，一日难再晨。及时当勉励，岁月不待人。','陶渊明'],
+    ['非学无以广才，非志无以成学。','诸葛亮'],
+    ['玉不琢，不成器；人不学，不知道。','《礼记》'],
+    ['千里之行，始于足下。','老子'],
+    ['黑发不知勤学早，白首方悔读书迟。','颜真卿'],
+    ['读万卷书，行万里路。','刘彝'],
+    ['少壮不努力，老大徒伤悲。','汉乐府《长歌行》'],
+    ['为中华之崛起而读书。','周恩来'],
+    ['好好学习，天天向上。','毛泽东'],
+    ['时间就像海绵里的水，只要愿挤，总还是有的。','鲁迅'],
+    ['哪里有天才，我是把别人喝咖啡的工夫都用在工作上的。','鲁迅'],
+    ['聪明在于勤奋，天才在于积累。','华罗庚'],
+    ['书籍是人类进步的阶梯。','高尔基'],
+    ['我扑在书籍上，就像饥饿的人扑在面包上。','高尔基'],
+    ['知识就是力量。','培根'],
+    ['读书使人充实，讨论使人机智，写作使人精确。','培根'],
+    ['书籍是全世界的营养品。生活里没有书籍，就好像没有阳光。','莎士比亚'],
+    ['学习知识要善于思考、思考、再思考。','爱因斯坦'],
+    ['在天才和勤奋之间，我毫不迟疑地选择勤奋。','爱因斯坦'],
+    ['天才是百分之一的灵感加百分之九十九的汗水。','爱迪生'],
+    ['如果说我看得更远，那是因为我站在巨人的肩膀上。','牛顿'],
+    ['读书是易事，思索是难事，但两者缺一，便全无用处。','富兰克林'],
+    ['你热爱生命吗？那么别浪费时间，因为时间是组成生命的材料。','富兰克林'],
+    ['我唯一知道的，就是我一无所知。','苏格拉底'],
+    ['我们应该有恒心，尤其要有自信心。','居里夫人'],
+    ['一本书像一艘船，带领我们从狭隘的地方，驶向生活的无限广阔的海洋。','海伦·凯勒'],
+    ['读一本好书，就是和许多高尚的人谈话。','歌德'],
+    ['光有知识是不够的，还应当运用；光有愿望是不够的，还应当行动。','歌德'],
+    ['勤劳一日，可得一夜安眠；勤劳一生，可得幸福长眠。','达·芬奇'],
+    ['好的书籍是最贵重的珍宝。','别林斯基'],
+    ['让孩子变聪明的办法，不是补课，不是增加作业量，而是阅读、阅读、再阅读。','苏霍姆林斯基']
+  ];
+  var QKEY = 'yy_quotes_shown_v1';
+  var shown = {};
+  try { shown = JSON.parse(localStorage.getItem(QKEY) || '{}') || {}; } catch(e){ shown = {}; }
+  function dayTime(k){ var p = k.split('-'); return new Date(+p[0], +p[1]-1, +p[2]).getTime(); }
+  var pick = -1;
+  for(var qi in shown){ if(shown[qi] === todayKey){ pick = +qi; break; } }
+  if(pick < 0){
+    var cand = [];
+    for(var qi2 = 0; qi2 < QUOTES.length; qi2++){
+      var last = shown[qi2];
+      if(!last || (dayTime(todayKey) - dayTime(last)) >= 365 * 86400000){ cand.push(qi2); }
+    }
+    if(cand.length === 0){
+      var oldest = 0, oldestT = Infinity;
+      for(var qi3 = 0; qi3 < QUOTES.length; qi3++){
+        var t = shown[qi3] ? dayTime(shown[qi3]) : -Infinity;
+        if(t < oldestT){ oldestT = t; oldest = qi3; }
+      }
+      cand = [oldest];
+    }
+    pick = cand[Math.floor(Math.random() * cand.length)];
+    shown[pick] = todayKey;
+    try { localStorage.setItem(QKEY, JSON.stringify(shown)); } catch(e){}
+  }
+  document.getElementById('quoteText').textContent = QUOTES[pick][0];
+  document.getElementById('quoteAuthor').textContent = '—— ' + QUOTES[pick][1];
 
   /* ---------- 书本卡片：按点击位置 3D 倾斜，保持 0.5 秒后跳转 ---------- */
   var cards = document.querySelectorAll('.card');
