@@ -23,8 +23,17 @@
   }
   .wrap{max-width:1080px;margin:0 auto}
 
+  /* ===== 顶部固定栏：标题+搜索框+统计行吸顶，滚动时不动 ===== */
+  .topbar{
+    position:sticky;top:0;z-index:50;
+    background:var(--bg);
+    padding:8px 0 14px;
+    margin-bottom:10px;
+    box-shadow:0 2px 8px rgba(47,125,85,.08);
+  }
   /* ===== 标题 ===== */
   header{text-align:center;margin-bottom:26px}
+  header h1{margin-top:6px}
   h1{
     font-size:34px;font-weight:800;letter-spacing:1px;
     color:var(--accent2);
@@ -199,19 +208,21 @@
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>红火箭分级阅读单词表</h1>
-    <div class="subtitle">RED ROCKET READERS · 单词卡片</div>
-  </header>
+  <div class="topbar">
+    <header>
+      <h1>红火箭分级阅读单词表</h1>
+      <div class="subtitle">RED ROCKET READERS · 单词卡片</div>
+    </header>
 
-  <div class="searchbar">
-    <div class="searchbox">
-      <span class="icon">🔍</span>
-      <input id="q" type="text" placeholder="模糊搜索单词，如 dino / 蝴蝶 / insect …" autocomplete="off">
-      <button class="clear" id="clear" title="清空">×</button>
+    <div class="searchbar">
+      <div class="searchbox">
+        <span class="icon">🔍</span>
+        <input id="q" type="text" placeholder="模糊搜索单词，如 dino / 蝴蝶 / insect …" autocomplete="off">
+        <button class="clear" id="clear" title="清空">×</button>
+      </div>
     </div>
+    <div class="count" id="count"></div>
   </div>
-  <div class="count" id="count"></div>
 
   <div class="grid" id="grid"></div>
   <div class="noresult" id="noresult">没有找到匹配的单词卡片 🐾</div>
