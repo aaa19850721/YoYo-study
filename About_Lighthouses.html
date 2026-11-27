@@ -584,7 +584,7 @@ function speak(text,el){
  if(!text)return Promise.resolve();
  if(engine==='online')return playOnline(text,el);
  return new Promise(res=>{
-  let settled=false,done=false;
+  let settled=false,done=false,started=false;
   const finish=(fallback)=>{if(settled)return;settled=true;
    if(el)el.classList.remove('playing');
    if(fallback&&!done){done=true;engine='online';playOnline(text,el).then(res);}else res();
@@ -597,10 +597,14 @@ function speak(text,el){
             ||voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));
    if(match)u.voice=match;
    if(el)el.classList.add('playing');
+   u.onstart=()=>{started=true;};
    u.onend=()=>finish(false);
    u.onerror=()=>finish(true);
    setTimeout(()=>{try{synth.speak(u);}catch(e){finish(true);}},30);
-   setTimeout(()=>{if(!settled)finish(true);},Math.min(5000,900+text.length*130));
+   /* 看门狗：2 秒内未真正开始发声（如浏览器无英文语音时静默失败）→ 切在线发音 */
+   setTimeout(()=>{if(!started&&!settled)finish(true);},2000);
+   /* 总保险：朗读意外挂起时清理，避免「正在播放」状态卡死 */
+   setTimeout(()=>{if(!settled)finish(false);},20000+text.length*200);
   }catch(e){finish(true);}
  });
 }

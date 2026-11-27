@@ -1834,11 +1834,11 @@ function memoStats(){
   return `（其中会了 ${know} 个，半熟 ${half} 个，忘了 ${forget} 个）`;
 }
 
-/* 单词发音：Web Speech API */
+/* 单词发音：Web Speech API + 在线发音兜底（本地无声时自动切换） */
 let enVoice=null;
 function pickVoice(){
   const vs=speechSynthesis.getVoices();
-  enVoice = vs.find(v=>/^en(-|_)(GB|US)$/i.test(v.lang) && /female|Google|Samantha|Serena/i.test(v.name))
+  enVoice = vs.find(v=>/^en(-|_)(GB|US)$/i.test(v.lang) && /female|Google|Samantha|Serena|Zira|Hazel|Libby/i.test(v.name))
          || vs.find(v=>/^en(-|_)GB$/i.test(v.lang))
          || vs.find(v=>/^en/i.test(v.lang)) || null;
 }
@@ -1846,19 +1846,43 @@ if("speechSynthesis" in window){
   pickVoice();
   speechSynthesis.onvoiceschanged=pickVoice;
 }
+let onlineAudio=null;
+function playOnline(text,btn){
+  try{
+    if(onlineAudio){try{onlineAudio.pause();}catch(e){}}
+    const a=new Audio("https://fanyi.baidu.com/gettts?lan=en&text="+encodeURIComponent(text)+"&spd=3&source=web&t="+Date.now());
+    onlineAudio=a;
+    if(btn){
+      a.onended=()=>btn.classList.remove("speaking");
+      a.onerror=()=>btn.classList.remove("speaking");
+    }
+    const p=a.play();
+    if(p&&p.catch)p.catch(()=>{if(btn)btn.classList.remove("speaking");});
+  }catch(e){ if(btn)btn.classList.remove("speaking"); }
+}
 function speak(word,btn){
-  if(!("speechSynthesis" in window)){ alert("当前浏览器不支持语音播放"); return; }
+  if(!("speechSynthesis" in window)){ playOnline(word,btn); return; }
   speechSynthesis.cancel();
+  /* 本地没有任何英文语音 → 直接走在线发音 */
+  const vs=speechSynthesis.getVoices();
+  if(!vs.some(v=>/^en/i.test(v.lang||""))){ playOnline(word,btn); return; }
   const u=new SpeechSynthesisUtterance(word);
-  u.lang="en-GB"; if(enVoice) u.voice=enVoice;
+  u.lang=enVoice?enVoice.lang:"en-GB"; if(enVoice) u.voice=enVoice;
   u.rate=0.75;          /* 慢速，适合小学生听清 */
   u.pitch=1.05;
-  if(btn){
-    btn.classList.add("speaking");
-    u.onend=()=>btn.classList.remove("speaking");
-    u.onerror=()=>btn.classList.remove("speaking");
-  }
+  let started=false,usedOnline=false;
+  const fallback=()=>{
+    if(usedOnline)return; usedOnline=true;
+    try{speechSynthesis.cancel();}catch(e){}
+    playOnline(word,btn);
+  };
+  u.onstart=()=>{started=true;};
+  u.onend=()=>{ if(!usedOnline&&btn)btn.classList.remove("speaking"); };
+  u.onerror=()=>fallback();
+  if(btn)btn.classList.add("speaking");
   speechSynthesis.speak(u);
+  /* 看门狗：1.5 秒内未真正开始发声（Chrome 常见静默失败）→ 切在线发音 */
+  setTimeout(()=>{ if(!started) fallback(); },1500);
 }
 
 /* 搜索：只匹配 单词本身 + 中文释义（子串匹配），英文释义/例句等不参与 */

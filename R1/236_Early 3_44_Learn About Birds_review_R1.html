@@ -542,15 +542,36 @@ function pickVoice(){
             ||ms[0];
  return natural||voices.find(v=>isEn(v)&&v.lang.toLowerCase().replace('_','-')===wantLang)||voices.find(isEn)||null;
 }
-/* 单一微软语音朗读：彻底去掉在线兜底，从根源避免"本地+在线"双发音 */
+/* 微软语音优先朗读；若浏览器无可用英文语音或朗读未真正发声，自动切在线发音兜底 */
+let onlineAudio=null;
+function playOnline(text,el){
+ return new Promise(res=>{
+  if(!text){res();return;}
+  try{
+   if(onlineAudio){try{onlineAudio.pause();}catch(e){}}
+   const a=new Audio('https://fanyi.baidu.com/gettts?lan=en&text='+encodeURIComponent(text)+'&spd=3&source=web&t='+Date.now());
+   a.playbackRate=Math.max(0.6,Math.min(1.3,rate/0.9));
+   onlineAudio=a;
+   let done=false;const fin=()=>{if(done)return;done=true;if(el)el.classList.remove('playing');res();};
+   a.onended=fin;a.onerror=fin;
+   if(el)el.classList.add('playing');
+   const p=a.play();if(p&&p.catch)p.catch(fin);
+   setTimeout(fin,25000+text.length*150);
+  }catch(e){if(el)el.classList.remove('playing');res();}
+ });
+}
 function speakLocal(text,el){
  return new Promise(res=>{
-  let settled=false;
-  const finish=()=>{
+  let settled=false,started=false;
+  const cleanup=()=>{
    if(settled)return;settled=true;
    try{synth.cancel();}catch(e){}
    if(el)el.classList.remove('playing');
-   res();
+  };
+  const finish=()=>{if(settled)return;cleanup();res();};
+  const fallback=()=>{
+   if(settled)return;cleanup();
+   playOnline(text,el).then(res);
   };
   try{
    if(synth.paused)synth.resume();
@@ -559,12 +580,15 @@ function speakLocal(text,el){
    const match=pickVoice();
    if(match)u.voice=match;
    if(el)el.classList.add('playing');
+   u.onstart=()=>{started=true;};
    u.onend=finish;
-   u.onerror=finish;
-   setTimeout(()=>{try{synth.speak(u);}catch(e){finish();}},30);
-   /* 安全超时：只结束并清理，绝不切到别的音源；按句长给足时间，慢速音色也够用 */
-   setTimeout(()=>{if(!settled)finish();},Math.min(20000,2000+text.length*260));
-  }catch(e){finish();}
+   u.onerror=fallback;
+   setTimeout(()=>{try{synth.speak(u);}catch(e){fallback();}},30);
+   /* 看门狗：2 秒内未真正开始发声（如浏览器无英文语音时静默失败）→ 切在线发音 */
+   setTimeout(()=>{if(!started&&!settled)fallback();},2000);
+   /* 总保险：朗读意外挂起时清理，避免「正在播放」状态卡死 */
+   setTimeout(()=>{if(!settled)finish();},Math.min(30000,6000+text.length*400));
+  }catch(e){fallback();}
  });
 }
 function speak(text,el){
