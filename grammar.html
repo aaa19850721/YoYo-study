@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红火箭分级阅读语法表 · 语法卡片</title>
+<style>
+  :root{
+    --bg:#e7eefb;
+    --ink:#2f3555; --sub:#7d8698;
+    --accent:#3f6bd9; --accent2:#2f52ab;
+    --card-face:#ffffff;
+    --shadow:0 2px 6px rgba(47,82,171,.10),0 8px 24px rgba(47,82,171,.12);
+    --shadow-lift:0 4px 10px rgba(47,82,171,.14),0 18px 40px rgba(47,82,171,.20);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    min-height:100vh;
+    padding:32px 24px 60px;
+  }
+  .wrap{max-width:1080px;margin:0 auto}
+
+  /* ===== 顶部固定栏 ===== */
+  .topbar{
+    position:sticky;top:0;z-index:50;
+    background:var(--bg);
+    padding:8px 0 14px;
+    margin-bottom:10px;
+    box-shadow:0 2px 8px rgba(47,82,171,.08);
+  }
+  header{text-align:center;margin-bottom:26px}
+  header h1{margin-top:6px}
+  h1{font-size:34px;font-weight:800;letter-spacing:1px;color:var(--accent2)}
+  .subtitle{margin-top:6px;color:var(--sub);font-size:13px;letter-spacing:2px}
+
+  /* ===== 搜索框 ===== */
+  .searchbar{display:flex;justify-content:center;margin-bottom:8px}
+  .searchbox{position:relative;width:420px;max-width:100%}
+  .searchbox input{
+    width:100%;height:46px;border:none;outline:none;
+    border-radius:23px;padding:0 46px 0 46px;font-size:15px;color:var(--ink);
+    background:var(--card-face);
+    box-shadow:var(--shadow), inset 0 -2px 0 rgba(43,58,85,.06);
+    transition:box-shadow .2s, transform .2s;
+  }
+  .searchbox input:focus{
+    box-shadow:var(--shadow-lift), inset 0 -2px 0 rgba(63,107,217,.25);
+    transform:translateY(-1px);
+  }
+  .searchbox .icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:17px;color:var(--sub);pointer-events:none}
+  .searchbox .clear{
+    position:absolute;right:14px;top:50%;transform:translateY(-50%);
+    width:22px;height:22px;border-radius:50%;border:none;cursor:pointer;
+    background:#dce3f0;color:var(--sub);font-size:12px;line-height:1;display:none;
+  }
+  .searchbox .clear:hover{background:#c9d2e4}
+  .count{text-align:center;color:var(--sub);font-size:12.5px;margin:8px 0 6px}
+
+  /* ===== 瀑布流 ===== */
+  .grid{display:flex;gap:22px;align-items:flex-start}
+  .col{flex:1;min-width:0;display:flex;flex-direction:column}
+  @media (max-width:980px){.grid{gap:16px}}
+  @media (max-width:640px){.grid{gap:14px}}
+  .scene{margin-bottom:22px;perspective:1400px;height:400px}
+
+  .card{
+    position:relative;width:100%;height:100%;
+    transform-style:preserve-3d;
+    transition:transform .65s cubic-bezier(.2,.75,.3,1.1);
+    cursor:pointer;
+  }
+  .card.flipped{transform:rotateY(180deg)}
+  .face{
+    position:absolute;inset:0;border-radius:18px;
+    backface-visibility:hidden;-webkit-backface-visibility:hidden;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+    background:rgba(63,107,217,.12);
+    backdrop-filter:blur(20px) saturate(1.3);
+    -webkit-backdrop-filter:blur(20px) saturate(1.3);
+    border:1px solid rgba(63,107,217,.5);
+  }
+  @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+    .face{background:rgba(255,255,255,.88)}
+  }
+  .scene:hover .card:not(.flipped){transform:translateY(-8px) rotateX(4deg)}
+  .scene:hover .card{box-shadow:var(--shadow-lift)}
+
+  /* ---- 正面 ---- */
+  .front{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}
+  .grp{
+    padding:4px 16px;border-radius:14px;margin-bottom:16px;
+    background:var(--accent);color:#fff;font-size:13px;font-weight:700;letter-spacing:2px;
+    box-shadow:0 4px 10px rgba(47,82,171,.30);
+  }
+  .gname{
+    font-size:24px;font-weight:800;color:var(--accent2);
+    max-width:260px;word-break:break-word;line-height:1.35;
+  }
+  .gsum{margin-top:14px;font-size:13px;color:var(--sub);line-height:1.6;max-height:88px;overflow:hidden}
+  .gcount{margin-top:10px;font-size:12px;color:#9aa6c0}
+  .hint{position:absolute;bottom:16px;left:0;right:0;color:#9db0c8;font-size:11.5px;letter-spacing:1px}
+
+  /* ---- 背面 ---- */
+  .back{transform:rotateY(180deg);display:flex;flex-direction:column}
+  .back::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:var(--accent)}
+  .back-inner{flex:1;overflow-y:scroll;padding:18px 18px 14px}
+  .back-inner::-webkit-scrollbar{width:8px}
+  .back-inner::-webkit-scrollbar-track{background:#eef2fa;border-radius:4px}
+  .back-inner::-webkit-scrollbar-thumb{background:#a9bce0;border-radius:4px}
+  .back-inner::-webkit-scrollbar-thumb:hover{background:#8fa4d0}
+  .bhead{text-align:center;padding-bottom:10px;border-bottom:1px dashed #d7dfef;margin-bottom:10px}
+  .bword{font-size:22px;font-weight:800;color:var(--accent2)}
+  .bgrp{color:var(--accent);font-size:14px;margin-top:3px;font-weight:600}
+  .ex{display:block;color:#54608a;margin-top:8px;font-size:14.5px;line-height:1.6;padding-left:2px}
+  .ex b{color:var(--accent);font-weight:600}
+  .flipback{text-align:center;color:#a9b3c8;font-size:12px;padding:7px 0 9px;border-top:1px dashed #d7dfef;letter-spacing:1px}
+  .noresult{text-align:center;color:var(--sub);font-size:15px;padding:60px 0;display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <header>
+      <h1>红火箭分级阅读语法表</h1>
+      <div class="subtitle">RED ROCKET READERS · 语法卡片</div>
+    </header>
+    <div class="searchbar">
+      <div class="searchbox">
+        <span class="icon">🔍</span>
+        <input id="q" type="text" placeholder="模糊搜索语法，如 复数 / can / 时态 …" autocomplete="off">
+        <button class="clear" id="clear" title="清空">×</button>
+      </div>
+    </div>
+    <div class="count" id="count"></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="noresult" id="noresult">没有找到匹配的语法卡片 🐾</div>
+</div>
+
+<script>
+const WORDS = [
+  {"name": "一般现在时", "group": "时态", "count": 100, "summary": "A frog can jump high.；A kangaroo can jump.", "exs": ["She likes ice cream.", "Do you play games?", "Tom does not run fast."]},
+  {"name": "现在进行时", "group": "时态", "count": 27, "summary": "Dancing is good fun!；I、we、they、it", "exs": ["I am reading a book.", "The bird is flying high.", "Are you playing with me?"]},
+  {"name": "一般过去时", "group": "时态", "count": 26, "summary": "Did + 主语 + 动词原形；He was hungry and thirsty.", "exs": ["My balloon went up in the sky.", "Did Buddy wait for his friend?", "We were very happy at the party."]},
+  {"name": "一般将来时", "group": "时态", "count": 6, "summary": "'ll 是 will 的缩写；I will make soup.", "exs": ["I will make soup.", "We will go to the park.", "The birds will fly south."]},
+  {"name": "名词复数", "group": "名词", "count": 54, "summary": "2 tigers、8 hippos；a copy、lots of copies、book、books", "exs": ["I see two birds.", "She has three boxes.", "My teeth are white."]},
+  {"name": "数量表达", "group": "名词", "count": 22, "summary": "1 snake；All people need water. Some rain makes puddles.", "exs": ["I have ten fingers and ten toes.", "Some birds are in the tree.", "There is a lot of milk in the glass."]},
+  {"name": "不可数名词", "group": "名词", "count": 14, "summary": "Some fishermen take too much fish.；That's snow、That's mud", "exs": ["I drink milk in the morning.", "We eat rice for lunch.", "I like music."]},
+  {"name": "专有名词与书写规范", "group": "名词", "count": 10, "summary": "Grace；good 用句号，bad 用感叹号", "exs": ["Grace has a red hat.", "Tom and I go to school.", "My dog is named Max."]},
+  {"name": "名词的构成与类别", "group": "名词", "count": 9, "summary": "bark 既是名词狗叫声，也是动词吠；fire engine、police car、racing car 由两个词组成一个名称", "exs": ["The snowman has a red hat.", "A police car is in the street.", "The zoo keeper feeds the ladybug."]},
+  {"name": "名词所有格", "group": "名词", "count": 9, "summary": "'s 表「某人的」；'s 表所属", "exs": ["This is Mom's bag.", "The legs of the table are short.", "The twins' hair is black."]},
+  {"name": "其他介词", "group": "介词", "count": 46, "summary": "Green is for GO.；I can do it all by myself.", "exs": ["The bat sleeps at night.", "I have a bag with two apples.", "A bee goes from flower to flower."]},
+  {"name": "方位与方向介词", "group": "介词", "count": 44, "summary": "At the beach, I got sand...；At the zoo", "exs": ["The fish is in the lake.", "The pot is on the stove.", "The birds fly over the hill."]},
+  {"name": "形容词的用法", "group": "形容词与副词", "count": 39, "summary": "I'm getting very hungry.；a little ball、big balls", "exs": ["The elephant is big.", "I see a little bird.", "My cake is bigger than yours."]},
+  {"name": "副词的用法", "group": "形容词与副词", "count": 28, "summary": "Sometimes they dance to the music.；They can eat it later.", "exs": ["My cat can run fast.", "She always gets up early.", "Let us play the game later."]},
+  {"name": "too 的用法", "group": "形容词与副词", "count": 11, "summary": "I swim here, too.；It has four wheels, too.", "exs": ["I like milk, too.", "My dog can run fast, too!", "She has a sister, too."]},
+  {"name": "比较级与最高级", "group": "形容词与副词", "count": 8, "summary": "as big as six elephants；faster than you、higher than you", "exs": ["The rabbit is faster than the dog.", "Tom is the tallest boy in class.", "My bag is as big as yours."]},
+  {"name": "并列与转折（and / or / but）", "group": "句型", "count": 35, "summary": "Bats and bears；Birds have beaks, but no teeth.", "exs": ["I like apples and bananas.", "Do you want tea or milk?", "The cat is small, but it runs fast."]},
+  {"name": "否定句", "group": "句型", "count": 33, "summary": "-ing 结尾的词在这里当名词用，表示一种活动；-ing 结尾的运动名称", "exs": ["I can not swim in the sea.", "He has no hair on his head.", "The cats do not make any noise."]},
+  {"name": "陈述句与语序", "group": "句型", "count": 28, "summary": "Here are the bones.；His hand was stuck.", "exs": ["Here is my ball.", "That is a big dog.", "It is cold today."]},
+  {"name": "特殊疑问句", "group": "句型", "count": 27, "summary": "How do the seeds go away?；What + will + 主语 + 动词原形", "exs": ["Where is my red ball?", "What do you have in your bag?", "Who can help the little dog?"]},
+  {"name": "一般疑问句", "group": "句型", "count": 19, "summary": "Are we all here?；Are you hungry?", "exs": ["Are you hungry?", "Do you like this book?", "Can you see the bird?"]},
+  {"name": "感叹句", "group": "句型", "count": 17, "summary": "Dancing is good fun!；Happy birthday!", "exs": ["What a big cake!", "How tall the tree is!", "Help! A dog is coming."]},
+  {"name": "祈使句与日常用语", "group": "句型", "count": 17, "summary": "Come. Sit. Stay. Wait.；Don't + 动词原形", "exs": ["Look at the birds.", "Don't run in the hall.", "Let's play a game."]},
+  {"name": "There be 句型", "group": "句型", "count": 9, "summary": "Soon there will be more new butterflies!；There is + 单数，There are + 复数", "exs": ["There is a cat on the bed.", "There are five apples in the box.", "There was a big tree here."]},
+  {"name": "直接引语", "group": "句型", "count": 6, "summary": "\"I swim here,\" said Hippo.；said + 人名，常放在引语之后", "exs": ["\"I am hungry,\" said the little bear.", "\"We can hop,\" said the birds.", "\"I like milk,\" said the girl."]},
+  {"name": "时间与条件从句", "group": "句型", "count": 6, "summary": "After 9 weeks, tadpoles grow little front legs.；It helps to keep us dry when it rains.", "exs": ["We play outside when it is sunny.", "If it rains, we stay at home.", "After school, I do my homework."]},
+  {"name": "动词不定式 to do", "group": "动词", "count": 35, "summary": "All the children were happy to see Tilly.；It's good to use a crossing.", "exs": ["It is fun to swim.", "I want to read a book.", "We use paper to make books."]},
+  {"name": "be 动词与主谓一致", "group": "动词", "count": 25, "summary": "A cat 配 has；A rabbit is a small animal.", "exs": ["I am six years old.", "The cat is on the bed.", "We are in the park."]},
+  {"name": "have / has 表拥有", "group": "动词", "count": 24, "summary": "A fireman has a hat.；Horses have teeth.、Birds have beaks.", "exs": ["I have a red kite.", "The dog has a long tail.", "Birds have two wings."]},
+  {"name": "let / make / help + 动词原形", "group": "动词", "count": 24, "summary": "I showed it to my mother.；Show me the shape", "exs": ["Let me open the door.", "Please help me find my cat.", "Mom makes me clean my room."]},
+  {"name": "情态动词 can / could", "group": "动词", "count": 13, "summary": "Can + 主语 + 动词原形；Can you find an old sock?", "exs": ["I can ride a bike.", "Can you find my sock?", "She could not go to school."]},
+  {"name": "动词短语", "group": "动词", "count": 11, "summary": "Paper is made from wood.；People get the clay out of the ground.", "exs": ["Please look at my new book.", "We go to the park on Sunday.", "Put on your coat, it is cold."]},
+  {"name": "感官动词与 like 表比喻", "group": "动词", "count": 11, "summary": "I am frightened of him.；like a bird", "exs": ["The cloud looks like a sheep.", "The ice feels cold.", "The soup smells good."]},
+  {"name": "have to / must", "group": "动词", "count": 4, "summary": "表示\"必须、得\"；表示“必须”", "exs": ["I have to do my homework.", "She has to wear a coat.", "We must not run in the hall."]},
+  {"name": "人称代词", "group": "代词", "count": 27, "summary": "I ate it / I ate them；I wiggled it.", "exs": ["She gives me a big red apple.", "They carry heavy things on their backs.", "We play games with them after school."]},
+  {"name": "物主代词", "group": "代词", "count": 13, "summary": "Its horn…；Its tail is like a big fan.", "exs": ["His shoes are new.", "Its tail is very short.", "Our dog is small."]},
+  {"name": "指示代词 this / that / these", "group": "代词", "count": 11, "summary": "These trees…；this old junk", "exs": ["This is my little red dog.", "These trees are very tall.", "Is that your ball over there?"]},
+  {"name": "定冠词 the 与零冠词", "group": "冠词", "count": 21, "summary": "a forest、a butterfly；a good idea、the author、the story", "exs": ["The sun is hot.", "I like apples.", "The bees fly in the sky."]},
+  {"name": "不定冠词 a / an", "group": "冠词", "count": 20, "summary": "a banana、an orange、an apple；a bat、a crab、a bee", "exs": ["I eat an apple.", "He has a big dog.", "An ostrich can run fast."]},
+];
+
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+
+function buildCard(w){
+  const exHtml = w.exs.map((e,i)=>`<span class="ex"><b>${i+1}、</b>${esc(e)}</span>`).join("");
+  return `
+    <div class="card">
+      <div class="face front">
+        <div class="grp">${esc(w.group)}</div>
+        <div class="gname">${esc(w.name)}</div>
+        <div class="gsum">${esc(w.summary)}</div>
+        <div class="gcount">涵盖 ${w.count} 个课堂语法要点</div>
+        <div class="hint">— 点击卡片看例句 —</div>
+      </div>
+      <div class="face back">
+        <div class="back-inner">
+          <div class="bhead">
+            <div class="bword">${esc(w.name)}</div>
+            <div class="bgrp">${esc(w.group)} · 典型例句</div>
+          </div>
+          ${exHtml}
+        </div>
+        <div class="flipback">— 点击返回 —</div>
+      </div>
+    </div>`;
+}
+
+/* 懒加载：空壳占位，滚近了才填内容 */
+const grid=document.getElementById("grid");
+const scenes=WORDS.map((w,i)=>{
+  const s=document.createElement("div");
+  s.className="scene";
+  s.dataset.idx=i;
+  s.dataset.key=w.name+"|"+w.group+"|"+w.summary;
+  return s;
+});
+function fillScene(s){
+  if(s.dataset.filled) return;
+  s.dataset.filled="1";
+  s.innerHTML=buildCard(WORDS[+s.dataset.idx]);
+}
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){ fillScene(e.target); io.unobserve(e.target); }
+  });
+},{rootMargin:"900px 0px"});
+scenes.forEach(s=>io.observe(s));
+
+/* 瀑布流分栏 */
+let cols=[];
+let order=WORDS.map((_,i)=>i);
+function colCount(){
+  const w=window.innerWidth;
+  return w<=640?1:(w<=980?2:3);
+}
+function distribute(){
+  const n=colCount();
+  if(n===cols.length) return;
+  grid.innerHTML="";
+  cols=[];
+  for(let i=0;i<n;i++){
+    const c=document.createElement("div");
+    c.className="col";
+    grid.appendChild(c); cols.push(c);
+  }
+  order.forEach((idx,i)=>cols[i%n].appendChild(scenes[idx]));
+}
+
+/* 翻转 */
+grid.addEventListener("click",e=>{
+  const card=e.target.closest(".card");
+  if(card) card.classList.toggle("flipped");
+});
+
+/* 搜索：匹配 语法名 + 分类 + 要点 */
+const q=document.getElementById("q"), clear=document.getElementById("clear");
+const count=document.getElementById("count"), noresult=document.getElementById("noresult");
+function update(){
+  const raw=q.value.trim().toLowerCase();
+  clear.style.display=raw?"block":"none";
+  const visible=[];
+  for(const idx of order){
+    const s=scenes[idx];
+    const key=s.dataset.key.toLowerCase();
+    if(!raw || key.includes(raw)) visible.push(s);
+  }
+  const n=colCount();
+  cols.forEach(c=>c.innerHTML="");
+  visible.forEach((s,i)=>cols[i%n].appendChild(s));
+  count.textContent = raw ? `匹配到 ${visible.length} 张卡片` : `共 ${WORDS.length} 张卡片`;
+  noresult.style.display=visible.length?"none":"block";
+}
+q.addEventListener("input",update);
+clear.addEventListener("click",()=>{q.value="";update();q.focus()});
+distribute();
+update();
+let lastCols=colCount();
+window.addEventListener("resize",()=>{
+  const n=colCount();
+  if(n!==lastCols){ lastCols=n; distribute(); update(); }
+});
+</script>
+</body>
+</html>
