@@ -41,10 +41,20 @@
   .subtitle{margin-top:6px;color:var(--sub);font-size:13px;letter-spacing:2px}
 
   /* ===== 搜索框 ===== */
-  .searchbar{display:flex;justify-content:center;margin-bottom:8px}
+  .searchbar{display:flex;justify-content:center;align-items:center;gap:14px;margin-bottom:8px}
   .searchbox{
     position:relative;width:420px;max-width:100%;
   }
+  /* 排序按钮 */
+  .sortbtns{display:flex;gap:8px;flex-shrink:0}
+  .sbtn{
+    height:40px;padding:0 16px;border-radius:20px;cursor:pointer;
+    border:1px solid #cfe2d5;background:rgba(255,255,255,.85);
+    color:#5f7268;font-size:13.5px;font-weight:600;letter-spacing:.5px;
+    transition:all .15s;user-select:none;
+  }
+  .sbtn:hover{transform:translateY(-1px);border-color:#8fbca0;color:var(--accent2)}
+  .sbtn.active{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 3px 8px rgba(47,125,85,.30)}
   .searchbox input{
     width:100%;height:46px;border:none;outline:none;
     border-radius:23px;padding:0 46px 0 46px;font-size:15px;color:var(--ink);
@@ -219,6 +229,10 @@
         <span class="icon">🔍</span>
         <input id="q" type="text" placeholder="模糊搜索单词，如 dino / 蝴蝶 / insect …" autocomplete="off">
         <button class="clear" id="clear" title="清空">×</button>
+      </div>
+      <div class="sortbtns">
+        <button id="btnRandom" class="sbtn" title="点击随机打乱卡片顺序">🔀 随机排序</button>
+        <button id="btnAlpha" class="sbtn" title="按字母 A→Z 排序；再点一次恢复原始顺序">🔤 字母排序</button>
       </div>
     </div>
     <div class="count" id="count"></div>
@@ -1728,6 +1742,8 @@ scenes.forEach(s=>io.observe(s));
 
 /* JS 瀑布流：卡片按序号轮流分入各列（i % 列数），保证每行卡片数 = 列数 */
 let cols=[];
+let order=WORDS.map((_,i)=>i);   /* 当前展示顺序（索引数组） */
+let sortMode="orig";             /* orig=原始顺序 / rand=随机 / alpha=字母 */
 function colCount(){
   const w=window.innerWidth;
   return w<=640?1:(w<=980?2:3);
@@ -1742,8 +1758,38 @@ function distribute(){
     c.className="col";
     grid.appendChild(c); cols.push(c);
   }
-  scenes.forEach((s,i)=>cols[i%n].appendChild(s));
+  order.forEach((idx,i)=>cols[i%n].appendChild(scenes[idx]));
 }
+
+/* 排序：随机 / 字母（再点一次恢复原始顺序） */
+const btnRandom=document.getElementById("btnRandom");
+const btnAlpha=document.getElementById("btnAlpha");
+function refreshView(){
+  btnRandom.classList.toggle("active",sortMode==="rand");
+  btnAlpha.classList.toggle("active",sortMode==="alpha");
+  cols.forEach(c=>c.innerHTML="");
+  const n=colCount();
+  order.forEach((idx,i)=>cols[i%n].appendChild(scenes[idx]));
+  update();
+}
+btnRandom.addEventListener("click",()=>{
+  order=WORDS.map((_,i)=>i);
+  for(let i=order.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [order[i],order[j]]=[order[j],order[i]];
+  }
+  sortMode="rand"; refreshView();
+});
+btnAlpha.addEventListener("click",()=>{
+  if(sortMode==="alpha"){        /* 再点一次 → 恢复原始顺序 */
+    order=WORDS.map((_,i)=>i); sortMode="orig";
+  }else{
+    order=WORDS.map((_,i)=>i)
+      .sort((a,b)=>WORDS[a].word.localeCompare(WORDS[b].word,undefined,{sensitivity:"base"}));
+    sortMode="alpha";
+  }
+  refreshView();
+});
 
 /* 翻转 + 记忆度选择 */
 grid.addEventListener("click",e=>{
@@ -1823,7 +1869,8 @@ function update(){
   const raw=q.value.trim().toLowerCase();
   clear.style.display=raw?"block":"none";
   const visible=[];
-  for(const s of scenes){
+  for(const idx of order){
+    const s=scenes[idx];
     const key=s.dataset.key.toLowerCase();
     const hit = !raw || key.includes(raw);
     if(hit) visible.push(s);
