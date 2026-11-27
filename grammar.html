@@ -97,12 +97,25 @@
     box-shadow:0 4px 10px rgba(47,82,171,.30);
   }
   .gname{
-    font-size:24px;font-weight:800;color:var(--accent2);
+    font-size:26px;font-weight:800;color:var(--accent2);
     max-width:260px;word-break:break-word;line-height:1.35;
   }
-  .gsum{margin-top:14px;font-size:13px;color:var(--sub);line-height:1.6;max-height:88px;overflow:hidden}
-  .gcount{margin-top:10px;font-size:12px;color:#9aa6c0}
-  .hint{position:absolute;bottom:16px;left:0;right:0;color:#9db0c8;font-size:11.5px;letter-spacing:1px}
+  .gsum{margin-top:14px;font-size:15px;color:var(--sub);line-height:1.6;max-height:96px;overflow:hidden}
+  .gcount{margin-top:10px;font-size:13px;color:#9aa6c0}
+  .hint{position:absolute;bottom:14px;left:0;right:0;color:#9db0c8;font-size:11.5px;letter-spacing:1px}
+
+  /* ---- 记忆度按钮：会了 / 半熟 / 忘了 ---- */
+  .memo{margin-top:14px;display:flex;gap:10px;user-select:none}
+  .m{
+    padding:6px 14px;border-radius:16px;cursor:pointer;
+    font-size:13px;font-weight:600;letter-spacing:.5px;
+    border:1px solid #cfd8ea;background:rgba(255,255,255,.75);
+    color:#5f6a80;transition:all .15s;
+  }
+  .m:hover{transform:translateY(-1px);border-color:#8fa4d0}
+  .m.on-know{background:#3f9d6b;border-color:#3f9d6b;color:#fff;box-shadow:0 3px 8px rgba(47,125,85,.30)}
+  .m.on-half{background:#d19a3d;border-color:#d19a3d;color:#fff;box-shadow:0 3px 8px rgba(160,110,30,.30)}
+  .m.on-forget{background:#c2685c;border-color:#c2685c;color:#fff;box-shadow:0 3px 8px rgba(150,70,60,.30)}
 
   /* ---- 背面 ---- */
   .back{transform:rotateY(180deg);display:flex;flex-direction:column}
@@ -115,10 +128,22 @@
   .bhead{text-align:center;padding-bottom:10px;border-bottom:1px dashed #d7dfef;margin-bottom:10px}
   .bword{font-size:22px;font-weight:800;color:var(--accent2)}
   .bgrp{color:var(--accent);font-size:14px;margin-top:3px;font-weight:600}
-  .ex{display:block;color:#54608a;margin-top:8px;font-size:14.5px;line-height:1.6;padding-left:2px}
+  .ex{display:block;color:#54608a;margin-top:8px;font-size:16.5px;line-height:1.65;padding-left:2px}
   .ex b{color:var(--accent);font-weight:600}
   .flipback{text-align:center;color:#a9b3c8;font-size:12px;padding:7px 0 9px;border-top:1px dashed #d7dfef;letter-spacing:1px}
   .noresult{text-align:center;color:var(--sub);font-size:15px;padding:60px 0;display:none}
+
+  /* 排序按钮 */
+  .searchbar{display:flex;justify-content:center;align-items:center;gap:14px;margin-bottom:8px}
+  .sortbtns{display:flex;gap:8px;flex-shrink:0}
+  .sbtn{
+    height:40px;padding:0 16px;border-radius:20px;cursor:pointer;
+    border:1px solid #cfd8ea;background:rgba(255,255,255,.85);
+    color:#5f6a80;font-size:13.5px;font-weight:600;letter-spacing:.5px;
+    transition:all .15s;user-select:none;
+  }
+  .sbtn:hover{transform:translateY(-1px);border-color:#8fa4d0;color:var(--accent2)}
+  .sbtn.active{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 3px 8px rgba(47,82,171,.30)}
 </style>
 </head>
 <body>
@@ -133,6 +158,9 @@
         <span class="icon">🔍</span>
         <input id="q" type="text" placeholder="模糊搜索语法，如 复数 / can / 时态 …" autocomplete="off">
         <button class="clear" id="clear" title="清空">×</button>
+      </div>
+      <div class="sortbtns">
+        <button id="btnRandom" class="sbtn" title="点击随机打乱卡片顺序">🔀 随机排序</button>
       </div>
     </div>
     <div class="count" id="count"></div>
@@ -196,6 +224,11 @@ function buildCard(w){
         <div class="gname">${esc(w.name)}</div>
         <div class="gsum">${esc(w.summary)}</div>
         <div class="gcount">涵盖 ${w.count} 个课堂语法要点</div>
+        <div class="memo" data-word="${esc(w.name)}">
+          <span class="m" data-m="know">会了</span>
+          <span class="m" data-m="half">半熟</span>
+          <span class="m" data-m="forget">忘了</span>
+        </div>
         <div class="hint">— 点击卡片看例句 —</div>
       </div>
       <div class="face back">
@@ -224,6 +257,7 @@ function fillScene(s){
   if(s.dataset.filled) return;
   s.dataset.filled="1";
   s.innerHTML=buildCard(WORDS[+s.dataset.idx]);
+  applyMemo(WORDS[+s.dataset.idx].name,s);
 }
 const io=new IntersectionObserver(entries=>{
   entries.forEach(e=>{
@@ -252,10 +286,59 @@ function distribute(){
   order.forEach((idx,i)=>cols[i%n].appendChild(scenes[idx]));
 }
 
-/* 翻转 */
+/* 翻转 + 记忆度选择 */
 grid.addEventListener("click",e=>{
+  const mb=e.target.closest(".m");
+  if(mb){ setMemo(mb.parentElement.dataset.word, mb.dataset.m); return; } /* 记忆度按钮不触发翻面 */
   const card=e.target.closest(".card");
   if(card) card.classList.toggle("flipped");
+});
+
+/* 记忆度：会了/半熟/忘了，单选，localStorage 持久保存 */
+const MEMO_KEY="rocket_grammar_memo";
+let memo={};
+try{ memo=JSON.parse(localStorage.getItem(MEMO_KEY)||"{}"); }catch(_){ memo={}; }
+const ON={know:"on-know",half:"on-half",forget:"on-forget"};
+const WORD_IDX=new Map(WORDS.map((w,i)=>[w.name,i]));
+function applyMemo(name,scene){
+  scene = scene || scenes[WORD_IDX.get(name)];
+  if(!scene || !scene.dataset.filled) return;
+  const cur=memo[name];
+  scene.querySelectorAll(".m").forEach(el=>{
+    el.className="m"+(cur&&ON[cur]===ON[el.dataset.m]?" "+ON[el.dataset.m]:"");
+  });
+}
+function setMemo(name,val){
+  /* 再点一次已选项 = 取消选择 */
+  memo[name] = (memo[name]===val) ? undefined : val;
+  if(!memo[name]) delete memo[name];
+  try{ localStorage.setItem(MEMO_KEY,JSON.stringify(memo)); }catch(_){}
+  applyMemo(name);
+  update();   /* 顶部统计随选择实时刷新 */
+}
+function memoStats(){
+  let know=0,half=0,forget=0;
+  for(const v of Object.values(memo)){
+    if(v==="know") know++;
+    else if(v==="half") half++;
+    else if(v==="forget") forget++;
+  }
+  return `（其中会了 ${know} 个，半熟 ${half} 个，忘了 ${forget} 个）`;
+}
+
+/* 随机排序 */
+const btnRandom=document.getElementById("btnRandom");
+btnRandom.addEventListener("click",()=>{
+  order=WORDS.map((_,i)=>i);
+  for(let i=order.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [order[i],order[j]]=[order[j],order[i]];
+  }
+  btnRandom.classList.add("active");
+  cols.forEach(c=>c.innerHTML="");
+  const n=colCount();
+  order.forEach((idx,i)=>cols[i%n].appendChild(scenes[idx]));
+  update();
 });
 
 /* 搜索：匹配 语法名 + 分类 + 要点 */
@@ -273,7 +356,7 @@ function update(){
   const n=colCount();
   cols.forEach(c=>c.innerHTML="");
   visible.forEach((s,i)=>cols[i%n].appendChild(s));
-  count.textContent = raw ? `匹配到 ${visible.length} 张卡片` : `共 ${WORDS.length} 张卡片`;
+  count.textContent = (raw ? `匹配到 ${visible.length} 张卡片` : `共 ${WORDS.length} 张卡片`) + memoStats();
   noresult.style.display=visible.length?"none":"block";
 }
 q.addEventListener("input",update);
