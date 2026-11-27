@@ -1764,6 +1764,17 @@ function setMemo(word,val,el){
   if(!memo[word]) delete memo[word];
   try{ localStorage.setItem(MEMO_KEY,JSON.stringify(memo)); }catch(_){}
   applyMemo(word);
+  update();   /* 顶部统计随选择实时刷新 */
+}
+/* 统计：会/半熟/忘了 各多少个 */
+function memoStats(){
+  let know=0,half=0,forget=0;
+  for(const v of Object.values(memo)){
+    if(v==="know") know++;
+    else if(v==="half") half++;
+    else if(v==="forget") forget++;
+  }
+  return `（其中会了 ${know} 个，半熟 ${half} 个，忘了 ${forget} 个）`;
 }
 
 /* 单词发音：Web Speech API */
@@ -1810,7 +1821,7 @@ function update(){
   const n=colCount();
   cols.forEach(c=>c.innerHTML="");
   visible.forEach((s,i)=>cols[i%n].appendChild(s));
-  count.textContent = raw ? `匹配到 ${visible.length} 张卡片` : `共 ${WORDS.length} 张卡片`;
+  count.textContent = (raw ? `匹配到 ${visible.length} 张卡片` : `共 ${WORDS.length} 张卡片`) + memoStats();
   noresult.style.display=visible.length?"none":"block";
 }
 q.addEventListener("input",update);
