@@ -113,8 +113,13 @@ header{text-align:center;padding:16px 8px 6px}
 .scene-strip .s{font-size:30px;background:#fff;border-radius:10px;padding:4px 8px;box-shadow:var(--shadow);cursor:pointer}
 .scene-strip .s:hover{transform:scale(1.12)}
 
-.seg-list{display:flex;flex-direction:column;gap:14px}
-.seg-card{background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 16px}
+.seg-view{overflow-x:auto;scroll-snap-type:x mandatory;border-radius:16px;scrollbar-width:none;-ms-overflow-style:none}
+.seg-view::-webkit-scrollbar{display:none}
+.seg-track{display:flex;gap:14px}
+.seg-card{flex:0 0 100%;scroll-snap-align:center;background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 16px;box-sizing:border-box}
+.seg-nav{display:flex;gap:12px;align-items:center;justify-content:center;margin-top:12px}
+.seg-nav .btn:disabled{opacity:.35;cursor:default;transform:none}
+.seg-pos{font-size:12pt;font-weight:800;color:var(--purple);min-width:110px;text-align:center}
 .seg-card .seg-t{font-size:12pt;font-weight:800;color:var(--purple);margin-bottom:8px}
 .seg-card .seg-en{font-size:14pt;font-weight:700;line-height:1.9}
 .seg-pics{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
@@ -147,19 +152,14 @@ header{text-align:center;padding:16px 8px 6px}
 .retell-main .tip{font-size:12pt;color:var(--muted)}
 .book-closed{background:#fff;border-radius:14px;padding:18px;margin-top:8px;text-align:center;border:2px solid var(--line)}
 .book-closed h4{font-size:12pt;margin-bottom:10px}
-.story-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;justify-content:center;align-items:stretch}
-.story-cell{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;max-width:230px;padding:8px 4px;border:2px solid var(--line);border-radius:14px;background:#fff}
-.story-strip .sc{width:52px;height:52px;border-radius:12px;background:#f7ede2;display:flex;align-items:center;justify-content:center;font-size:28px;cursor:pointer;transition:.15s;user-select:none}
-.story-cell.revealed .sc{background:linear-gradient(160deg,#fff0d6,#ffe0a8);transform:scale(1.05)}
-.story-reveal{display:none;font-size:12pt;font-weight:800;color:#b91c1c;text-align:center;line-height:1.35;word-break:break-word}
-.story-cell.revealed .story-reveal{display:block}
+.seg-card .story-reveal{display:none;font-size:12pt;font-weight:800;color:#b91c1c;text-align:center;line-height:1.35;word-break:break-word;margin-top:10px}
+.seg-card.revealed .story-reveal{display:block}
 .story-hide{display:block;margin:6px auto 0;border:1.5px solid var(--purple);background:#fff;color:var(--purple);border-radius:8px;padding:3px 9px;font-size:12pt;font-weight:700;cursor:pointer}
+#storyTrack .seg-pics img{cursor:pointer}
 
 .page-scene-img{display:block;margin:0 auto;border-radius:12px;box-shadow:var(--shadow);max-width:100%}
 .scene-strip .s{padding:3px;background:#fff;border-radius:10px}
 .scene-strip .s img{width:58px;height:auto;border-radius:7px;display:block}
-.story-strip .sc{padding:0;overflow:hidden;background:#f7ede2;width:100%;height:auto;aspect-ratio:150/206}
-.story-strip .sc img{width:100%;height:100%;object-fit:cover;display:block;border-radius:10px}
 .recall-imgs{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:8px}
 .recall-imgs img{width:140px;height:192px;object-fit:cover;border-radius:9px;box-shadow:var(--shadow);border:2px solid #fff}
 .sr-cn{display:block;font-size:12pt;color:var(--muted);font-weight:600;margin-top:3px}
@@ -232,7 +232,7 @@ header{text-align:center;padding:16px 8px 6px}
 .wrong-empty{text-align:center;color:var(--muted);font-size:12pt;padding:18px 10px;background:#faf7ff;border-radius:12px}
 .wrong-actions{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
 .reset{display:block;margin:22px auto 0;border:none;background:none;color:var(--muted);font-size:12pt;text-decoration:underline;cursor:pointer}
-@media(max-width:640px){.info-grid,.topic-grid{grid-template-columns:1fr}.story-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.info-grid,.topic-grid{grid-template-columns:1fr}}
 </style>
 <style id="yyHomeStyle">
 #yyHomeBtn{position:fixed;right:18px;top:16px;z-index:9999;display:inline-flex;align-items:center;gap:7px;
@@ -330,7 +330,12 @@ header{text-align:center;padding:16px 8px 6px}
   <div data-page-node-id="2ROGFCq7gvTHRKWmjrXQKp" class="step-meta"><span data-page-node-id="UO4yX8rGfdxOCssxM1y6OX" class="chip-t"><!--pnid:ZPmU65YBB3ayrBm0SqNch9-->8 分钟</span><span data-page-node-id="jCGIGRgFYQ613eBCJTJ0J4" class="chip-t g"><!--pnid:Kol9Md5HAjoCPvEsgstjaY-->流利度</span></div>
   <div data-page-node-id="CwoidYqdlf8Lts57TG5adF" class="step-desc"><!--pnid:VEi2e7C6ggzOolXjF6U5lj-->复习阶段重点<b data-page-node-id="dsxdQpPDZlVuuhrXwRI5EM"><!--pnid:mTRZoCv2Ve3FVZeAzwMoHO-->从"读对"升级到"读顺"</b><!--pnid:hMYvP0pfEUqVhVE8yiCeZd-->：按主题分 3 段连贯朗读，注意语气和节奏，不要一句一停。录一遍回听，听自己是否流畅、有感情。</div>
 
-  <div data-page-node-id="FCBsixTwTDP5zDA3yg8r5T" class="seg-list" id="segList"></div>
+  <div class="seg-view" id="segView"><div class="seg-track" id="segTrack"></div></div>
+  <div class="seg-nav">
+    <button class="btn ghost" id="segPrev">← 上一段</button>
+    <span class="seg-pos" id="segPos">第 1 / 8 段</span>
+    <button class="btn ghost" id="segNext">下一段 →</button>
+  </div>
   <div data-page-node-id="NHRXLOO3w73qjSxeWKNkek" class="keypoint"><b data-page-node-id="urJFPLBK5vsRB4yNZsovkX"><!--pnid:1FCKRwWDLv5SmnfkvfKfCf-->复习要点：</b><!--pnid:JjSkNSe5dUkzTC3yaZmWEN-->重点听 <b data-page-node-id="vmqf2Jr0oyd5UF03ZaLyMx"><!--pnid:iatQTcojMjMUhadKPnB1GP-->They grow from eggs into caterpillars, then butterflies.</b><!--pnid:dMQl2Ip9f9SWJhWfD04aIe--> 这类讲变化过程的句子，注意 <b data-page-node-id="bXo3nBe8Udr7XG2cOBMDVn"><!--pnid:eeMiaD6L9xvcPI2MDgTHAi-->grow into / come out of / fly away</b><!--pnid:mQF8hUZBWGVQhxQPHgg3Mg--> 的连贯；复习时读出"讲生命变化"的语气。 复习时优先攻自己不太熟的句子，已滚瓜烂熟的段可以跳过。</div>
   <button data-page-node-id="aKjzB945sJ0BPcRNF9inwB" class="done-btn" data-step="1"><!--pnid:XYlnvF0DFJduG8MfO8fRo2-->✓ 完成这一步</button>
 </div>
@@ -346,7 +351,12 @@ header{text-align:center;padding:16px 8px 6px}
   <div data-page-node-id="EW2uEU0hThvidqflNdEJxv" class="retell-box">
     <div data-page-node-id="Tm5PNCPd53E4U8sXZQAGEX" class="book-closed">
       <h4 data-page-node-id="W3pU7LyZTlCboKZZhHrIkj"><!--pnid:OWtKZbXf0Mb4B3I8A1Bg8y-->看图提示（点每张图显示句子文字，试着按顺序讲出来）</h4>
-      <div data-page-node-id="dL8yWB3athRbAFTiCJMEEw" class="story-strip" id="storyStrip"></div>
+      <div class="seg-view" id="storyView"><div class="seg-track" id="storyTrack"></div></div>
+      <div class="seg-nav">
+        <button class="btn ghost" id="storyPrev">← 上一段</button>
+        <span class="seg-pos" id="storyPos">第 1 / 8 段</span>
+        <button class="btn ghost" id="storyNext">下一段 →</button>
+      </div>
       <div data-page-node-id="BABKw3JKAumFMh4Q5dSMvl" class="retell-word" id="retellWord"><!--pnid:GRi2280zJHSQnNEAeEp9Yr-->点每张图看句子文字，试着自己按顺序讲出来</div>
     </div>
   </div>
@@ -672,7 +682,8 @@ function segTexts(){
  ];
 }
 const SEGS=segTexts();
-document.getElementById('segList').innerHTML=SEGS.map((en,i)=>
+const segView=document.getElementById('segView');
+document.getElementById('segTrack').innerHTML=SEGS.map((en,i)=>
  `<div class="seg-card"><div class="seg-t">第 ${i+1} 段 · 连贯朗读</div>
    <div class="seg-pics">${[2*i,2*i+1].filter(k=>k<PAGE_IMGS.length).map(k=>`<img src="${PAGE_IMGS[k]}" alt="第 ${k+1} 页配图">`).join('')}</div>
    <div class="seg-en">${en.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}</div>
@@ -680,24 +691,45 @@ document.getElementById('segList').innerHTML=SEGS.map((en,i)=>
      <button class="icon-btn" title="听范读" data-fan="${i}">🔊</button>
    </div></div>`).join('');
 document.querySelectorAll('[data-fan]').forEach(b=>b.onclick=()=>speak(SEGS[+b.dataset.fan],b,b.closest('.seg-card').querySelector('.seg-en')));
-/* ===== STEP3 合书复述 ===== */
-document.getElementById('storyStrip').innerHTML=SENTS.map((s,i)=>
- `<div class="story-cell" data-i="${i}" title="点一下看这句文字">
-    <div class="sc"><img src="${PAGE_IMGS[i]}" alt="第 ${i+1} 页"></div>
-    <div class="story-reveal">${s.en}<span class="sr-cn">${s.cn}</span><button class="story-hide" data-hide="${i}">🙈 隐藏句子文字</button></div>
-  </div>`).join('');
-document.querySelectorAll('.story-strip .story-cell').forEach(cell=>{
- cell.querySelector('.sc').onclick=()=>{
-  const i=+cell.dataset.i,s=SENTS[i];
-  document.querySelectorAll('.story-cell').forEach(c=>c.classList.remove('revealed'));
-  cell.classList.add('revealed');
-  document.getElementById('retellWord').textContent=`第 ${i+1} 句：${s.en}　「${s.cn}」`;
+/* 段落左右切换通用函数（类似闯关小测：一段一屏，点按钮横滑） */
+function makeSlider(viewId,prevId,posId,nextId,count){
+ const view=document.getElementById(viewId),pos=document.getElementById(posId),
+       prev=document.getElementById(prevId),next=document.getElementById(nextId);
+ const GAP=14;let idx=0,timer=null;
+ const X=i=>i*(view.clientWidth+GAP);
+ const upd=()=>{pos.textContent='第 '+(idx+1)+' / '+count+' 段';prev.disabled=idx<=0;next.disabled=idx>=count-1;};
+ const go=i=>{idx=Math.max(0,Math.min(count-1,i));view.scrollTo({left:X(idx),behavior:'smooth'});upd();};
+ prev.onclick=()=>go(idx-1);next.onclick=()=>go(idx+1);
+ view.addEventListener('scroll',()=>{ /* 手指/滚轮滑动后同步当前段号 */
+  clearTimeout(timer);
+  timer=setTimeout(()=>{idx=Math.max(0,Math.min(count-1,Math.round(view.scrollLeft/(view.clientWidth+GAP))));upd();},120);
+ });
+ window.addEventListener('resize',()=>view.scrollTo({left:X(idx)}));
+ upd();
+}
+makeSlider('segView','segPrev','segPos','segNext',SEGS.length);
+/* ===== STEP3 合书复述（8 段横滑，点图片看句子） ===== */
+document.getElementById('storyTrack').innerHTML=SEGS.map((en,i)=>{
+ const cn=SENTS.slice(2*i,2*i+2).filter(s=>s).map(s=>s.cn).join(' ');
+ return `<div class="seg-card" data-si="${i}">
+   <div class="seg-t">第 ${i+1} 段 · 合书复述（点图片看句子）</div>
+   <div class="seg-pics">${[2*i,2*i+1].filter(k=>k<PAGE_IMGS.length).map(k=>`<img src="${PAGE_IMGS[k]}" alt="第 ${k+1} 页配图">`).join('')}</div>
+   <div class="story-reveal">${en}<span class="sr-cn">${cn}</span><button class="story-hide" data-hide="${i}">🙈 隐藏句子文字</button></div>
+ </div>`;}).join('');
+document.querySelectorAll('#storyTrack .seg-card').forEach(card=>{
+ card.querySelector('.seg-pics').onclick=()=>{
+  const i=+card.dataset.si;
+  document.querySelectorAll('#storyTrack .seg-card').forEach(c=>c.classList.remove('revealed'));
+  card.classList.add('revealed');
+  const cn=SENTS.slice(2*i,2*i+2).filter(s=>s).map(s=>s.cn).join(' ');
+  document.getElementById('retellWord').textContent=`第 ${i+1} 段：${SEGS[i]}　「${cn}」`;
  };
 });
 document.querySelectorAll('[data-hide]').forEach(b=>b.onclick=()=>{
- const cell=b.closest('.story-cell');cell.classList.remove('revealed');
+ const card=b.closest('.seg-card');card.classList.remove('revealed');
  document.getElementById('retellWord').textContent='🙈 已隐藏句子文字，点每张图可再次显示。';
 });
+makeSlider('storyView','storyPrev','storyPos','storyNext',SEGS.length);
 
 /* ===== STEP4 主题词汇网 + 造句 ===== */
 document.getElementById('topicGrid').innerHTML=TOPICS.map(t=>
