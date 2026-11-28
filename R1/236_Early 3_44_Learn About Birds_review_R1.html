@@ -113,9 +113,12 @@ header{text-align:center;padding:16px 8px 6px}
 .seg-view::-webkit-scrollbar{display:none}
 .seg-track{display:flex;gap:14px}
 .seg-card{flex:0 0 100%;scroll-snap-align:center;background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 16px;box-sizing:border-box}
-.seg-nav{display:flex;gap:12px;align-items:center;justify-content:center;margin-top:12px}
-.seg-nav .btn:disabled{opacity:.35;cursor:default;transform:none}
-.seg-pos{font-size:12pt;font-weight:800;color:var(--purple);min-width:110px;text-align:center}
+.slider-wrap{display:flex;align-items:center;gap:8px}
+.slider-wrap .seg-view{flex:1;min-width:0}
+.slider-arrow{flex:0 0 auto;width:48px;height:48px;border-radius:50%;border:2px solid var(--line);background:#fff;font-size:24px;color:var(--ink);cursor:pointer;transition:.15s;user-select:none;line-height:1}
+.slider-arrow:hover:not(:disabled){transform:scale(1.1);border-color:var(--purple);color:var(--purple)}
+.slider-arrow:disabled{opacity:.3;cursor:default}
+.seg-pos{display:block;margin:10px auto 0;font-size:12pt;font-weight:800;color:var(--purple);min-width:110px;text-align:center}
 .seg-card .seg-t{font-size:12pt;font-weight:800;color:var(--purple);margin-bottom:8px}
 .seg-card .seg-en{font-size:14pt;font-weight:700;line-height:1.9}
 .seg-pics{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
@@ -301,12 +304,12 @@ header{text-align:center;padding:16px 8px 6px}
 
   <div data-page-node-id="CwLu8gIk3lxEZ1M2Yto48b" class="blind-toggle"><span data-page-node-id="QH5VpTa9XsneibATrym787"><!--pnid:ZUSEW3K6KM44fQ16I3e0Uy-->🙈 盲听模式（遮住文字，只看图听音）</span><div data-page-node-id="mbdkPBmqHk4todtnsN7jDp" class="switch" id="blindSw"></div></div>
   <div class="listen-stage">
+    <div class="slider-wrap">
+    <button class="slider-arrow" id="listenPrev" title="上一段">←</button>
     <div class="seg-view" id="listenView"><div class="seg-track" id="listenTrack"></div></div>
-    <div class="seg-nav">
-      <button class="btn ghost sm" id="listenPrev">← 上一段</button>
-      <span class="seg-pos" id="listenPos">第 1 / 8 段</span>
-      <button class="btn ghost sm" id="listenNext">下一段 →</button>
-    </div>
+    <button class="slider-arrow" id="listenNext" title="下一段">→</button>
+  </div>
+  <span class="seg-pos" id="listenPos">第 1 / 8 段</span>
     <div class="toolrow">
       <button class="btn sm" id="listenAll">▶ 盲听整本（1 遍）</button>
       <button class="btn ghost sm" id="listenStop">⏹ 停止</button>
@@ -325,12 +328,12 @@ header{text-align:center;padding:16px 8px 6px}
   <div data-page-node-id="2ROGFCq7gvTHRKWmjrXQKp" class="step-meta"><span data-page-node-id="UO4yX8rGfdxOCssxM1y6OX" class="chip-t"><!--pnid:ZPmU65YBB3ayrBm0SqNch9-->8 分钟</span><span data-page-node-id="jCGIGRgFYQ613eBCJTJ0J4" class="chip-t g"><!--pnid:Kol9Md5HAjoCPvEsgstjaY-->流利度</span></div>
   <div data-page-node-id="CwoidYqdlf8Lts57TG5adF" class="step-desc"><!--pnid:VEi2e7C6ggzOolXjF6U5lj-->复习阶段重点<b data-page-node-id="dsxdQpPDZlVuuhrXwRI5EM"><!--pnid:mTRZoCv2Ve3FVZeAzwMoHO-->从"读对"升级到"读顺"</b><!--pnid:hMYvP0pfEUqVhVE8yiCeZd-->：按主题分 3 段连贯朗读，注意语气和节奏，不要一句一停。录一遍回听，听自己是否流畅、有感情。</div>
 
-  <div class="seg-view" id="segView"><div class="seg-track" id="segTrack"></div></div>
-  <div class="seg-nav">
-    <button class="btn ghost" id="segPrev">← 上一段</button>
-    <span class="seg-pos" id="segPos">第 1 / 8 段</span>
-    <button class="btn ghost" id="segNext">下一段 →</button>
+  <div class="slider-wrap">
+    <button class="slider-arrow" id="segPrev" title="上一段">←</button>
+    <div class="seg-view" id="segView"><div class="seg-track" id="segTrack"></div></div>
+    <button class="slider-arrow" id="segNext" title="下一段">→</button>
   </div>
+  <span class="seg-pos" id="segPos">第 1 / 8 段</span>
   <div data-page-node-id="NHRXLOO3w73qjSxeWKNkek" class="keypoint"><b data-page-node-id="urJFPLBK5vsRB4yNZsovkX"><!--pnid:1FCKRwWDLv5SmnfkvfKfCf-->复习要点：</b><!--pnid:JjSkNSe5dUkzTC3yaZmWEN-->重点听 <b data-page-node-id="vmqf2Jr0oyd5UF03ZaLyMx"><!--pnid:iatQTcojMjMUhadKPnB1GP-->Do you know a bird that...? / It is called a...</b><!--pnid:dMQl2Ip9f9SWJhWfD04aIe--> 这种问答介绍句，注意 <b data-page-node-id="bXo3nBe8Udr7XG2cOBMDVn"><!--pnid:eeMiaD6L9xvcPI2MDgTHAi-->can / can't / but</b><!--pnid:mQF8hUZBWGVQhxQPHgg3Mg--> 的连贯；复习时读出"猜谜介绍"的语气。 复习时优先攻自己不太熟的句子，已滚瓜烂熟的段可以跳过。</div>
   <button data-page-node-id="aKjzB945sJ0BPcRNF9inwB" class="done-btn" data-step="1"><!--pnid:XYlnvF0DFJduG8MfO8fRo2-->✓ 完成这一步</button>
 </div>
@@ -346,12 +349,12 @@ header{text-align:center;padding:16px 8px 6px}
   <div data-page-node-id="EW2uEU0hThvidqflNdEJxv" class="retell-box">
     <div data-page-node-id="Tm5PNCPd53E4U8sXZQAGEX" class="book-closed">
       <h4 data-page-node-id="W3pU7LyZTlCboKZZhHrIkj"><!--pnid:OWtKZbXf0Mb4B3I8A1Bg8y-->看图提示（点每张图显示句子文字，试着按顺序讲出来）</h4>
-      <div class="seg-view" id="storyView"><div class="seg-track" id="storyTrack"></div></div>
-      <div class="seg-nav">
-        <button class="btn ghost" id="storyPrev">← 上一段</button>
-        <span class="seg-pos" id="storyPos">第 1 / 8 段</span>
-        <button class="btn ghost" id="storyNext">下一段 →</button>
-      </div>
+      <div class="slider-wrap">
+    <button class="slider-arrow" id="storyPrev" title="上一段">←</button>
+    <div class="seg-view" id="storyView"><div class="seg-track" id="storyTrack"></div></div>
+    <button class="slider-arrow" id="storyNext" title="下一段">→</button>
+  </div>
+  <span class="seg-pos" id="storyPos">第 1 / 8 段</span>
       <div data-page-node-id="BABKw3JKAumFMh4Q5dSMvl" class="retell-word" id="retellWord"><!--pnid:GRi2280zJHSQnNEAeEp9Yr-->点每张图看句子文字，试着自己按顺序讲出来</div>
     </div>
   </div>
