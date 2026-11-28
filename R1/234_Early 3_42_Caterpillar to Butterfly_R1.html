@@ -661,6 +661,20 @@ function makeSlider(viewId,prevId,posId,nextId,count){
  return go;
 }
 
+function segTexts(){
+ return [
+  "Do you know where butterflies come from? They grow from eggs into caterpillars, then butterflies.",
+  "A mother butterfly lays some eggs in a tree like this. Then little caterpillars grow in her eggs.",
+  "The caterpillars come out of the eggs. They eat a lot, so they soon grow big and fat.",
+  "Then the big caterpillars make new homes like this one. They grow into butterflies in their new homes.",
+  "When they come out they don't look like caterpillars! They are butterflies with wings now!",
+  "Soon the new butterflies can fly away. They go to find more new butterflies.",
+  "The Mother butterflies lay new eggs in the trees. The eggs will grow into caterpillars.",
+  "Soon there will be more new butterflies!"
+ ];
+}
+const SEGS=segTexts();
+
 /* ===== STEP1 盲听整本（8 段横滑） ===== */
 let blind=true;
 const blindSw=document.getElementById('blindSw');blindSw.classList.add('on');
@@ -690,19 +704,6 @@ document.getElementById('listenAll').onclick=async()=>{
 document.getElementById('listenStop').onclick=()=>{listeningAll=false;stopSpeak();};
 
 /* ===== STEP2 连贯跟读 + 打分 ===== */
-function segTexts(){
- return [
-  "Do you know where butterflies come from? They grow from eggs into caterpillars, then butterflies.",
-  "A mother butterfly lays some eggs in a tree like this. Then little caterpillars grow in her eggs.",
-  "The caterpillars come out of the eggs. They eat a lot, so they soon grow big and fat.",
-  "Then the big caterpillars make new homes like this one. They grow into butterflies in their new homes.",
-  "When they come out they don't look like caterpillars! They are butterflies with wings now!",
-  "Soon the new butterflies can fly away. They go to find more new butterflies.",
-  "The Mother butterflies lay new eggs in the trees. The eggs will grow into caterpillars.",
-  "Soon there will be more new butterflies!"
- ];
-}
-const SEGS=segTexts();
 const segView=document.getElementById('segView');
 document.getElementById('segTrack').innerHTML=SEGS.map((en,i)=>
  `<div class="seg-card"><div class="seg-t">第 ${i+1} 段 · 连贯朗读</div>

@@ -664,6 +664,20 @@ function makeSlider(viewId,prevId,posId,nextId,count){
  return go;
 }
 
+function segTexts(){
+ return [
+  "Do you know a bird that can talk? It has bright feathers. It is called a parrot.",
+  "Do you know a bird that has a beautiful tail? Its tail is like a big fan. It is called a peacock.",
+  "Do you know the biggest bird in the world? It can't fly, but it runs fast. It is called an ostrich.",
+  "Do you know a bird that dives for fish? It can get a lot of fish. It is called a pelican.",
+  "Do you know a bird that comes out at night? An owl sleeps all day. It flies at night.",
+  "Do you know a bird that can sleep on the sea? It has the biggest wings. Its name is the albatross.",
+  "Do you know the smallest bird in the world? It can fly very fast! Its name is the hummingbird.",
+  "Do you know a bird that can't fly, but it can swim? It is called the penguin.",
+ ];
+}
+const SEGS=segTexts();
+
 /* ===== STEP1 盲听整本（8 段横滑） ===== */
 let blind=true;
 const blindSw=document.getElementById('blindSw');blindSw.classList.add('on');
@@ -693,19 +707,6 @@ document.getElementById('listenAll').onclick=async()=>{
 document.getElementById('listenStop').onclick=()=>{listeningAll=false;stopSpeak();};
 
 /* ===== STEP2 连贯跟读 + 打分 ===== */
-function segTexts(){
- return [
-  "Do you know a bird that can talk? It has bright feathers. It is called a parrot.",
-  "Do you know a bird that has a beautiful tail? Its tail is like a big fan. It is called a peacock.",
-  "Do you know the biggest bird in the world? It can't fly, but it runs fast. It is called an ostrich.",
-  "Do you know a bird that dives for fish? It can get a lot of fish. It is called a pelican.",
-  "Do you know a bird that comes out at night? An owl sleeps all day. It flies at night.",
-  "Do you know a bird that can sleep on the sea? It has the biggest wings. Its name is the albatross.",
-  "Do you know the smallest bird in the world? It can fly very fast! Its name is the hummingbird.",
-  "Do you know a bird that can't fly, but it can swim? It is called the penguin.",
- ];
-}
-const SEGS=segTexts();
 const segView=document.getElementById('segView');
 document.getElementById('segTrack').innerHTML=SEGS.map((en,i)=>
  `<div class="seg-card"><div class="seg-t">第 ${i+1} 段 · 连贯朗读</div>

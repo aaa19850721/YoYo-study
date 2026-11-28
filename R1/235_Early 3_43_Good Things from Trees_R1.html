@@ -664,6 +664,20 @@ function makeSlider(viewId,prevId,posId,nextId,count){
  return go;
 }
 
+function segTexts(){
+ return [
+  "These trees give us something good to eat. They grow beans that we use to make chocolate.",
+  "Big trees give us wood for making things. They grow wood that we use to make houses.",
+  "There are trees that give us fruit to eat. They grow good things like apples and apricots.",
+  "These trees give us good fruit, too. They grow oranges and mandarins.",
+  "These trees give us something for making things. We get something to make things like boots and balls.",
+  "These trees give us good things to eat. They grow dates and nuts and coconuts and bananas.",
+  "Some trees give homes to little animals. Birds and squirrels and monkeys live in tree.",
+  "Big trees give us a good place to play.",
+ ];
+}
+const SEGS=segTexts();
+
 /* ===== STEP1 盲听整本（8 段横滑） ===== */
 let blind=true;
 const blindSw=document.getElementById('blindSw');blindSw.classList.add('on');
@@ -693,19 +707,6 @@ document.getElementById('listenAll').onclick=async()=>{
 document.getElementById('listenStop').onclick=()=>{listeningAll=false;stopSpeak();};
 
 /* ===== STEP2 连贯跟读 + 打分 ===== */
-function segTexts(){
- return [
-  "These trees give us something good to eat. They grow beans that we use to make chocolate.",
-  "Big trees give us wood for making things. They grow wood that we use to make houses.",
-  "There are trees that give us fruit to eat. They grow good things like apples and apricots.",
-  "These trees give us good fruit, too. They grow oranges and mandarins.",
-  "These trees give us something for making things. We get something to make things like boots and balls.",
-  "These trees give us good things to eat. They grow dates and nuts and coconuts and bananas.",
-  "Some trees give homes to little animals. Birds and squirrels and monkeys live in tree.",
-  "Big trees give us a good place to play.",
- ];
-}
-const SEGS=segTexts();
 const segView=document.getElementById('segView');
 document.getElementById('segTrack').innerHTML=SEGS.map((en,i)=>
  `<div class="seg-card"><div class="seg-t">第 ${i+1} 段 · 连贯朗读</div>
