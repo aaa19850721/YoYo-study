@@ -1,0 +1,299 @@
+[
+ {
+  "name": "名词的构成与类别",
+  "group": "名词",
+  "count": 9,
+  "descs": [
+   "bark 既是名词狗叫声，也是动词吠",
+   "fire engine、police car、racing car 由两个词组成一个名称",
+   "jack-in-the-box 用连字符连接",
+   "plant、water 都可作名词，也可作动词",
+   "playground 由 play + ground 组成，写作一个词",
+   "racing car driver、zoo keeper 由两个以上名词组成，中心词在后面",
+   "racing car 由两个词组成",
+   "snowman、ladybug 由两个词合成，写作一个词"
+  ],
+  "exs": [
+   "J is for jack-in-the-box.",
+   "R is for racing car.",
+   "duckling"
+  ]
+ },
+ {
+  "name": "副词的用法",
+  "group": "形容词与副词",
+  "count": 28,
+  "descs": [
+   "Sometimes they dance to the music.",
+   "They can eat it later.",
+   "Today we went out.",
+   "always、sometimes 位于实义动词前",
+   "come in 表示进来",
+   "fast→faster，表“更快”",
+   "high → higher、fast → faster",
+   "jump high、run fast、dive deep"
+  ],
+  "exs": [
+   "Come in!",
+   "I am tall, too.",
+   "It is always the same shape.",
+   "Monday was a hot day, so we went to the beach.",
+   "Sometimes the author wants things changed.",
+   "We always see…",
+   "blow up very often",
+   "swim fast"
+  ]
+ },
+ {
+  "name": "其他介词",
+  "group": "介词",
+  "count": 46,
+  "descs": [
+   "Green is for GO.",
+   "I can do it all by myself.",
+   "a bus with lots of windows",
+   "an animal with stripes",
+   "at / in night",
+   "at night",
+   "at night、in the dark",
+   "at the park 表示地点"
+  ],
+  "exs": [
+   "A tiger made that track in the snow.",
+   "Animals in Danger",
+   "Bees fly from flower to flower.",
+   "C is for crab.",
+   "Fun at the Park",
+   "I have one head with one neck.",
+   "Its head is in its shell.",
+   "Out in Space"
+  ]
+ },
+ {
+  "name": "方位与方向介词",
+  "group": "介词",
+  "count": 44,
+  "descs": [
+   "At the beach, I got sand...",
+   "At the zoo",
+   "Fly bit him on his tail.",
+   "On Monday morning",
+   "On Monday、On Tuesday",
+   "at the hospital、at my school",
+   "cross over、hop over、fly over",
+   "fly up、lift off"
+  ],
+  "exs": [
+   "I have two eyebrows over my eyes.",
+   "go up、come down",
+   "in space",
+   "in the lake",
+   "look at the ears",
+   "on Tuesday、on Friday",
+   "on the stove、on a fire",
+   "on the yak"
+  ]
+ },
+ {
+  "name": "特殊疑问句",
+  "group": "句型",
+  "count": 27,
+  "descs": [
+   "How do the seeds go away?",
+   "What + will + 主语 + 动词原形",
+   "What do + 主语 + have?",
+   "What is that animal?",
+   "Where does the water go?",
+   "Where is Tiger?",
+   "Who has claws?",
+   "Who helps me?"
+  ],
+  "exs": [
+   "How fast can you make a square?",
+   "How much sleep do you need?",
+   "They go out in the snow when it is cold.",
+   "What animals can you make?",
+   "What do fish have on the outside?",
+   "What will I cut today?",
+   "When do you use a key?",
+   "When the ostriches see a lion, they call out."
+  ]
+ },
+ {
+  "name": "动词短语",
+  "group": "动词",
+  "count": 11,
+  "descs": [
+   "Paper is made from wood.",
+   "People get the clay out of the ground.",
+   "at 后面接看的人或物",
+   "go away / take away / put...in",
+   "go for a run / have a race / play games",
+   "go to the park；但 go home 不加 to",
+   "look after 表示「照顾」",
+   "put on / put up / go out"
+  ],
+  "exs": [
+   "Children have fun when they go for a run.",
+   "I will play the piano.",
+   "It makes the birds go away.",
+   "Look After Pets",
+   "Look at the boy.",
+   "They will put on coats and boots."
+  ]
+ },
+ {
+  "name": "数量表达",
+  "group": "名词",
+  "count": 22,
+  "descs": [
+   "1 snake",
+   "All people need water. Some rain makes puddles.",
+   "a lot of nuts",
+   "half of my banana",
+   "lots of windows and wheels",
+   "one moon、one rainbow",
+   "one、two、ten 表示数量",
+   "some carrots、some bread"
+  ],
+  "exs": [
+   "Can you see 1 snake?",
+   "First... Then... Next...",
+   "I have ten fingers.",
+   "Jump six times.",
+   "My eyes have lots of eyelashes.",
+   "O is for one.",
+   "They have a lot of fur and fat.",
+   "a set of big, round shells"
+  ]
+ },
+ {
+  "name": "否定句",
+  "group": "句型",
+  "count": 33,
+  "descs": [
+   "-ing 结尾的词在这里当名词用，表示一种活动",
+   "-ing 结尾的运动名称",
+   "He has no hair.",
+   "I can't get my hand out!",
+   "I can't whistle.",
+   "It can fly. It can't fly.",
+   "They don't look like caterpillars!",
+   "They don't make any noise."
+  ],
+  "exs": [
+   "A snake is not quiet.",
+   "Grandad can't play baseball.",
+   "He didn't see a big net.",
+   "He didn't wait.",
+   "He was not happy!",
+   "Hungry birds can't see them down there.",
+   "I can count... / I can't count...",
+   "I have no legs."
+  ]
+ },
+ {
+  "name": "直接引语",
+  "group": "句型",
+  "count": 6,
+  "descs": [
+   "\"I swim here,\" said Hippo.",
+   "said + 人名，常放在引语之后",
+   "said 加说话人，放在引语后面",
+   "说的话加引号，said 后接说话的对象",
+   "说的话放在引号里，said 后面接说话的对象",
+   "说的话放在引号里，后面用 said 引出说话的一方"
+  ],
+  "exs": [
+   "\"I am big,\" said the bear.",
+   "\"We are slow,\" said the turtles.",
+   "\"We can hop,\" said the birds."
+  ]
+ },
+ {
+  "name": "人称代词",
+  "group": "代词",
+  "count": 27,
+  "descs": [
+   "I ate it / I ate them",
+   "I wiggled it.",
+   "It gives us shade.",
+   "She ran to see… in her dress",
+   "She、He、My",
+   "Stick it / Stick them",
+   "They carry heavy things on their backs.",
+   "They grow in her eggs."
+  ],
+  "exs": [
+   "My father likes to play sports.",
+   "The fire came after them.",
+   "They took its picture.",
+   "talk to me"
+  ]
+ },
+ {
+  "name": "指示代词 this / that / these",
+  "group": "代词",
+  "count": 11,
+  "descs": [
+   "These trees…",
+   "this old junk",
+   "this tree、this hill、this rock",
+   "介绍事物",
+   "前者后接名词，后者后接形容词",
+   "指代前面提到的单数事物",
+   "指眼前这一个",
+   "指眼前这一只"
+  ],
+  "exs": [
+   "This door can open and close.",
+   "This is a little dog.",
+   "This is wet.",
+   "this glue、this honey",
+   "this peach、this pie",
+   "this pig、this dog",
+   "this train",
+   "这些树"
+  ]
+ },
+ {
+  "name": "一般过去时",
+  "group": "时态",
+  "count": 26,
+  "descs": [
+   "Did + 主语 + 动词原形",
+   "He was hungry and thirsty.",
+   "It was a red fire engine.",
+   "It was delicious. / They were delicious.",
+   "It was like a bird.",
+   "The beans are put into a box.",
+   "The children were very sad.",
+   "The fish was...、The mouse was..."
+  ],
+  "exs": [
+   "Did Buddy wait?",
+   "He was not happy.",
+   "I got... / I made...",
+   "My balloon went up.",
+   "She was not frightened.",
+   "The butter went in.",
+   "They were not happy.",
+   "They were very frightened."
+  ]
+ },
+ {
+  "name": "too 的用法",
+  "group": "形容词与副词",
+  "count": 11,
+  "descs": [
+   "I swim here, too.",
+   "It has four wheels, too.",
+   "It tastes good, too!",
+   "Our dog loves music too!",
+   "The world is round, too.",
+   "放句末，前面加逗号",
+   "表示“也”，前面加逗号"
+  ],
+  "exs": []
+ }
+]

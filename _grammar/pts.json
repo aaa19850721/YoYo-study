@@ -1,0 +1,6878 @@
+{
+ "be动词is": {
+  "name": "be 动词 is",
+  "descs": [
+   "主语是单个字母",
+   "主语是单个字母，看作单数，用 is",
+   "主语是字母，用 is"
+  ],
+  "exs": [
+   "A is for apples.",
+   "B is for bath.",
+   "P is for pirate."
+  ]
+ },
+ "一般现在时": {
+  "name": "一般现在时",
+  "descs": [
+   "表示字母与单词的对应关系",
+   "说明字母与单词的对应关系",
+   "陈述字母与单词的固定对应，属客观情况"
+  ],
+  "exs": [
+   "G is for grapes.",
+   "Q is for queen.",
+   "Z is for zip."
+  ]
+ },
+ "陈述句语序": {
+  "name": "陈述句语序",
+  "descs": [
+   "主语 + be 动词 + 表语",
+   "主语 + is + 表语"
+  ],
+  "exs": [
+   "J is for jacket.",
+   "L is for lion.",
+   "V is for violin."
+  ]
+ },
+ "名词单数": {
+  "name": "名词单数",
+  "descs": [
+   "is for 后的可数名词用单数，不加冠词",
+   "乐器名称用单数",
+   "地点名词用单数形式"
+  ],
+  "exs": [
+   "drum、guitar、violin",
+   "king、farmer",
+   "nest、pond、cave"
+  ]
+ },
+ "字母大小写": {
+  "name": "字母大小写",
+  "descs": [
+   "句首大写，单词首字母与所给字母一致",
+   "句首大写，单词首字母跟所给字母对应",
+   "大写 X 与小写 x-rays 同形不同用法"
+  ],
+  "exs": [
+   "D is for dinosaur.",
+   "H is for hat.",
+   "X is for x-rays."
+  ]
+ },
+ "词类意识": {
+  "name": "词类意识",
+  "descs": [
+   "is for 后可接人物、职业、动物名词"
+  ],
+  "exs": [
+   "pirate、farmer、lion"
+  ]
+ },
+ "名词复数": {
+  "name": "名词复数",
+  "descs": [
+   "bears 加 -s，表示一类或一家",
+   "名词后加 -s 表示多个",
+   "成双物品常用复数"
+  ],
+  "exs": [
+   "B is for bears.",
+   "apples、grapes、bananas",
+   "pants、socks、boots"
+  ]
+ },
+ "复数特殊变化": {
+  "name": "复数特殊变化",
+  "descs": [
+   "辅音字母 + y 结尾，把 y 变 i 加 es"
+  ],
+  "exs": [
+   "strawberries"
+  ]
+ },
+ "不可数名词": {
+  "name": "不可数名词",
+  "descs": [
+   "fruit 表示水果总称，不加 -s",
+   "music 不加 -s，不用 a 修饰",
+   "porridge 不加 -s，不用 a"
+  ],
+  "exs": [
+   "Fruit for You",
+   "M is for music.",
+   "P is for porridge."
+  ]
+ },
+ "感叹句": {
+  "name": "感叹句",
+  "descs": [
+   "Yum! 用感叹号表达感受",
+   "一个词加感叹号，表示强烈感情",
+   "拟声词加感叹号"
+  ],
+  "exs": [
+   "Help!、Yum!",
+   "Splash!",
+   "Y is for yum!"
+  ]
+ },
+ "冠词a/an": {
+  "name": "冠词 a / an",
+  "descs": [
+   "以元音音素开头的词前用 an",
+   "元音音素前用 an",
+   "元音音素开头的词前用 an"
+  ],
+  "exs": [
+   "an ant",
+   "an arm、an x-ray",
+   "an elephant、an eagle",
+   "an insect",
+   "an octopus、an eel",
+   "an umbrella"
+  ]
+ },
+ "祈使句": {
+  "name": "祈使句",
+  "descs": [
+   "Look at + 名词，提醒别人看",
+   "动词原形开头，表示建议或提醒",
+   "动词原形开头，表示邀请或指令"
+  ],
+  "exs": [
+   "Come in!",
+   "Look at my home.",
+   "Look at the ears!"
+  ]
+ },
+ "介词短语": {
+  "name": "介词短语",
+  "descs": [
+   "by the sea、at night、in bad weather 表时间地点",
+   "look at + 名词，at 表示看的方向",
+   "on their backs、over the hot deserts 表示方位"
+  ],
+  "exs": [
+   "Look at my home."
+  ]
+ },
+ "定冠词the": {
+  "name": "定冠词 the",
+  "descs": [
+   "特指双方都知道的事物",
+   "特指某个公园",
+   "表示特定或独一无二的事物"
+  ],
+  "exs": [
+   "at the park",
+   "the ears、the teeth",
+   "the sea、the jungle"
+  ]
+ },
+ "动名词": {
+  "name": "动名词",
+  "descs": [
+   "hiding、hopping、counting、skipping",
+   "singing 表示唱歌这一活动",
+   "动词加 -ing 可表示一种活动"
+  ],
+  "exs": [
+   "Are you good at hiding?",
+   "S is for singing."
+  ]
+ },
+ "动词原形": {
+  "name": "动词原形",
+  "descs": [
+   "is for 后可接动词原形",
+   "is for 后可接动词原形，表示动作名称"
+  ],
+  "exs": [
+   "blow",
+   "kick、catch",
+   "walk、run、sleep"
+  ]
+ },
+ "形容词": {
+  "name": "形容词",
+  "descs": [
+   "little、big、middle-sized 描述大小",
+   "tall and round、safe"
+  ],
+  "exs": [
+   "L is for little.",
+   "keep ships safe"
+  ]
+ },
+ "复合形容词": {
+  "name": "复合形容词",
+  "descs": [
+   "middle-sized 用连字符连接两个词"
+  ],
+  "exs": [
+   "M is for middle-sized."
+  ]
+ },
+ "名词单复数": {
+  "name": "名词单复数",
+  "descs": [
+   "a drum 是单数，drums 是复数",
+   "a story 是单数，复数加 s 变 stories",
+   "leg → legs、foot → feet"
+  ],
+  "exs": [
+   "F is for foot."
+  ]
+ },
+ "不规则复数": {
+  "name": "不规则复数",
+  "descs": [
+   "leaf 变 leaves，f 变 v 再加 -es",
+   "tooth → teeth",
+   "tooth → teeth、foot → feet"
+  ],
+  "exs": [
+   "T is for teeth."
+  ]
+ },
+ "并列句": {
+  "name": "并列句",
+  "descs": [
+   "and 连接两个 is for 句",
+   "and 连接两个相同结构的句子",
+   "and 连接两个结构相同的句子"
+  ],
+  "exs": [
+   "C is for cake and c is for candles.",
+   "H is for horse and h is for hen.",
+   "T is for tiger and t is for turtle."
+  ]
+ },
+ "名词短语": {
+  "name": "名词短语",
+  "descs": [
+   "racing car 由两个词组成"
+  ],
+  "exs": [
+   "R is for racing car."
+  ]
+ },
+ "合成名词": {
+  "name": "合成名词",
+  "descs": [
+   "jack-in-the-box 用连字符连接",
+   "playground 由 play + ground 组成，写作一个词",
+   "snowman、ladybug 由两个词合成，写作一个词"
+  ],
+  "exs": [
+   "J is for jack-in-the-box."
+  ]
+ },
+ "动词+副词": {
+  "name": "动词 + 副词",
+  "descs": [
+   "come in 表示进来"
+  ],
+  "exs": [
+   "Come in!"
+  ]
+ },
+ "拟声词": {
+  "name": "拟声词",
+  "descs": [
+   "SPUFF、HUFF 模仿声音，可单独成句",
+   "quack、hoot 等模仿动物叫声，中文说明可用象声词对应"
+  ],
+  "exs": [
+   "SPUFF! HUFF!"
+  ]
+ },
+ "字母大写": {
+  "name": "字母大写",
+  "descs": [
+   "句首与单词首字母大写",
+   "句首字母与单词首字母大写",
+   "句首字母与所代表单词的首字母都用大写"
+  ],
+  "exs": [
+   "P is for pilot.",
+   "S is for snowman.",
+   "W is for whale."
+  ]
+ },
+ "名词组合": {
+  "name": "名词组合",
+  "descs": [
+   "racing car driver、zoo keeper 由两个以上名词组成，中心词在后面"
+  ],
+  "exs": []
+ },
+ "动物名词": {
+  "name": "动物名词",
+  "descs": [
+   "turtle、duck、horse 表示一类动物，加 -s 可变复数"
+  ],
+  "exs": []
+ },
+ "复数读音": {
+  "name": "复数读音",
+  "descs": [
+   "horses 加 -s 后多读一个音节 /ɪz/"
+  ],
+  "exs": []
+ },
+ "以元音字母加y结尾": {
+  "name": "以元音字母加 y 结尾",
+  "descs": [
+   "monkeys 直接加 -s"
+  ],
+  "exs": []
+ },
+ "字母大写与句号": {
+  "name": "字母大写与句号",
+  "descs": [
+   "句首字母、单词首字母大写，句末用句号"
+  ],
+  "exs": []
+ },
+ "陈述句语序与句号": {
+  "name": "陈述句语序与句号",
+  "descs": [
+   "主语 + is + for + 名词，句末用句号"
+  ],
+  "exs": []
+ },
+ "特殊复数": {
+  "name": "特殊复数",
+  "descs": [
+   "goose 复数为 geese，fish 单复同形",
+   "mouse 变 mice，fish 单复同形",
+   "sheep 单复数同形"
+  ],
+  "exs": []
+ },
+ "表示人的名词": {
+  "name": "表示人的名词",
+  "descs": [
+   "teacher 由 teach 加 -er 构成"
+  ],
+  "exs": []
+ },
+ "以o结尾的名词": {
+  "name": "以 o 结尾的名词",
+  "descs": [
+   "复数加 -es"
+  ],
+  "exs": [
+   "tomatoes"
+  ]
+ },
+ "名词与动词同形": {
+  "name": "名词与动词同形",
+  "descs": [
+   "bark 既是名词狗叫声，也是动词吠",
+   "plant、water 都可作名词，也可作动词"
+  ],
+  "exs": []
+ },
+ "字母作主语": {
+  "name": "字母作主语",
+  "descs": [
+   "大写字母指字母本身",
+   "大写字母指这个字母本身"
+  ],
+  "exs": [
+   "A is for apples.",
+   "E is for eel.",
+   "I is for insect."
+  ]
+ },
+ "不定冠词a/an": {
+  "name": "不定冠词 a/an",
+  "descs": [
+   "a kite、an umbrella",
+   "a tiger、an insect",
+   "an elephant、a mouse",
+   "an iceberg、a volcano",
+   "辅音音素开头用 a，元音音素开头用 an"
+  ],
+  "exs": [
+   "a crab、an eel",
+   "元音音素前用 an"
+  ]
+ },
+ "可数名词单数": {
+  "name": "可数名词单数",
+  "descs": [
+   "表示「一个」时名词用单数"
+  ],
+  "exs": [
+   "a penguin、a whale"
+  ]
+ },
+ "介词for": {
+  "name": "介词 for",
+  "descs": [
+   "表示「代表、对应」",
+   "表示「代表」"
+  ],
+  "exs": [
+   "C is for crab.",
+   "S is for snake.",
+   "S is for sun."
+  ]
+ },
+ "书写规范": {
+  "name": "书写规范",
+  "descs": [
+   "句首字母大写、句末用句号"
+  ],
+  "exs": [
+   "F is for fish."
+  ]
+ },
+ "并列连词and": {
+  "name": "并列连词 and",
+  "descs": [
+   "连接两个并列分句"
+  ],
+  "exs": [
+   "B is for butterfly and b is for bee.",
+   "F is for feathers and f is for fly!",
+   "F is for fox and x is in fox."
+  ]
+ },
+ "不定冠词an": {
+  "name": "不定冠词 an",
+  "descs": [
+   "元音音素前用 an",
+   "元音音素开头的词前用 an"
+  ],
+  "exs": [
+   "an apple",
+   "an astronaut"
+  ]
+ },
+ "感叹号": {
+  "name": "感叹号",
+  "descs": [
+   "表达号召和强烈的语气",
+   "表达强烈的语气"
+  ],
+  "exs": [
+   "F is for feathers and f is for fly!",
+   "Get Moving!",
+   "Y is for yum!"
+  ]
+ },
+ "动词原形pick": {
+  "name": "动词原形 pick",
+  "descs": [
+   "表示动作"
+  ],
+  "exs": [
+   "P is for pick."
+  ]
+ },
+ "零冠词": {
+  "name": "零冠词",
+  "descs": [
+   "复数名词前不加 a/an"
+  ],
+  "exs": [
+   "beaks、eggs"
+  ]
+ },
+ "介词短语作状语": {
+  "name": "介词短语作状语",
+  "descs": [
+   "at the park 表示地点",
+   "out in space 表示地点",
+   "up the mountain 说明往哪里去"
+  ],
+  "exs": [
+   "Fun at the Park",
+   "Out in Space"
+  ]
+ },
+ "不定冠词a": {
+  "name": "不定冠词 a",
+  "descs": [
+   "a big tail、a little tail",
+   "a hat、a cook",
+   "辅音音素前用 a"
+  ],
+  "exs": [
+   "a car、a van",
+   "a lion、a fox",
+   "a rabbit、a dog",
+   "辅音音素前用 a"
+  ]
+ },
+ "动词-ing形式作标题": {
+  "name": "动词 -ing 形式作标题",
+  "descs": [
+   "Looking at Bugs 表示正在看"
+  ],
+  "exs": [
+   "书名"
+  ]
+ },
+ "介词in": {
+  "name": "介词 in",
+  "descs": [
+   "表示「在……里面、在……中」",
+   "表示在里面，后接名词",
+   "表示字母在单词里的位置"
+  ],
+  "exs": [
+   "in space",
+   "in the lake",
+   "x is in fox."
+  ]
+ },
+ "特殊疑问句": {
+  "name": "特殊疑问句",
+  "descs": [
+   "What do + 主语 + have?",
+   "Who has claws?"
+  ],
+  "exs": [
+   "What do fish have on the outside?",
+   "who 作主语，问「谁」"
+  ]
+ },
+ "介词短语作定语": {
+  "name": "介词短语作定语",
+  "descs": [
+   "in danger 说明 animals"
+  ],
+  "exs": [
+   "Animals in Danger"
+  ]
+ },
+ "Let's句型": {
+  "name": "Let's 句型",
+  "descs": [
+   "Let's + 动词原形，表示建议"
+  ],
+  "exs": [
+   "Let's Go Riding"
+  ]
+ },
+ "动词-ing形式": {
+  "name": "动词 -ing 形式",
+  "descs": [
+   "counting 表示「数数」这件事",
+   "go riding 表示从事某项活动"
+  ],
+  "exs": [
+   "C is for counting.",
+   "Let's Go Riding"
+  ]
+ },
+ "短语动词": {
+  "name": "短语动词",
+  "descs": [
+   "look after 表示「照顾」"
+  ],
+  "exs": [
+   "Look After Pets"
+  ]
+ },
+ "a与an的选择": {
+  "name": "a 与 an 的选择",
+  "descs": [
+   "ukulele 以元音字母开头，但读 /juː/，仍用 a"
+  ],
+  "exs": [
+   "a ukulele"
+  ]
+ },
+ "形容词作定语": {
+  "name": "形容词作定语",
+  "descs": [
+   "a little ball、big balls",
+   "happy、sleepy、sad 放在 face 前面",
+   "musical 修饰 instruments"
+  ],
+  "exs": [
+   "musical instruments"
+  ]
+ },
+ "基数词作表语": {
+  "name": "基数词作表语",
+  "descs": [
+   "one、two、ten 表示数量"
+  ],
+  "exs": [
+   "O is for one."
+  ]
+ },
+ "一般现在时be动词": {
+  "name": "一般现在时 be 动词",
+  "descs": [
+   "is 表示「是、代表」",
+   "单个字母作主语时用 is",
+   "字母作主语用 is"
+  ],
+  "exs": [
+   "G is for golf.",
+   "P is for painting.",
+   "R is for river."
+  ]
+ },
+ "名词": {
+  "name": "名词",
+  "descs": [
+   "-ing 结尾的词在这里当名词用，表示一种活动",
+   "-ing 结尾的运动名称",
+   "表示自然景物的名词"
+  ],
+  "exs": [
+   "cooking、dancing",
+   "sea、hill、beach",
+   "skateboarding、surfing、skiing"
+  ]
+ },
+ "and连接两个并列成分": {
+  "name": "and 连接两个并列成分",
+  "descs": [
+   "reading and riding"
+  ],
+  "exs": []
+ },
+ "动词加-ing变成活动名称": {
+  "name": "动词加 -ing 变成活动名称",
+  "descs": [
+   "paint → painting、swim → swimming"
+  ],
+  "exs": []
+ },
+ "and连接两个并列成分或分句（runningandrace）": {
+  "name": "and 连接两个并列成分或分句（running and race）",
+  "descs": [],
+  "exs": []
+ },
+ "复合名词": {
+  "name": "复合名词",
+  "descs": [
+   "fire engine、police car、racing car 由两个词组成一个名称",
+   "table tennis、ice-hockey 由两个词合成一个运动名称"
+  ],
+  "exs": []
+ },
+ "be动词am": {
+  "name": "be 动词 am",
+  "descs": [
+   "主语 I 后面用 am"
+  ],
+  "exs": [
+   "I am big.",
+   "I am tall."
+  ]
+ },
+ "形容词作表语": {
+  "name": "形容词作表语",
+  "descs": [
+   "big 放在 be 动词后说明主语",
+   "slow 放在 are 后面说明主语",
+   "形容词放在 is 后面"
+  ],
+  "exs": [
+   "I am big.",
+   "We are slow.",
+   "is cold"
+  ]
+ },
+ "副词very修饰形容词，表示程度（verybig）": {
+  "name": "副词 very 修饰形容词，表示程度（very big）",
+  "descs": [],
+  "exs": []
+ },
+ "直接引语": {
+  "name": "直接引语",
+  "descs": [
+   "说的话加引号，said 后接说话的对象",
+   "说的话放在引号里，said 后面接说话的对象",
+   "说的话放在引号里，后面用 said 引出说话的一方"
+  ],
+  "exs": [
+   "\"I am big,\" said the bear.",
+   "\"We are slow,\" said the turtles.",
+   "\"We can hop,\" said the birds."
+  ]
+ },
+ "标点": {
+  "name": "标点",
+  "descs": [
+   "引语后面用逗号，再写 said"
+  ],
+  "exs": [
+   "\"I am big,\" said …"
+  ]
+ },
+ "第一人称I作主语，动词用原形go（Igoupthesteps.）": {
+  "name": "第一人称 I 作主语，动词用原形 go（I go up the steps.）",
+  "descs": [],
+  "exs": []
+ },
+ "介词up/down表示方向（goup/godown）": {
+  "name": "介词 up / down 表示方向（go up / go down）",
+  "descs": [],
+  "exs": []
+ },
+ "can+动词原形": {
+  "name": "can + 动词原形",
+  "descs": [
+   "表示能力"
+  ],
+  "exs": [
+   "A bird can fly.",
+   "A cat can jump.",
+   "We can hop."
+  ]
+ },
+ "名词复数加-s": {
+  "name": "名词复数加 -s",
+  "descs": [
+   "birds、drums、dogs、bees、pigs",
+   "caterpillars、snails、turtles、worms",
+   "rabbits、birds、penguins"
+  ],
+  "exs": [
+   "We are slow, said the snails."
+  ]
+ },
+ "人称代词we作主语，后接can（Wecanhop.）": {
+  "name": "人称代词 we 作主语，后接 can（We can hop.）",
+  "descs": [],
+  "exs": []
+ },
+ "动词单独成句": {
+  "name": "动词单独成句",
+  "descs": [
+   "Hop! 表示让人做动作"
+  ],
+  "exs": []
+ },
+ "liketo+动词原形": {
+  "name": "like to + 动词原形",
+  "descs": [
+   "表示喜欢做某事"
+  ],
+  "exs": [
+   "He likes to sing.",
+   "I like to ride this bike.",
+   "We like to kick balls."
+  ]
+ },
+ "第一人称复数we作主语，动词用原形（Weliketorollballs.）": {
+  "name": "第一人称复数 we 作主语，动词用原形（We like to roll balls.）",
+  "descs": [],
+  "exs": []
+ },
+ "可数名词复数": {
+  "name": "可数名词复数",
+  "descs": [
+   "balls 加 -s",
+   "scones 加 -s",
+   "vegetables 表示一类蔬菜"
+  ],
+  "exs": [
+   "We like the taste of vegetables.",
+   "bounce balls",
+   "the scones"
+  ]
+ },
+ "代词it指代前面提到的球（Hitit.）": {
+  "name": "代词 it 指代前面提到的球（Hit it.）",
+  "descs": [],
+  "exs": []
+ },
+ "Let's+动词原形": {
+  "name": "Let's + 动词原形",
+  "descs": [
+   "提出建议"
+  ],
+  "exs": [
+   "Let's go home.",
+   "Let's play ball."
+  ]
+ },
+ "指示代词this": {
+  "name": "指示代词 this",
+  "descs": [
+   "指较近的人或物，后接单数名词",
+   "指近处的单个事物",
+   "指近处的单数事物"
+  ],
+  "exs": [
+   "This door can open and close.",
+   "This is wet.",
+   "this train"
+  ]
+ },
+ "介词on": {
+  "name": "介词 on",
+  "descs": [
+   "表示“在……身上”",
+   "表示「在……上面」",
+   "表示在平面、火源上"
+  ],
+  "exs": [
+   "on the stove、on a fire",
+   "on the yak",
+   "ride on this horse"
+  ]
+ },
+ "第一人称I作主语，动词用原形ride（Iliketoride.）": {
+  "name": "第一人称 I 作主语，动词用原形 ride（I like to ride.）",
+  "descs": [],
+  "exs": []
+ },
+ "lookat+名词": {
+  "name": "look at + 名词",
+  "descs": [
+   "提醒对方看某人某物"
+  ],
+  "exs": [
+   "look at the rocket"
+  ]
+ },
+ "副词fast修饰动词，说明速度快慢（goingfast）": {
+  "name": "副词 fast 修饰动词，说明速度快慢（going fast）",
+  "descs": [],
+  "exs": []
+ },
+ "very+副词": {
+  "name": "very + 副词",
+  "descs": [
+   "加强程度"
+  ],
+  "exs": [
+   "very fast"
+  ]
+ },
+ "第三人称单数": {
+  "name": "第三人称单数",
+  "descs": [
+   "主语 he 后面的动词加 -s",
+   "主语是单数名词时动词加 s",
+   "主语是单数时动词加 -s"
+  ],
+  "exs": [
+   "feels",
+   "go 变成 goes",
+   "like → likes"
+  ]
+ },
+ "alot作状语，放在句末表示程度或次数（…alot）": {
+  "name": "a lot 作状语，放在句末表示程度或次数（… a lot）",
+  "descs": [],
+  "exs": []
+ },
+ "人称代词he指代前面提到的鹦鹉": {
+  "name": "人称代词 he 指代前面提到的鹦鹉",
+  "descs": [],
+  "exs": []
+ },
+ "to后面用动词原形，不加-s（toeat、todrink）": {
+  "name": "to 后面用动词原形，不加 -s（to eat、to drink）",
+  "descs": [],
+  "exs": []
+ },
+ "问候语Hello可以连着说，表示反复打招呼（Hello,hello,hello.）": {
+  "name": "问候语 Hello 可以连着说，表示反复打招呼（Hello, hello, hello.）",
+  "descs": [],
+  "exs": []
+ },
+ "and连接两个并列分句（Andabeecansting!）": {
+  "name": "and 连接两个并列分句（And a bee can sting!）",
+  "descs": [],
+  "exs": []
+ },
+ "感叹词OW表示疼痛（OW!）": {
+  "name": "感叹词 OW 表示疼痛（OW!）",
+  "descs": [],
+  "exs": []
+ },
+ "一般过去时": {
+  "name": "一般过去时",
+  "descs": [
+   "went 说已经发生的事",
+   "went、came 表示已经做完的动作",
+   "动词用过去式"
+  ],
+  "exs": [
+   "I got... / I made...",
+   "My balloon went up.",
+   "The butter went in."
+  ]
+ },
+ "go的过去式went（不规则变化）": {
+  "name": "go 的过去式 went（不规则变化）",
+  "descs": [],
+  "exs": []
+ },
+ "come的过去式came（不规则变化）": {
+  "name": "come 的过去式 came（不规则变化）",
+  "descs": [],
+  "exs": []
+ },
+ "介词in/out表示方向（wentin/cameout）": {
+  "name": "介词 in / out 表示方向（went in / came out）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词is+形容词": {
+  "name": "be 动词 is + 形容词",
+  "descs": [
+   "说明人或物的样子"
+  ],
+  "exs": [
+   "A tree is tall."
+  ]
+ },
+ "副词too": {
+  "name": "副词 too",
+  "descs": [
+   "句末，前加逗号",
+   "放在句末表示「也」",
+   "放在句末，前面加逗号"
+  ],
+  "exs": [
+   "I am tall, too."
+  ]
+ },
+ "How+形容词": {
+  "name": "How + 形容词",
+  "descs": [
+   "用来询问程度"
+  ],
+  "exs": [
+   "How tall?"
+  ]
+ },
+ "too放在句末表示「也」（Icanjump,too.）": {
+  "name": "too 放在句末表示「也」（I can jump, too.）",
+  "descs": [],
+  "exs": []
+ },
+ "第一人称I与can连用，can不随人称变化（Icanjump.）": {
+  "name": "第一人称 I 与 can 连用，can 不随人称变化（I can jump.）",
+  "descs": [],
+  "exs": []
+ },
+ "can+动词原形hear": {
+  "name": "can + 动词原形 hear",
+  "descs": [
+   "表示能听见"
+  ],
+  "exs": [
+   "We can hear the birds."
+  ]
+ },
+ "第一人称复数we作主语，动词用原形（Wecanhearthedogs.）": {
+  "name": "第一人称复数 we 作主语，动词用原形（We can hear the dogs.）",
+  "descs": [],
+  "exs": []
+ },
+ "定冠词the+名词": {
+  "name": "定冠词 the + 名词",
+  "descs": [
+   "特指某种声音的来源"
+  ],
+  "exs": [
+   "the drums"
+  ]
+ },
+ "and连接两个相同的词，表示反复不停（roundandround）": {
+  "name": "and 连接两个相同的词，表示反复不停（round and round）",
+  "descs": [],
+  "exs": []
+ },
+ "副词too放句末，表示也，前面加逗号（…,too.）": {
+  "name": "副词 too 放句末，表示也，前面加逗号（…, too.）",
+  "descs": [],
+  "exs": []
+ },
+ "可数名词单数前要有限定词（aball、atop）": {
+  "name": "可数名词单数前要有限定词（a ball、a top）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词are": {
+  "name": "be 动词 are",
+  "descs": [
+   "主语是 We 或复数名词时用 are",
+   "主语是 we，用 are",
+   "主语是复数 hands 时用 are"
+  ],
+  "exs": [
+   "We are ready.",
+   "We are slow."
+  ]
+ },
+ "以-o结尾的名词加-s变复数": {
+  "name": "以 -o 结尾的名词加 -s 变复数",
+  "descs": [
+   "hippos"
+  ],
+  "exs": [
+   "We are slow, said the hippos."
+  ]
+ },
+ "too表示也，放在句末并用逗号隔开（…,too）": {
+  "name": "too 表示也，放在句末并用逗号隔开（…, too）",
+  "descs": [],
+  "exs": []
+ },
+ "主语和be动词要一致": {
+  "name": "主语和 be 动词要一致",
+  "descs": [
+   "We 用 are，不用 am 或 is"
+  ],
+  "exs": [
+   "We are slow."
+  ]
+ },
+ "主语是复数名词时，动词用原形go，不加-s（Helicoptersgoupanddown.）": {
+  "name": "主语是复数名词时，动词用原形 go，不加 -s（Helicopters go up and down.）",
+  "descs": [],
+  "exs": []
+ },
+ "以-o结尾的名词加-s": {
+  "name": "以 -o 结尾的名词加 -s",
+  "descs": [
+   "yo-yos"
+  ],
+  "exs": [
+   "Yo-yos go up and down."
+  ]
+ },
+ "and连接两个相反的副词（upanddown）": {
+  "name": "and 连接两个相反的副词（up and down）",
+  "descs": [],
+  "exs": []
+ },
+ "too放句末表示也，前面加逗号（…,too）": {
+  "name": "too 放句末表示也，前面加逗号（…, too）",
+  "descs": [],
+  "exs": []
+ },
+ "介词of": {
+  "name": "介词 of",
+  "descs": [
+   "表示“……的”",
+   "表示什么的味道，后面接名词"
+  ],
+  "exs": [
+   "the shape of a ship",
+   "the taste of juice"
+  ]
+ },
+ "fish单复数同形": {
+  "name": "fish 单复数同形",
+  "descs": [
+   "one fish、two fish"
+  ],
+  "exs": [
+   "We like the taste of fish.",
+   "We see fish at the beach."
+  ]
+ },
+ "please用于礼貌请求，Yes,please.是固定应答（Yes,please!）": {
+  "name": "please 用于礼貌请求，Yes, please. 是固定应答（Yes, please!）",
+  "descs": [],
+  "exs": []
+ },
+ "情态动词can": {
+  "name": "情态动词 can",
+  "descs": [
+   "后接动词原形",
+   "后面接动词原形"
+  ],
+  "exs": [
+   "can go",
+   "can open",
+   "can read"
+  ]
+ },
+ "can提到句首，构成一般疑问句（Canthehorsesgofast?）": {
+  "name": "can 提到句首，构成一般疑问句（Can the horses go fast?）",
+  "descs": [],
+  "exs": []
+ },
+ "can没有人称变化": {
+  "name": "can 没有人称变化",
+  "descs": [
+   "I、he、they 后面都用 can",
+   "主语是单数也用 can",
+   "主语是单数还是复数都用 can"
+  ],
+  "exs": [
+   "A top can go.",
+   "Can the horses go fast?"
+  ]
+ },
+ "定冠词the加复数名词，表示一类（thepigs）": {
+  "name": "定冠词 the 加复数名词，表示一类（the pigs）",
+  "descs": [],
+  "exs": []
+ },
+ "副词fast放在动词go后，说明快慢（gofast）": {
+  "name": "副词 fast 放在动词 go 后，说明快慢（go fast）",
+  "descs": [],
+  "exs": []
+ },
+ "介词短语atthebeach作地点状语，放在句末（Weseesandatthebeach.）": {
+  "name": "介词短语 at the beach 作地点状语，放在句末（We see sand at the beach.）",
+  "descs": [],
+  "exs": []
+ },
+ "可数名词复数加-s": {
+  "name": "可数名词复数加 -s",
+  "descs": [
+   "carrots、beans、peas、pumpkins",
+   "waves、shells、boats、rocks"
+  ],
+  "exs": [
+   "We like beans.",
+   "We see shells at the beach."
+  ]
+ },
+ "不可数名词sand": {
+  "name": "不可数名词 sand",
+  "descs": [
+   "不加 -s，也不加 a"
+  ],
+  "exs": [
+   "We see sand at the beach."
+  ]
+ },
+ "感叹号用于表达强烈的语气（…atthebeach!）": {
+  "name": "感叹号用于表达强烈的语气（…at the beach!）",
+  "descs": [],
+  "exs": []
+ },
+ "祈使句的主语you通常省略（Lookatthegirl.）": {
+  "name": "祈使句的主语 you 通常省略（Look at the girl.）",
+  "descs": [],
+  "exs": []
+ },
+ "固定搭配lookat": {
+  "name": "固定搭配 look at",
+  "descs": [
+   "at 后面接看的人或物"
+  ],
+  "exs": [
+   "Look at the boy."
+  ]
+ },
+ "专有名词Dad首字母大写，前面不加the（LookatDad!）": {
+  "name": "专有名词 Dad 首字母大写，前面不加 the（Look at Dad!）",
+  "descs": [],
+  "exs": []
+ },
+ "名词所有格's": {
+  "name": "名词所有格 's",
+  "descs": [
+   "Charlie's boat",
+   "my dad's pockets、Kangaroo's pocket",
+   "表示什么的"
+  ],
+  "exs": [
+   "donkey's tail"
+  ]
+ },
+ "感叹号表达强烈的语气（LookatDad!）": {
+  "name": "感叹号表达强烈的语气（Look at Dad!）",
+  "descs": [],
+  "exs": []
+ },
+ "一般现在时第三人称单数": {
+  "name": "一般现在时第三人称单数",
+  "descs": [
+   "He likes...",
+   "float 变 floats",
+   "go 变成 goes"
+  ],
+  "exs": [
+   "A rabbit goes in and out.",
+   "It floats on the water.",
+   "动词加 -s"
+  ]
+ },
+ "and连接两个并列的词（inandout）": {
+  "name": "and 连接两个并列的词（in and out）",
+  "descs": [],
+  "exs": []
+ },
+ "可数名词单数前要有限定词a（aspoon、atrain）": {
+  "name": "可数名词单数前要有限定词 a（a spoon、a train）",
+  "descs": [],
+  "exs": []
+ },
+ "in、out表示方向，跟在动词后（goesinandout）": {
+  "name": "in、out 表示方向，跟在动词后（goes in and out）",
+  "descs": [],
+  "exs": []
+ },
+ "can没有人称和数的变化（Thisdoorcan…）": {
+  "name": "can 没有人称和数的变化（This door can…）",
+  "descs": [],
+  "exs": []
+ },
+ "and连接两个并列的动词（openandclose）": {
+  "name": "and 连接两个并列的动词（open and close）",
+  "descs": [],
+  "exs": []
+ },
+ "this加单数名词作主语，谓语用can加动词原形（Thisboxcanopenandclose.）": {
+  "name": "this 加单数名词作主语，谓语用 can 加动词原形（This box can open and close.）",
+  "descs": [],
+  "exs": []
+ },
+ "反义动词成对使用": {
+  "name": "反义动词成对使用",
+  "descs": [
+   "open 和 close"
+  ],
+  "exs": [
+   "This gate can open and close."
+  ]
+ },
+ "主语I后面动词用原形（Ilike）": {
+  "name": "主语 I 后面动词用原形（I like）",
+  "descs": [],
+  "exs": []
+ },
+ "感叹号表达感情（Ilikethethunder!）": {
+  "name": "感叹号表达感情（I like the thunder!）",
+  "descs": [],
+  "exs": []
+ },
+ "主语We后面动词用原形like（Welikecarrots.）": {
+  "name": "主语 We 后面动词用原形 like（We like carrots.）",
+  "descs": [],
+  "exs": []
+ },
+ "以-o结尾的名词加-es": {
+  "name": "以 -o 结尾的名词加 -es",
+  "descs": [
+   "tomato 变成 tomatoes"
+  ],
+  "exs": [
+   "We like tomatoes."
+  ]
+ },
+ "不可数名词lettuce": {
+  "name": "不可数名词 lettuce",
+  "descs": [
+   "不加 -s，也不加 a"
+  ],
+  "exs": [
+   "We like lettuce."
+  ]
+ },
+ "泛指一类时用复数，前面不加the（Welikevegetables.）": {
+  "name": "泛指一类时用复数，前面不加 the（We like vegetables.）",
+  "descs": [],
+  "exs": []
+ },
+ "like加动词-ing": {
+  "name": "like 加动词 -ing",
+  "descs": [
+   "表示喜欢做某事"
+  ],
+  "exs": [
+   "like fishing"
+  ]
+ },
+ "介词短语作地点状语，放在句末（Welikefishingintheriver.）": {
+  "name": "介词短语作地点状语，放在句末（We like fishing in the river.）",
+  "descs": [],
+  "exs": []
+ },
+ "主语We后面动词用原形like（Welikefishing.）": {
+  "name": "主语 We 后面动词用原形 like（We like fishing.）",
+  "descs": [],
+  "exs": []
+ },
+ "主语You后面can不变形式（Youcanreadaboutthesea.）": {
+  "name": "主语 You 后面 can 不变形式（You can read about the sea.）",
+  "descs": [],
+  "exs": []
+ },
+ "介词about": {
+  "name": "介词 about",
+  "descs": [
+   "引出故事的内容",
+   "表示关于，后面接名词"
+  ],
+  "exs": [
+   "about animals",
+   "the story about the three bears"
+  ]
+ },
+ "定冠词the和零冠词的对比": {
+  "name": "定冠词 the 和零冠词的对比",
+  "descs": [
+   "the sea、space"
+  ],
+  "exs": [
+   "read about space"
+  ]
+ },
+ "but表示转折": {
+  "name": "but 表示转折",
+  "descs": [
+   "But the zookeeper did not wake up.",
+   "It can't fly, but it runs fast.",
+   "连接两个意思相反的句子"
+  ],
+  "exs": [
+   "This is hot. But this is cold."
+  ]
+ },
+ "反义词成对出现": {
+  "name": "反义词成对出现",
+  "descs": [
+   "hot 和 cold、big 和 little、fast 和 slow"
+  ],
+  "exs": [
+   "This is big. But this is little."
+  ]
+ },
+ "Canyousee…?是一般疑问句，can放在句首（Canyousee1snake?）": {
+  "name": "Can you see…? 是一般疑问句，can 放在句首（Can you see 1 snake?）",
+  "descs": [],
+  "exs": []
+ },
+ "can后接动词原形see，不加-s（Canyousee2tigers?）": {
+  "name": "can 后接动词原形 see，不加 -s（Can you see 2 tigers?）",
+  "descs": [],
+  "exs": []
+ },
+ "数字加可数名词复数": {
+  "name": "数字加可数名词复数",
+  "descs": [
+   "2 tigers、8 hippos"
+  ],
+  "exs": [
+   "Can you see 8 hippos?"
+  ]
+ },
+ "数字1后面用单数名词": {
+  "name": "数字 1 后面用单数名词",
+  "descs": [
+   "1 snake"
+  ],
+  "exs": [
+   "Can you see 1 snake?"
+  ]
+ },
+ "疑问句句末用问号，读时用升调（Canyousee3elephants?）": {
+  "name": "疑问句句末用问号，读时用升调（Can you see 3 elephants?）",
+  "descs": [],
+  "exs": []
+ },
+ "feel作感官动词": {
+  "name": "feel 作感官动词",
+  "descs": [
+   "后面接形容词，不接副词"
+  ],
+  "exs": [
+   "The ice feels cold."
+  ]
+ },
+ "very+形容词": {
+  "name": "very + 形容词",
+  "descs": [
+   "加强程度"
+  ],
+  "exs": [
+   "very cold"
+  ]
+ },
+ "this+单数名词": {
+  "name": "this + 单数名词",
+  "descs": [
+   "指眼前这一个",
+   "指眼前这一只",
+   "指近处的一个东西"
+  ],
+  "exs": [
+   "this glue、this honey",
+   "this peach、this pie",
+   "this pig、this dog"
+  ]
+ },
+ "feel后接形容词作表语，不接副词（feelssticky）": {
+  "name": "feel 后接形容词作表语，不接副词（feels sticky）",
+  "descs": [],
+  "exs": []
+ },
+ "very修饰形容词，放在形容词前（verysticky）": {
+  "name": "very 修饰形容词，放在形容词前（very sticky）",
+  "descs": [],
+  "exs": []
+ },
+ "感叹词Ooops": {
+  "name": "感叹词 Ooops",
+  "descs": [
+   "口语中表意外、失手"
+  ],
+  "exs": []
+ },
+ "a+单数可数名词": {
+  "name": "a + 单数可数名词",
+  "descs": [
+   "泛指一个"
+  ],
+  "exs": [
+   "a clown、a party",
+   "a spider、a snake",
+   "a trumpet、a band"
+  ]
+ },
+ "主系表结构": {
+  "name": "主系表结构",
+  "descs": [
+   "主语 + is + 形容词"
+  ],
+  "exs": [
+   "A snail is quiet.",
+   "A storm is noisy.",
+   "A story is fun."
+  ]
+ },
+ "too的位置": {
+  "name": "too 的位置",
+  "descs": [
+   "放句末表「也」",
+   "放句末表示“也”",
+   "放句末表示“也”，前面加逗号",
+   "放在句尾表示“也”",
+   "放在句末，前面加逗号"
+  ],
+  "exs": [
+   "A party is fun, too.",
+   "He likes to watch games, too.",
+   "My head is itchy, too.",
+   "The candle is hot, too.",
+   "Water can make the raft go, too.",
+   "We have stripes, too."
+  ]
+ },
+ "very修饰形容词": {
+  "name": "very 修饰形容词",
+  "descs": [
+   "放在形容词前面"
+  ],
+  "exs": [
+   "very noisy"
+  ]
+ },
+ "否定句": {
+  "name": "否定句",
+  "descs": [
+   "don't + 动词原形",
+   "is 后面加 not",
+   "was 后面加 not"
+  ],
+  "exs": [
+   "A snake is not quiet.",
+   "She was not frightened.",
+   "They don't blow up very often."
+  ]
+ },
+ "词尾ling": {
+  "name": "词尾 ling",
+  "descs": [
+   "构成表“幼小”的名词"
+  ],
+  "exs": [
+   "duckling"
+  ]
+ },
+ "动物幼崽的专门名词": {
+  "name": "动物幼崽的专门名词",
+  "descs": [
+   "puppy、kitten、calf、foal、lamb"
+  ],
+  "exs": []
+ },
+ "liketodo": {
+  "name": "like to do",
+  "descs": [
+   "like 后接 to + 动词原形",
+   "喜欢做某事",
+   "表爱好"
+  ],
+  "exs": [
+   "He likes to watch games.",
+   "I like to swing up high.",
+   "like to play"
+  ]
+ },
+ "人称代词宾格": {
+  "name": "人称代词宾格",
+  "descs": [
+   "them、us",
+   "动词、介词后面用 me"
+  ],
+  "exs": [
+   "talk to me"
+  ]
+ },
+ "介词搭配": {
+  "name": "介词搭配",
+  "descs": [
+   "talk to、smile at 后面接人"
+  ],
+  "exs": []
+ },
+ "主谓一致": {
+  "name": "主谓一致",
+  "descs": [
+   "I like… 和 Friends like… 都用原形",
+   "We have 与 said the bees"
+  ],
+  "exs": [
+   "复数主语配 have"
+  ]
+ },
+ "冠词a和the": {
+  "name": "冠词 a 和 the",
+  "descs": [
+   "a 泛指一个，the 特指"
+  ],
+  "exs": [
+   "a pot、the oven"
+  ]
+ },
+ "主语I": {
+  "name": "主语 I",
+  "descs": [
+   "第一人称，动词用原形"
+  ],
+  "exs": [
+   "can smell"
+  ]
+ },
+ "the的用法": {
+  "name": "the 的用法",
+  "descs": [
+   "特指双方都知道的东西"
+  ],
+  "exs": [
+   "the flowers"
+  ]
+ },
+ "感官动词smell": {
+  "name": "感官动词 smell",
+  "descs": [
+   "后面直接接闻到的对象"
+  ],
+  "exs": [
+   "smell the soup"
+  ]
+ },
+ "名词表形状": {
+  "name": "名词表形状",
+  "descs": [
+   "rectangle、triangle、cube、diamond、star"
+  ],
+  "exs": []
+ },
+ "主语we": {
+  "name": "主语 we",
+  "descs": [
+   "第一人称复数，动词用原形"
+  ],
+  "exs": [
+   "see"
+  ]
+ },
+ "介词短语onafarm": {
+  "name": "介词短语 on a farm",
+  "descs": [
+   "表地点，放在句末"
+  ],
+  "exs": []
+ },
+ "a+单数名词": {
+  "name": "a + 单数名词",
+  "descs": [
+   "a farm 泛指一个农场"
+  ],
+  "exs": []
+ },
+ "介词at": {
+  "name": "介词 at",
+  "descs": [
+   "表看的对象"
+  ],
+  "exs": [
+   "look at the ears"
+  ]
+ },
+ "of表所属": {
+  "name": "of 表所属",
+  "descs": [
+   "the ears of this mouse"
+  ],
+  "exs": [
+   "这只老鼠的耳朵"
+  ]
+ },
+ "the+复数名词": {
+  "name": "the + 复数名词",
+  "descs": [
+   "the ears 特指两只耳朵"
+  ],
+  "exs": []
+ },
+ "现在进行时": {
+  "name": "现在进行时",
+  "descs": [
+   "am + 动词-ing",
+   "be + 动词 ing，表正在发生",
+   "be + 动词ing，表示正在做"
+  ],
+  "exs": [
+   "A train is going past.",
+   "He is climbing.",
+   "I am going up the mountain."
+  ]
+ },
+ "动词加ing": {
+  "name": "动词加 ing",
+  "descs": [
+   "go 直接加 ing 变 going"
+  ],
+  "exs": []
+ },
+ "副词past": {
+  "name": "副词 past",
+  "descs": [
+   "放在动词后面，表“经过”"
+  ],
+  "exs": []
+ },
+ "可数与不可数": {
+  "name": "可数与不可数",
+  "descs": [
+   "food、rain 不可数，前面不加 a",
+   "soup、toast 不可数，前面不加 a"
+  ],
+  "exs": []
+ },
+ "标点与语气": {
+  "name": "标点与语气",
+  "descs": [
+   "good 用句号，bad 用感叹号",
+   "陈述句用句号，感叹用感叹号"
+  ],
+  "exs": [
+   "That's bad!",
+   "little. / Zzzzzz!"
+  ]
+ },
+ "指示代词this作主语": {
+  "name": "指示代词 this 作主语",
+  "descs": [
+   "This is soft."
+  ],
+  "exs": [
+   "this 单独当主语"
+  ]
+ },
+ "this加名词与thisis": {
+  "name": "this 加名词 与 this is",
+  "descs": [
+   "前者后接名词，后者后接形容词"
+  ],
+  "exs": []
+ },
+ "主语We+动词原形": {
+  "name": "主语 We + 动词原形",
+  "descs": [
+   "第一人称复数后面用 see"
+  ],
+  "exs": []
+ },
+ "定冠词the+单数名词": {
+  "name": "定冠词 the + 单数名词",
+  "descs": [
+   "the goat 指这一类动物"
+  ],
+  "exs": []
+ },
+ "have与has": {
+  "name": "have 与 has",
+  "descs": [
+   "主语是第三人称单数时用 has"
+  ],
+  "exs": [
+   "A dog has whiskers."
+  ]
+ },
+ "主语与谓语一致": {
+  "name": "主语与谓语一致",
+  "descs": [
+   "A cat 配 has"
+  ],
+  "exs": [
+   "A rabbit has whiskers."
+  ]
+ },
+ "定冠词the+特定事物": {
+  "name": "定冠词 the + 特定事物",
+  "descs": [
+   "the sea 指大海"
+  ],
+  "exs": []
+ },
+ "Hereis句型": {
+  "name": "Here is 句型",
+  "descs": [
+   "表示“这是、这里有”"
+  ],
+  "exs": [
+   "Here is the food."
+  ]
+ },
+ "缩写That's": {
+  "name": "缩写 That's",
+  "descs": [
+   "That's 等于 That is"
+  ],
+  "exs": []
+ },
+ "主语You+动词原形": {
+  "name": "主语 You + 动词原形",
+  "descs": [
+   "第二人称后用 get"
+  ],
+  "exs": []
+ },
+ "介词from": {
+  "name": "介词 from",
+  "descs": [
+   "表示来源"
+  ],
+  "exs": [
+   "from the bees"
+  ]
+ },
+ "动词ing的变化": {
+  "name": "动词ing 的变化",
+  "descs": [
+   "climb 变 climbing，come 去 e 加 ing",
+   "lift 变 lifting，clap 双写 p，write 去 e"
+  ],
+  "exs": []
+ },
+ "形容词性物主代词his": {
+  "name": "形容词性物主代词 his",
+  "descs": [
+   "his head、his nose",
+   "his tooth、his tongue",
+   "his tree"
+  ],
+  "exs": [
+   "他的树"
+  ]
+ },
+ "介词up、down、from": {
+  "name": "介词 up、down、from",
+  "descs": [
+   "表示方向"
+  ],
+  "exs": [
+   "up in his tree"
+  ]
+ },
+ "特殊疑问句Where": {
+  "name": "特殊疑问句 Where",
+  "descs": [
+   "问地点"
+  ],
+  "exs": [
+   "Where is the monkey?"
+  ]
+ },
+ "be动词am与is": {
+  "name": "be 动词 am 与 is",
+  "descs": [
+   "I am hungry. 与 He is climbing."
+  ],
+  "exs": []
+ },
+ "形容词性物主代词my": {
+  "name": "形容词性物主代词 my",
+  "descs": [
+   "my balloon",
+   "my hands",
+   "my little eye"
+  ],
+  "exs": [
+   "我的小眼睛",
+   "我的手"
+  ]
+ },
+ "介词for+动词ing": {
+  "name": "介词 for + 动词ing",
+  "descs": [
+   "表示用途"
+  ],
+  "exs": [
+   "good for lifting"
+  ]
+ },
+ "不规则动词": {
+  "name": "不规则动词",
+  "descs": [
+   "go 的过去式是 went"
+  ],
+  "exs": []
+ },
+ "介词up与down": {
+  "name": "介词 up 与 down",
+  "descs": [
+   "表示向上、向下"
+  ],
+  "exs": []
+ },
+ "介词over": {
+  "name": "介词 over",
+  "descs": [
+   "表示“越过、在……上方”"
+  ],
+  "exs": []
+ },
+ "双宾语": {
+  "name": "双宾语",
+  "descs": [
+   "Show me the shape",
+   "give sb sth"
+  ],
+  "exs": [
+   "gave them some bananas",
+   "me 是人，the shape 是物"
+  ]
+ },
+ "语序": {
+  "name": "语序",
+  "descs": [
+   "动词 + 人 + 物"
+  ],
+  "exs": [
+   "Show me the shape."
+  ]
+ },
+ "have的用法": {
+  "name": "have 的用法",
+  "descs": [
+   "I、We 后面用 have"
+  ],
+  "exs": [
+   "I have spots."
+  ]
+ },
+ "逗号的使用": {
+  "name": "逗号的使用",
+  "descs": [
+   "引语后面加逗号再接 said"
+  ],
+  "exs": []
+ },
+ "said的用法": {
+  "name": "said 的用法",
+  "descs": [
+   "said 加说话人，放在引语后面"
+  ],
+  "exs": []
+ },
+ "副词fast": {
+  "name": "副词 fast",
+  "descs": [
+   "修饰动词 swim"
+  ],
+  "exs": [
+   "swim fast"
+  ]
+ },
+ "too表“也”": {
+  "name": "too 表“也”",
+  "descs": [
+   "放句末，前面加逗号"
+  ],
+  "exs": []
+ },
+ "as+形容词或副词+as": {
+  "name": "as + 形容词或副词 + as",
+  "descs": [
+   "表示“和……一样”"
+  ],
+  "exs": [
+   "as fast as"
+  ]
+ },
+ "副词修饰动词": {
+  "name": "副词修饰动词",
+  "descs": [
+   "run fast、jump high、whisper quietly",
+   "work hard"
+  ],
+  "exs": []
+ },
+ "形容词与副词同形": {
+  "name": "形容词与副词同形",
+  "descs": [
+   "high 在这里修饰 jump"
+  ],
+  "exs": []
+ },
+ "省略重复的动词": {
+  "name": "省略重复的动词",
+  "descs": [
+   "as fast as you can 后面省去 run"
+  ],
+  "exs": []
+ },
+ "主语I与can": {
+  "name": "主语 I 与 can",
+  "descs": [
+   "第一人称也用 can，不加 s"
+  ],
+  "exs": []
+ },
+ "see+宾语+动词原形": {
+  "name": "see + 宾语 + 动词原形",
+  "descs": [
+   "看见某物做某事"
+  ],
+  "exs": [
+   "see the balloons go up"
+  ]
+ },
+ "副词up/down": {
+  "name": "副词 up / down",
+  "descs": [
+   "放在动词后面表示方向"
+  ],
+  "exs": [
+   "go up、come down"
+  ]
+ },
+ "主语we是第一人称复数，动词用原形see": {
+  "name": "主语 we 是第一人称复数，动词用原形 see",
+  "descs": [],
+  "exs": []
+ },
+ "动词短语cleanup": {
+  "name": "动词短语 clean up",
+  "descs": [
+   "up 是副词，宾语放在 up 后面"
+  ],
+  "exs": []
+ },
+ "and连接并列成分": {
+  "name": "and 连接并列成分",
+  "descs": [
+   "some red and some blue and some yellow",
+   "the paints and the brushes",
+   "形容词或名词"
+  ],
+  "exs": [
+   "black and yellow、a red nose and a hat"
+  ]
+ },
+ "形容词性物主代词our": {
+  "name": "形容词性物主代词 our",
+  "descs": [
+   "our boots、our gloves",
+   "our hands",
+   "our kites、our boats"
+  ],
+  "exs": [
+   "我们的手"
+  ]
+ },
+ "todo表示目的": {
+  "name": "to do 表示目的",
+  "descs": [
+   "go out to play",
+   "run to get sticks"
+  ],
+  "exs": [
+   "出去是为了玩",
+   "跑去捡树枝"
+  ]
+ },
+ "some+可数名词复数": {
+  "name": "some + 可数名词复数",
+  "descs": [
+   "some eggs、some legs",
+   "some flowers、some trees",
+   "表示“一些”"
+  ],
+  "exs": [
+   "some carrots、some bones"
+  ]
+ },
+ "名词不规则复数": {
+  "name": "名词不规则复数",
+  "descs": [
+   "foot 变 feet、tooth 变 teeth"
+  ],
+  "exs": []
+ },
+ "介词with表示“用”": {
+  "name": "介词 with 表示“用”",
+  "descs": [
+   "with my little eye"
+  ],
+  "exs": []
+ },
+ "形容词little作定语，放在名词前（littleeye）": {
+  "name": "形容词 little 作定语，放在名词前（little eye）",
+  "descs": [],
+  "exs": []
+ },
+ "was+动词-ing": {
+  "name": "was + 动词-ing",
+  "descs": [
+   "说过去某个时候正在做的事"
+  ],
+  "exs": [
+   "The cat was watching."
+  ]
+ },
+ "动词加-ing的拼写": {
+  "name": "动词加 -ing 的拼写",
+  "descs": [
+   "run 变 running，要双写末尾字母"
+  ],
+  "exs": []
+ },
+ "副词quietly/loudly说明动作怎么做，放在动词后面": {
+  "name": "副词 quietly / loudly 说明动作怎么做，放在动词后面",
+  "descs": [],
+  "exs": []
+ },
+ "单数主语配was": {
+  "name": "单数主语配 was",
+  "descs": [
+   "The fish was...、The mouse was..."
+  ],
+  "exs": []
+ },
+ "thefamily表示“一家人”，看作一个整体": {
+  "name": "the family 表示“一家人”，看作一个整体",
+  "descs": [],
+  "exs": []
+ },
+ "动词短语puton": {
+  "name": "动词短语 put on",
+  "descs": [
+   "意思是穿上、戴上",
+   "意思是穿上、戴上，宾语放在 on 后面"
+  ],
+  "exs": []
+ },
+ "be+形容词+todo": {
+  "name": "be + 形容词 + to do",
+  "descs": [
+   "not easy to find",
+   "ready to go",
+   "表示容易做"
+  ],
+  "exs": [
+   "Pizza is quick to cook.",
+   "不容易…",
+   "准备好去做某事"
+  ]
+ },
+ "短语独立成句": {
+  "name": "短语独立成句",
+  "descs": [
+   "Lift off!、Ready!"
+  ],
+  "exs": [
+   "口语中常用"
+  ]
+ },
+ "情态动词can的疑问句": {
+  "name": "情态动词 can 的疑问句",
+  "descs": [
+   "Can + 主语 + 动词原形"
+  ],
+  "exs": [
+   "Can you make hats?"
+  ]
+ },
+ "can的简略回答": {
+  "name": "can 的简略回答",
+  "descs": [
+   "Yes, we can. / No, we can't."
+  ],
+  "exs": []
+ },
+ "make...outof...": {
+  "name": "make ... out of ...",
+  "descs": [
+   "用某样东西做成另一样"
+  ],
+  "exs": [
+   "make kites out of junk"
+  ]
+ },
+ "指示代词this+单数名词": {
+  "name": "指示代词 this + 单数名词",
+  "descs": [
+   "this old junk"
+  ],
+  "exs": [
+   "这堆旧破烂"
+  ]
+ },
+ "形容词old作定语，放在名词前（oldjunk）": {
+  "name": "形容词 old 作定语，放在名词前（old junk）",
+  "descs": [],
+  "exs": []
+ },
+ "more表示“更多的”，后面接名词（moreoldjunk）": {
+  "name": "more 表示“更多的”，后面接名词（more old junk）",
+  "descs": [],
+  "exs": []
+ },
+ "情态动词can+动词原形": {
+  "name": "情态动词 can + 动词原形",
+  "descs": [
+   "I can go"
+  ],
+  "exs": [
+   "表示会、能"
+  ]
+ },
+ "how+形容词": {
+  "name": "how + 形容词",
+  "descs": [
+   "Look how fast I can go."
+  ],
+  "exs": [
+   "说“看多快”"
+  ]
+ },
+ "介词on表示“在……上面”，后面接交通工具（onmybike）": {
+  "name": "介词 on 表示“在……上面”，后面接交通工具（on my bike）",
+  "descs": [],
+  "exs": []
+ },
+ "主语I后面动词用原形，不加-s": {
+  "name": "主语 I 后面动词用原形，不加 -s",
+  "descs": [],
+  "exs": []
+ },
+ "成对使用的东西常用复数": {
+  "name": "成对使用的东西常用复数",
+  "descs": [
+   "skates、skis"
+  ],
+  "exs": []
+ },
+ "make+宾语+动词原形": {
+  "name": "make + 宾语 + 动词原形",
+  "descs": [
+   "The wind makes the balloons move.",
+   "make the trees shake"
+  ],
+  "exs": [
+   "让某物做某事"
+  ]
+ },
+ "形容词big作定语，放在名词前（abigwind）": {
+  "name": "形容词 big 作定语，放在名词前（a big wind）",
+  "descs": [],
+  "exs": []
+ },
+ "冠词a": {
+  "name": "冠词 a",
+  "descs": [
+   "a digger、a big truck",
+   "a red fire engine、a yellow bus",
+   "用在单数可数名词前"
+  ],
+  "exs": [
+   "a big wind",
+   "a carrot、a hat"
+  ]
+ },
+ "some修饰可数名词复数（somedays）": {
+  "name": "some 修饰可数名词复数（some days）",
+  "descs": [],
+  "exs": []
+ },
+ "人称代词he": {
+  "name": "人称代词 he",
+  "descs": [
+   "指代前文提到的 Buddy，避免重复"
+  ],
+  "exs": []
+ },
+ "介词短语作地点状语": {
+  "name": "介词短语作地点状语",
+  "descs": [
+   "in the garden、at the beach",
+   "in the sky、up in the sky",
+   "under the ground、down there"
+  ],
+  "exs": []
+ },
+ "too放句末": {
+  "name": "too 放句末",
+  "descs": [
+   "表示“也”，前面加逗号"
+  ],
+  "exs": []
+ },
+ "have/has": {
+  "name": "have / has",
+  "descs": [
+   "第三人称单数用 has",
+   "表示“有”",
+   "表示拥有"
+  ],
+  "exs": [
+   "I have two hands. / My face has one chin.",
+   "The rainbow has a colour pattern.",
+   "This girl has..."
+  ]
+ },
+ "begoingto+动词原形": {
+  "name": "be going to + 动词原形",
+  "descs": [
+   "表将要发生",
+   "表示打算做某事"
+  ],
+  "exs": [
+   "I am going to ski.",
+   "You are going to crash."
+  ]
+ },
+ "apairof+名词复数": {
+  "name": "a pair of + 名词复数",
+  "descs": [
+   "表示“一双、一副”"
+  ],
+  "exs": [
+   "a pair of socks"
+  ]
+ },
+ "介词up/down表示方向": {
+  "name": "介词 up / down 表示方向",
+  "descs": [
+   "up the mountain、down the mountain"
+  ],
+  "exs": []
+ },
+ "不定式toski表示目的": {
+  "name": "不定式 to ski 表示目的",
+  "descs": [
+   "going up the mountain to ski"
+  ],
+  "exs": []
+ },
+ "主语I搭配am，不用is或are": {
+  "name": "主语 I 搭配 am，不用 is 或 are",
+  "descs": [],
+  "exs": []
+ },
+ "成对物品常用复数": {
+  "name": "成对物品常用复数",
+  "descs": [
+   "pants、socks、boots、gloves、skis"
+  ],
+  "exs": []
+ },
+ "helpsb.withsth.": {
+  "name": "help sb. with sth.",
+  "descs": [
+   "帮某人做某事"
+  ],
+  "exs": []
+ },
+ "人称代词宾格me": {
+  "name": "人称代词宾格 me",
+  "descs": [
+   "放在动词 help 后面"
+  ],
+  "exs": []
+ },
+ "and连接两个动作": {
+  "name": "and 连接两个动作",
+  "descs": [
+   "come and help"
+  ],
+  "exs": []
+ },
+ "感叹句Help!单独成句，表示求救": {
+  "name": "感叹句 Help! 单独成句，表示求救",
+  "descs": [],
+  "exs": []
+ },
+ "put+东西+介词短语": {
+  "name": "put + 东西 + 介词短语",
+  "descs": [
+   "We put a hat on his head."
+  ],
+  "exs": []
+ },
+ "some+名词复数": {
+  "name": "some + 名词复数",
+  "descs": [
+   "some sticks、some stones"
+  ],
+  "exs": []
+ },
+ "不规则动词过去式": {
+  "name": "不规则动词过去式",
+  "descs": [
+   "get 变 got、make 变 made",
+   "go→went、get→got、forget→forgot",
+   "see→saw、give→gave"
+  ],
+  "exs": []
+ },
+ "介词in/into": {
+  "name": "介词 in / into",
+  "descs": [
+   "in 表示在里面，into 表示进到里面"
+  ],
+  "exs": []
+ },
+ "some修饰不可数名词": {
+  "name": "some 修饰不可数名词",
+  "descs": [
+   "some sand"
+  ],
+  "exs": [
+   "沙子不可数"
+  ]
+ },
+ "地点状语放句首": {
+  "name": "地点状语放句首",
+  "descs": [
+   "At the beach, I got sand..."
+  ],
+  "exs": []
+ },
+ "begoingto结构": {
+  "name": "be going to 结构",
+  "descs": [
+   "表示打算或将要发生的事"
+  ],
+  "exs": [
+   "We are going to have some hay."
+  ]
+ },
+ "第一人称复数用are": {
+  "name": "第一人称复数用 are",
+  "descs": [
+   "We are going to …"
+  ],
+  "exs": []
+ },
+ "some+不可数名词": {
+  "name": "some + 不可数名词",
+  "descs": [
+   "hay、meat、fish 不加 s",
+   "some fruit、some cheese",
+   "some hay、some bread、some fish"
+  ],
+  "exs": [
+   "some hay"
+  ]
+ },
+ "名词复数规则变化": {
+  "name": "名词复数规则变化",
+  "descs": [
+   "carrot 变 carrots、bone 变 bones"
+  ],
+  "exs": []
+ },
+ "名词复数不规则变化": {
+  "name": "名词复数不规则变化",
+  "descs": [
+   "leaf 变 leaves；fish 单复数同形",
+   "tooth → teeth",
+   "wolf → wolves"
+  ],
+  "exs": []
+ },
+ "动词不定式toeat表用途": {
+  "name": "动词不定式 to eat 表用途",
+  "descs": [
+   "have some hay to eat"
+  ],
+  "exs": [
+   "有干草可吃"
+  ]
+ },
+ "Canyou…?一般疑问句": {
+  "name": "Can you …? 一般疑问句",
+  "descs": [
+   "情态动词 can 提到句首"
+  ],
+  "exs": [
+   "Can you count the wheels?"
+  ]
+ },
+ "have与has的选择": {
+  "name": "have 与 has 的选择",
+  "descs": [
+   "It has"
+  ],
+  "exs": [
+   "复数用 have",
+   "第三人称单数用 has"
+  ]
+ },
+ "数词+可数名词复数": {
+  "name": "数词 + 可数名词复数",
+  "descs": [
+   "three wheels、four wheels"
+  ],
+  "exs": []
+ },
+ "lotsof+可数名词复数": {
+  "name": "lots of + 可数名词复数",
+  "descs": [
+   "lots of wheels"
+  ],
+  "exs": []
+ },
+ "介词on表位置": {
+  "name": "介词 on 表位置",
+  "descs": [
+   "hats on heads",
+   "on a wheelbarrow、on a train",
+   "on this log"
+  ],
+  "exs": []
+ },
+ "themost表“最多”": {
+  "name": "the most 表“最多”",
+  "descs": [
+   "the most wheels"
+  ],
+  "exs": [
+   "小学只需认读"
+  ]
+ },
+ "too放句末表“也”": {
+  "name": "too 放句末表“也”",
+  "descs": [
+   "It has four wheels, too.",
+   "It tastes good, too!",
+   "The world is round, too."
+  ],
+  "exs": []
+ },
+ "第一人称复数主语we+动词原形（Wegetsomefood.）": {
+  "name": "第一人称复数主语 we + 动词原形（We get some food.）",
+  "descs": [],
+  "exs": []
+ },
+ "goto+地点": {
+  "name": "go to + 地点",
+  "descs": [
+   "go to the park；但 go home 不加 to"
+  ],
+  "exs": []
+ },
+ "have+a+名词": {
+  "name": "have + a + 名词",
+  "descs": [
+   "have a picnic、have a swim 表进行活动"
+  ],
+  "exs": []
+ },
+ "some+名词": {
+  "name": "some + 名词",
+  "descs": [
+   "some carrots、some bread",
+   "some food 不可数，some books 用复数",
+   "some grapes、some strawberries"
+  ],
+  "exs": []
+ },
+ "playwith表示“和……一起玩”": {
+  "name": "play with 表示“和……一起玩”",
+  "descs": [],
+  "exs": []
+ },
+ "定冠词the表特指": {
+  "name": "定冠词 the 表特指",
+  "descs": [
+   "the bees、the balloons",
+   "the supermarket、the park",
+   "the water、the sky"
+  ],
+  "exs": []
+ },
+ "介词to表方向": {
+  "name": "介词 to 表方向",
+  "descs": [
+   "go to the library",
+   "to school、to get to school",
+   "to the lake、to a beach"
+  ],
+  "exs": []
+ },
+ "代词it指代前面提到的物（Aboat…Itfloats…）": {
+  "name": "代词 it 指代前面提到的物（A boat … It floats …）",
+  "descs": [],
+  "exs": []
+ },
+ "介词on与in表位置": {
+  "name": "介词 on 与 in 表位置",
+  "descs": [
+   "on the water、in the sky"
+  ],
+  "exs": []
+ },
+ "祈使句Look!": {
+  "name": "祈使句 Look!",
+  "descs": [
+   "动词原形开头，提醒别人注意"
+  ],
+  "exs": []
+ },
+ "介词短语downfromthesky表方向": {
+  "name": "介词短语 down from the sky 表方向",
+  "descs": [],
+  "exs": []
+ },
+ "不定冠词a与an": {
+  "name": "不定冠词 a 与 an",
+  "descs": [
+   "a lion、an eagle、an ambulance"
+  ],
+  "exs": []
+ },
+ "代词it指代动物或交通工具": {
+  "name": "代词 it 指代动物或交通工具",
+  "descs": [],
+  "exs": []
+ },
+ "副词fast修饰动词，放在动词后面": {
+  "name": "副词 fast 修饰动词，放在动词后面",
+  "descs": [],
+  "exs": []
+ },
+ "very修饰副词": {
+  "name": "very 修饰副词",
+  "descs": [
+   "very fast"
+  ],
+  "exs": []
+ },
+ "可数名词单数前要加冠词": {
+  "name": "可数名词单数前要加冠词",
+  "descs": [
+   "a muffin；orange 前用 an",
+   "a plane、an ostrich"
+  ],
+  "exs": [
+   "an orange"
+  ]
+ },
+ "复数主语+are": {
+  "name": "复数主语 + are",
+  "descs": [
+   "They are flying.",
+   "表判断"
+  ],
+  "exs": [
+   "Cranes are big machines."
+  ]
+ },
+ "单数主语+is": {
+  "name": "单数主语 + is",
+  "descs": [
+   "It is flying very high!"
+  ],
+  "exs": []
+ },
+ "祈使句Lookat…": {
+  "name": "祈使句 Look at …",
+  "descs": [
+   "动词原形开头"
+  ],
+  "exs": []
+ },
+ "allthe+复数名词": {
+  "name": "all the + 复数名词",
+  "descs": [
+   "all the flags、all the kites"
+  ],
+  "exs": []
+ },
+ "副词very修饰high，加强程度": {
+  "name": "副词 very 修饰 high，加强程度",
+  "descs": [],
+  "exs": []
+ },
+ "第一人称复数we+动词原形see": {
+  "name": "第一人称复数 we + 动词原形 see",
+  "descs": [],
+  "exs": []
+ },
+ "a的用法": {
+  "name": "a 的用法",
+  "descs": [
+   "a big snail、a hose"
+  ],
+  "exs": [
+   "辅音音素开头用 a"
+  ]
+ },
+ "动词加ing表正在进行的动作": {
+  "name": "动词加 ing 表正在进行的动作",
+  "descs": [
+   "growing、flying、crawling"
+  ],
+  "exs": []
+ },
+ "双写末尾辅音再加ing": {
+  "name": "双写末尾辅音再加 ing",
+  "descs": [
+   "buzz 变 buzzing、dig 变 digging"
+  ],
+  "exs": []
+ },
+ "be动词复数用are": {
+  "name": "be 动词复数用 are",
+  "descs": [
+   "Oranges are round."
+  ],
+  "exs": []
+ },
+ "be动词单数用is": {
+  "name": "be 动词单数用 is",
+  "descs": [
+   "The world is round."
+  ],
+  "exs": []
+ },
+ "like表比喻“像……一样”": {
+  "name": "like 表比喻“像……一样”",
+  "descs": [
+   "like a bird",
+   "round like the sun"
+  ],
+  "exs": []
+ },
+ "定冠词the+独一无二的事物": {
+  "name": "定冠词 the + 独一无二的事物",
+  "descs": [
+   "the sun、the world"
+  ],
+  "exs": []
+ },
+ "复数主语+动词原形": {
+  "name": "复数主语 + 动词原形",
+  "descs": [
+   "They taste good."
+  ],
+  "exs": []
+ },
+ "人称代词主格作主语": {
+  "name": "人称代词主格作主语",
+  "descs": [
+   "I、we、they、it"
+  ],
+  "exs": []
+ },
+ "was是is的过去式": {
+  "name": "was 是 is 的过去式",
+  "descs": [
+   "It was like a bird."
+  ],
+  "exs": []
+ },
+ "a与an的用法": {
+  "name": "a 与 an 的用法",
+  "descs": [
+   "a banana、an orange、an apple",
+   "a beak、an ostrich",
+   "a glacier、an iceberg、an igloo"
+  ],
+  "exs": []
+ },
+ "have表“有”": {
+  "name": "have 表“有”",
+  "descs": [
+   "I have a banana.",
+   "I have a big apple."
+  ],
+  "exs": []
+ },
+ "can表允许": {
+  "name": "can 表允许",
+  "descs": [
+   "You can have half of my pie."
+  ],
+  "exs": []
+ },
+ "a+形容词+单数名词": {
+  "name": "a + 形容词 + 单数名词",
+  "descs": [
+   "a big pie"
+  ],
+  "exs": []
+ },
+ "halfof+名词": {
+  "name": "half of + 名词",
+  "descs": [
+   "half of my banana"
+  ],
+  "exs": []
+ },
+ "人称代词主格I与you作主语": {
+  "name": "人称代词主格 I 与 you 作主语",
+  "descs": [],
+  "exs": []
+ },
+ "will+动词原形": {
+  "name": "will + 动词原形",
+  "descs": [
+   "表将来",
+   "表将要做"
+  ],
+  "exs": [
+   "I will paint a snowman.",
+   "I will scratch your back.",
+   "You will fall off."
+  ]
+ },
+ "with表“用（材料）”": {
+  "name": "with 表“用（材料）”",
+  "descs": [
+   "with white paint"
+  ],
+  "exs": []
+ },
+ "颜色词作定语": {
+  "name": "颜色词作定语",
+  "descs": [
+   "white paint、green paint、red paint"
+  ],
+  "exs": []
+ },
+ "a与the的区别": {
+  "name": "a 与 the 的区别",
+  "descs": [
+   "a snowman 泛指，the sea 特指"
+  ],
+  "exs": []
+ },
+ "第一人称I作主语，动词用原形": {
+  "name": "第一人称 I 作主语，动词用原形",
+  "descs": [],
+  "exs": []
+ },
+ "可数名词单数前加冠词": {
+  "name": "可数名词单数前加冠词",
+  "descs": [
+   "a forest、a butterfly"
+  ],
+  "exs": []
+ },
+ "介词in与for": {
+  "name": "介词 in 与 for",
+  "descs": [
+   "in my lunchbox、for lunch"
+  ],
+  "exs": []
+ },
+ "可数与不可数名词": {
+  "name": "可数与不可数名词",
+  "descs": [
+   "banana 可数，cheese 不可数",
+   "paper、milk、glass、water 不可数；bricks、tyres 可数"
+  ],
+  "exs": []
+ },
+ "be动词is+名词": {
+  "name": "be 动词 is + 名词",
+  "descs": [
+   "It is a river. 说明是什么"
+  ],
+  "exs": []
+ },
+ "介词of表材料": {
+  "name": "介词 of 表材料",
+  "descs": [
+   "made of ice"
+  ],
+  "exs": [
+   "由冰做成"
+  ]
+ },
+ "can后接动词原形": {
+  "name": "can 后接动词原形",
+  "descs": [
+   "I can see a yo-yo.",
+   "We can see one sun."
+  ],
+  "exs": []
+ },
+ "can引导的一般疑问句": {
+  "name": "can 引导的一般疑问句",
+  "descs": [
+   "Can the kangaroo cross over the river? 回答 Yes, I will.",
+   "Can you see clouds? 回答 Yes, I can.",
+   "Can you whistle? 回答 Yes, I can. / No, I can't."
+  ],
+  "exs": []
+ },
+ "some修饰可数名词复数": {
+  "name": "some 修饰可数名词复数",
+  "descs": [
+   "some birds、some planes",
+   "some people"
+  ],
+  "exs": []
+ },
+ "介词短语作时间状语": {
+  "name": "介词短语作时间状语",
+  "descs": [
+   "at night"
+  ],
+  "exs": []
+ },
+ "定冠词the的固定搭配": {
+  "name": "定冠词 the 的固定搭配",
+  "descs": [
+   "in the sky、at night"
+  ],
+  "exs": []
+ },
+ "数词one修饰单数名词": {
+  "name": "数词 one 修饰单数名词",
+  "descs": [
+   "one moon、one rainbow"
+  ],
+  "exs": []
+ },
+ "一般现在时三单": {
+  "name": "一般现在时三单",
+  "descs": [
+   "Who sleeps…? 动词加 -s",
+   "主语为单数第三人称，动词用 has",
+   "主语是第三人称单数，动词加 -s"
+  ],
+  "exs": [
+   "The vet helps me."
+  ]
+ },
+ "helpsbwithsth结构": {
+  "name": "help sb with sth 结构",
+  "descs": [
+   "with 后接名词，说明帮助的方面"
+  ],
+  "exs": []
+ },
+ "介词at表地点": {
+  "name": "介词 at 表地点",
+  "descs": [
+   "at the hospital、at my school"
+  ],
+  "exs": []
+ },
+ "介词on表地点": {
+  "name": "介词 on 表地点",
+  "descs": [
+   "on the bus"
+  ],
+  "exs": []
+ },
+ "特殊疑问词Who引导的疑问句": {
+  "name": "特殊疑问词 Who 引导的疑问句",
+  "descs": [
+   "Who helps me?"
+  ],
+  "exs": []
+ },
+ "help后接动词原形": {
+  "name": "help 后接动词原形",
+  "descs": [
+   "helps me see where to go"
+  ],
+  "exs": []
+ },
+ "have/has表拥有": {
+  "name": "have / has 表拥有",
+  "descs": [
+   "A fireman has a hat.",
+   "主语为三单用 has",
+   "主语为第三人称单数时用 has"
+  ],
+  "exs": [
+   "A whale has a big tail.",
+   "She has a dancing dress."
+  ]
+ },
+ "形容词重复表强调": {
+  "name": "形容词重复表强调",
+  "descs": [
+   "a long long tail"
+  ],
+  "exs": []
+ },
+ "介词短语likethis作方式状语": {
+  "name": "介词短语 like this 作方式状语",
+  "descs": [
+   "像这样"
+  ],
+  "exs": []
+ },
+ "可数名词单数前用a": {
+  "name": "可数名词单数前用 a",
+  "descs": [
+   "a tail、a pig"
+  ],
+  "exs": []
+ },
+ "Whose引导的特殊疑问句": {
+  "name": "Whose 引导的特殊疑问句",
+  "descs": [
+   "Whose tail is this?"
+  ],
+  "exs": []
+ },
+ "liketodo与likedoing": {
+  "name": "like to do 与 like doing",
+  "descs": [
+   "两种表示喜欢的方式",
+   "都表示爱好，意思基本相同"
+  ],
+  "exs": [
+   "Do you like to play...? / Do you like playing...?"
+  ]
+ },
+ "一般现在时表客观情况": {
+  "name": "一般现在时表客观情况",
+  "descs": [
+   "Some people like to collect."
+  ],
+  "exs": []
+ },
+ "alotof+可数名词复数": {
+  "name": "a lot of + 可数名词复数",
+  "descs": [
+   "a lot of shells、a lot of coins"
+  ],
+  "exs": []
+ },
+ "动词-ing形式的变化": {
+  "name": "动词 -ing 形式的变化",
+  "descs": [
+   "collect → collecting"
+  ],
+  "exs": [
+   "直接加 -ing"
+  ]
+ },
+ "名词作定语": {
+  "name": "名词作定语",
+  "descs": [
+   "baby chickens",
+   "dancing shoes",
+   "model trains"
+  ],
+  "exs": [
+   "model 修饰 trains",
+   "复数加在中心词 chickens 上",
+   "舞鞋"
+  ]
+ },
+ "一般现在时复数": {
+  "name": "一般现在时复数",
+  "descs": [
+   "主语 Some kinds… 为复数，be 动词用 are"
+  ],
+  "exs": []
+ },
+ "介词短语inbigdanger作表语，表状态": {
+  "name": "介词短语 in big danger 作表语，表状态",
+  "descs": [],
+  "exs": []
+ },
+ "of短语作后置定语": {
+  "name": "of 短语作后置定语",
+  "descs": [
+   "some kinds of tigers"
+  ],
+  "exs": []
+ },
+ "be动词与主语一致": {
+  "name": "be 动词与主语一致",
+  "descs": [
+   "is / are",
+   "单数用 is，复数用 are",
+   "复数主语用 are"
+  ],
+  "exs": [
+   "Is he very old? Are your friends…?"
+  ]
+ },
+ "介词短语likethisone作定语，放在名词后": {
+  "name": "介词短语 like this one 作定语，放在名词后",
+  "descs": [],
+  "exs": []
+ },
+ "指示代词thisone的用法": {
+  "name": "指示代词 this one 的用法",
+  "descs": [
+   "指代前面提到的单数事物"
+  ],
+  "exs": []
+ },
+ "but连接两个并列分句，表转折对比": {
+  "name": "but 连接两个并列分句，表转折对比",
+  "descs": [],
+  "exs": []
+ },
+ "不可数名词不加冠词": {
+  "name": "不可数名词不加冠词",
+  "descs": [
+   "smoke is light"
+  ],
+  "exs": []
+ },
+ "be动词一般现在时": {
+  "name": "be 动词一般现在时",
+  "descs": [
+   "单数主语用 is"
+  ],
+  "exs": []
+ },
+ "can+动词原形，表能力": {
+  "name": "can + 动词原形，表能力",
+  "descs": [
+   "A frog can jump high.",
+   "Animals can pull things."
+  ],
+  "exs": []
+ },
+ "副词比较级规则变化": {
+  "name": "副词比较级规则变化",
+  "descs": [
+   "high → higher、fast → faster"
+  ],
+  "exs": [
+   "加 -er"
+  ]
+ },
+ "副词最高级": {
+  "name": "副词最高级",
+  "descs": [
+   "the highest、the fastest"
+  ],
+  "exs": [
+   "加 -est，前面加 the"
+  ]
+ },
+ "副词修饰动词，位置在动词后": {
+  "name": "副词修饰动词，位置在动词后",
+  "descs": [
+   "jump high、run fast、dive deep"
+  ],
+  "exs": []
+ },
+ "主语为第三人称单数时can不变形": {
+  "name": "主语为第三人称单数时 can 不变形",
+  "descs": [
+   "A kangaroo can jump."
+  ],
+  "exs": []
+ },
+ "形容词与副词同形的词": {
+  "name": "形容词与副词同形的词",
+  "descs": [
+   "high、fast、deep"
+  ],
+  "exs": []
+ },
+ "比较范围": {
+  "name": "比较范围",
+  "descs": [
+   "两者用比较级，三者及以上用最高级"
+  ],
+  "exs": []
+ },
+ "apairof+复数名词": {
+  "name": "a pair of + 复数名词",
+  "descs": [
+   "表「一双、一对」，作主语时谓语用单数"
+  ],
+  "exs": []
+ },
+ "介词with表伴随": {
+  "name": "介词 with 表伴随",
+  "descs": [
+   "with a pair of socks"
+  ],
+  "exs": [
+   "穿着……"
+  ]
+ },
+ "but连接两个并列分句，表对比转折": {
+  "name": "but 连接两个并列分句，表对比转折",
+  "descs": [],
+  "exs": []
+ },
+ "介词for表含义、用途": {
+  "name": "介词 for 表含义、用途",
+  "descs": [
+   "Green is for GO."
+  ],
+  "exs": []
+ },
+ "Who引导的特殊疑问句": {
+  "name": "Who 引导的特殊疑问句",
+  "descs": [
+   "Who sleeps in the water?"
+  ],
+  "exs": []
+ },
+ "介词in/on表地点": {
+  "name": "介词 in / on 表地点",
+  "descs": [
+   "in the trees、on the ice"
+  ],
+  "exs": []
+ },
+ "do替代前面的动词": {
+  "name": "do 替代前面的动词",
+  "descs": [
+   "Birds and squirrels do."
+  ],
+  "exs": []
+ },
+ "and连接并列主语": {
+  "name": "and 连接并列主语",
+  "descs": [
+   "Bats and bears"
+  ],
+  "exs": []
+ },
+ "定冠词the与不定冠词a的区别": {
+  "name": "定冠词 the 与不定冠词 a 的区别",
+  "descs": [
+   "in the trees 与 in a cave"
+  ],
+  "exs": []
+ },
+ "一般将来时will+动词原形": {
+  "name": "一般将来时 will + 动词原形",
+  "descs": [
+   "What will come out?"
+  ],
+  "exs": []
+ },
+ "介词短语outof表来源": {
+  "name": "介词短语 out of 表来源",
+  "descs": [
+   "come out of these eggs"
+  ],
+  "exs": []
+ },
+ "比较级+than": {
+  "name": "比较级 + than",
+  "descs": [
+   "faster than you、higher than you"
+  ],
+  "exs": []
+ },
+ "too放在句末表「也」，前面加逗号": {
+  "name": "too 放在句末表「也」，前面加逗号",
+  "descs": [],
+  "exs": []
+ },
+ "and连接两个并列动词": {
+  "name": "and 连接两个并列动词",
+  "descs": [
+   "jump and hop、swim and dive"
+  ],
+  "exs": []
+ },
+ "介词over表「越过」": {
+  "name": "介词 over 表「越过」",
+  "descs": [
+   "jump over this log"
+  ],
+  "exs": []
+ },
+ "引出说话人": {
+  "name": "引出说话人",
+  "descs": [
+   "said + 人名，常放在引语之后"
+  ],
+  "exs": []
+ },
+ "一般现在时表能力与习惯": {
+  "name": "一般现在时表能力与习惯",
+  "descs": [
+   "I can swing."
+  ],
+  "exs": []
+ },
+ "一般将来时will+动词原形，表将要发生": {
+  "name": "一般将来时 will + 动词原形，表将要发生",
+  "descs": [],
+  "exs": []
+ },
+ "介词with表「和……混合」": {
+  "name": "介词 with 表「和……混合」",
+  "descs": [
+   "mix blue with yellow"
+  ],
+  "exs": []
+ },
+ "some修饰颜色名词（不可数）": {
+  "name": "some 修饰颜色名词（不可数）",
+  "descs": [
+   "some blue、some yellow"
+  ],
+  "exs": []
+ },
+ "颜色词用作名词，作mix、paint的宾语": {
+  "name": "颜色词用作名词，作 mix、paint 的宾语",
+  "descs": [
+   "mix some red"
+  ],
+  "exs": []
+ },
+ "can't是cannot的缩写": {
+  "name": "can't 是 cannot 的缩写",
+  "descs": [
+   "you can't cross over"
+  ],
+  "exs": []
+ },
+ "will+动词原形表将来": {
+  "name": "will + 动词原形表将来",
+  "descs": [
+   "I will hop over.",
+   "New plants will grow."
+  ],
+  "exs": []
+ },
+ "主语变化不影响will": {
+  "name": "主语变化不影响 will",
+  "descs": [
+   "I will hop over、you will fly over"
+  ],
+  "exs": []
+ },
+ "介词over表越过、到对面": {
+  "name": "介词 over 表越过、到对面",
+  "descs": [
+   "cross over、hop over、fly over"
+  ],
+  "exs": []
+ },
+ "定冠词the特指": {
+  "name": "定冠词 the 特指",
+  "descs": [
+   "the lake、the sea",
+   "the river、the kangaroo",
+   "the wind、the sun"
+  ],
+  "exs": []
+ },
+ "名词单数前用the": {
+  "name": "名词单数前用 the",
+  "descs": [
+   "the turtle、the duck"
+  ],
+  "exs": []
+ },
+ "直接引语用引号，said引出说话人": {
+  "name": "直接引语用引号，said 引出说话人",
+  "descs": [],
+  "exs": []
+ },
+ "特殊疑问句Whatdoyousee?借助do提问": {
+  "name": "特殊疑问句 What do you see? 借助 do 提问",
+  "descs": [],
+  "exs": []
+ },
+ "Whatcanyousee?把can提到主语前": {
+  "name": "What can you see? 把 can 提到主语前",
+  "descs": [],
+  "exs": []
+ },
+ "some修饰可数名词复数和不可数名词": {
+  "name": "some 修饰可数名词复数和不可数名词",
+  "descs": [
+   "some keys、some money"
+  ],
+  "exs": []
+ },
+ "a修饰单数可数名词": {
+  "name": "a 修饰单数可数名词",
+  "descs": [
+   "a whistle、a yo-yo"
+  ],
+  "exs": []
+ },
+ "主语he、she、they变化时动词过去式不变": {
+  "name": "主语 he、she、they 变化时动词过去式不变",
+  "descs": [
+   "He blew up…、They blew up…"
+  ],
+  "exs": []
+ },
+ "人称代词he与she分别指男孩和女孩": {
+  "name": "人称代词 he 与 she 分别指男孩和女孩",
+  "descs": [],
+  "exs": []
+ },
+ "数词+名词复数": {
+  "name": "数词 + 名词复数",
+  "descs": [
+   "two balloons、three balloons"
+  ],
+  "exs": []
+ },
+ "形容词作定语放名词前": {
+  "name": "形容词作定语放名词前",
+  "descs": [
+   "red balloon、white balloons"
+  ],
+  "exs": []
+ },
+ "toomany+可数名词复数": {
+  "name": "too many + 可数名词复数",
+  "descs": [
+   "too many balloons",
+   "too many nuts"
+  ],
+  "exs": []
+ },
+ "不定冠词one表数量": {
+  "name": "不定冠词 one 表数量",
+  "descs": [
+   "one balloon"
+  ],
+  "exs": []
+ },
+ "感叹号表强烈语气": {
+  "name": "感叹号表强烈语气",
+  "descs": [
+   "Help!",
+   "The forest was on fire!"
+  ],
+  "exs": []
+ },
+ "拟声词单独成句": {
+  "name": "拟声词单独成句",
+  "descs": [
+   "Puff!"
+  ],
+  "exs": []
+ },
+ "What's是Whatis的缩写": {
+  "name": "What's 是 What is 的缩写",
+  "descs": [
+   "What's that?"
+  ],
+  "exs": []
+ },
+ "That's是Thatis的缩写": {
+  "name": "That's 是 That is 的缩写",
+  "descs": [
+   "That's snow."
+  ],
+  "exs": []
+ },
+ "be动词is与单数主语that搭配": {
+  "name": "be 动词 is 与单数主语 that 搭配",
+  "descs": [],
+  "exs": []
+ },
+ "指示代词that指较远的事物": {
+  "name": "指示代词 that 指较远的事物",
+  "descs": [],
+  "exs": []
+ },
+ "不可数名词作表语不加a": {
+  "name": "不可数名词作表语不加 a",
+  "descs": [
+   "That's snow、That's mud"
+  ],
+  "exs": []
+ },
+ "动词-ing表正在进行的动作": {
+  "name": "动词-ing 表正在进行的动作",
+  "descs": [
+   "the wind blowing、the sun shining"
+  ],
+  "exs": []
+ },
+ "said是say的过去式，用于引出说话人": {
+  "name": "said 是 say 的过去式，用于引出说话人",
+  "descs": [],
+  "exs": []
+ },
+ "forgetto+动词原形": {
+  "name": "forget to + 动词原形",
+  "descs": [
+   "We forgot to take our lunch."
+  ],
+  "exs": []
+ },
+ "get+形容词表变化": {
+  "name": "get + 形容词表变化",
+  "descs": [
+   "got hungry、got cold、got wet"
+  ],
+  "exs": []
+ },
+ "时间状语On+星期": {
+  "name": "时间状语 On + 星期",
+  "descs": [
+   "On Monday、On Tuesday"
+  ],
+  "exs": []
+ },
+ "介词on用于具体某一天": {
+  "name": "介词 on 用于具体某一天",
+  "descs": [],
+  "exs": []
+ },
+ "时间副词Today放句首": {
+  "name": "时间副词 Today 放句首",
+  "descs": [
+   "Today we went out."
+  ],
+  "exs": []
+ },
+ "be动词过去式": {
+  "name": "be 动词过去式",
+  "descs": [
+   "are 变 were",
+   "is 变 was",
+   "单数用 was，复数用 were"
+  ],
+  "exs": [
+   "She was not frightened.",
+   "They were not happy."
+  ]
+ },
+ "过去进行时was/were+动词-ing": {
+  "name": "过去进行时 was/were + 动词-ing",
+  "descs": [
+   "were flying"
+  ],
+  "exs": []
+ },
+ "以y结尾的名词变复数": {
+  "name": "以 y 结尾的名词变复数",
+  "descs": [
+   "butterfly→butterflies"
+  ],
+  "exs": []
+ },
+ "副词比较级": {
+  "name": "副词比较级",
+  "descs": [
+   "fast→faster，表“更快”"
+  ],
+  "exs": []
+ },
+ "介词短语onfire表状态": {
+  "name": "介词短语 on fire 表状态",
+  "descs": [],
+  "exs": []
+ },
+ "定冠词the表类别": {
+  "name": "定冠词 the 表类别",
+  "descs": [
+   "the butterflies、the birds"
+  ],
+  "exs": []
+ },
+ "形容词性物主代词her、his、my": {
+  "name": "形容词性物主代词 her、his、my",
+  "descs": [
+   "her back、his shoulders"
+  ],
+  "exs": []
+ },
+ "介词短语表位置": {
+  "name": "介词短语表位置",
+  "descs": [
+   "on her back、in her pouch、in her arms",
+   "under、in"
+  ],
+  "exs": [
+   "under its wing、in its shell"
+  ]
+ },
+ "动词carry的搭配": {
+  "name": "动词 carry 的搭配",
+  "descs": [
+   "carry sb on / in + 名词"
+  ],
+  "exs": []
+ },
+ "too放句末表也": {
+  "name": "too 放句末表也",
+  "descs": [],
+  "exs": []
+ },
+ "介词on与in的区别": {
+  "name": "介词 on 与 in 的区别",
+  "descs": [
+   "on 表接触表面，in 表在内部"
+  ],
+  "exs": []
+ },
+ "主语mymother、myfather为单数，动词加-s": {
+  "name": "主语 my mother、my father 为单数，动词加 -s",
+  "descs": [],
+  "exs": []
+ },
+ "go+动词-ing": {
+  "name": "go + 动词-ing",
+  "descs": [
+   "went sailing，表去做某事"
+  ],
+  "exs": []
+ },
+ "介词into表进入": {
+  "name": "介词 into 表进入",
+  "descs": [
+   "went into a stream"
+  ],
+  "exs": []
+ },
+ "介词on表在……上面": {
+  "name": "介词 on 表在……上面",
+  "descs": [
+   "on the lake、on the sea"
+  ],
+  "exs": []
+ },
+ "名词的层次递进": {
+  "name": "名词的层次递进",
+  "descs": [
+   "stream→river→sea"
+  ],
+  "exs": []
+ },
+ "介词短语作地点状语放句首": {
+  "name": "介词短语作地点状语放句首",
+  "descs": [
+   "At the zoo"
+  ],
+  "exs": []
+ },
+ "Then表顺序的副词放句首": {
+  "name": "Then 表顺序的副词放句首",
+  "descs": [],
+  "exs": []
+ },
+ "can的否定形式can't": {
+  "name": "can 的否定形式 can't",
+  "descs": [
+   "I can't whistle."
+  ],
+  "exs": []
+ },
+ "一般现在时第一人称": {
+  "name": "一般现在时第一人称",
+  "descs": [
+   "I see / I have",
+   "I whistle at the cars."
+  ],
+  "exs": [
+   "动词用原形",
+   "表示看到、拥有"
+  ]
+ },
+ "介词at表对象": {
+  "name": "介词 at 表对象",
+  "descs": [
+   "whistle at the cars"
+  ],
+  "exs": []
+ },
+ "介词to表对象": {
+  "name": "介词 to 表对象",
+  "descs": [
+   "whistle to the players"
+  ],
+  "exs": []
+ },
+ "介词in表地点": {
+  "name": "介词 in 表地点",
+  "descs": [
+   "in the sea、in the river",
+   "in the trees、in the kitchen"
+  ],
+  "exs": []
+ },
+ "like作介词表像": {
+  "name": "like 作介词表像",
+  "descs": [
+   "like me、like this"
+  ],
+  "exs": []
+ },
+ "规则动词过去式加-ed": {
+  "name": "规则动词过去式加 -ed",
+  "descs": [
+   "follow→followed"
+  ],
+  "exs": []
+ },
+ "方位介词": {
+  "name": "方位介词",
+  "descs": [
+   "on this hill、in the water、down here",
+   "out、down、along、through、over、around、behind"
+  ],
+  "exs": []
+ },
+ "介词短语作状语放句末": {
+  "name": "介词短语作状语放句末",
+  "descs": [
+   "down the steps、through the gate"
+  ],
+  "exs": []
+ },
+ "主语thestring为单数，动词用went": {
+  "name": "主语 the string 为单数，动词用 went",
+  "descs": [],
+  "exs": []
+ },
+ "人称代词it指代前文的thestring": {
+  "name": "人称代词 it 指代前文的 the string",
+  "descs": [],
+  "exs": []
+ },
+ "感叹句省略主谓语": {
+  "name": "感叹句省略主谓语",
+  "descs": [
+   "Happy birthday!"
+  ],
+  "exs": []
+ },
+ "动词follow的搭配": {
+  "name": "动词 follow 的搭配",
+  "descs": [
+   "follow sb / sth"
+  ],
+  "exs": [
+   "跟着某人或某物"
+  ]
+ },
+ "专有名词首字母大写": {
+  "name": "专有名词首字母大写",
+  "descs": [
+   "Grace"
+  ],
+  "exs": []
+ },
+ "havegot表有": {
+  "name": "have got 表有",
+  "descs": [
+   "What have you got?"
+  ],
+  "exs": []
+ },
+ "havegot的疑问句把have提到主语前": {
+  "name": "have got 的疑问句把 have 提到主语前",
+  "descs": [
+   "What have you got?"
+  ],
+  "exs": []
+ },
+ "clothes只有复数形式": {
+  "name": "clothes 只有复数形式",
+  "descs": [],
+  "exs": []
+ },
+ "省略回答": {
+  "name": "省略回答",
+  "descs": [
+   "用名词短语代替完整句子"
+  ],
+  "exs": [
+   "My head."
+  ]
+ },
+ "with表以……开头": {
+  "name": "with 表以……开头",
+  "descs": [
+   "begins with h"
+  ],
+  "exs": []
+ },
+ "选择疑问句": {
+  "name": "选择疑问句",
+  "descs": [
+   "Is that A or B? 用 or 连接两个选项"
+  ],
+  "exs": []
+ },
+ "It's是Itis的缩写": {
+  "name": "It's 是 It is 的缩写",
+  "descs": [
+   "It's a whale."
+  ],
+  "exs": []
+ },
+ "be动词is与单数主语搭配": {
+  "name": "be 动词 is 与单数主语搭配",
+  "descs": [
+   "Is that…? It is…"
+  ],
+  "exs": []
+ },
+ "祈使句以动词原形开头": {
+  "name": "祈使句以动词原形开头",
+  "descs": [
+   "Look in the sea."
+  ],
+  "exs": []
+ },
+ "定冠词the与地点名词搭配": {
+  "name": "定冠词 the 与地点名词搭配",
+  "descs": [
+   "the zoo、the garden"
+  ],
+  "exs": []
+ },
+ "a、an+单数可数名词": {
+  "name": "a、an + 单数可数名词",
+  "descs": [
+   "a whale、a donkey"
+  ],
+  "exs": []
+ },
+ "have、has表拥有": {
+  "name": "have、has 表拥有",
+  "descs": [
+   "Our dad has short hair."
+  ],
+  "exs": []
+ },
+ "havegot、hasgot表有": {
+  "name": "have got、has got 表有",
+  "descs": [
+   "She has got curly hair."
+  ],
+  "exs": []
+ },
+ "havegot的否定": {
+  "name": "have got 的否定",
+  "descs": [
+   "has not got"
+  ],
+  "exs": []
+ },
+ "haveno+名词表没有": {
+  "name": "have no + 名词表没有",
+  "descs": [
+   "He has no hair."
+  ],
+  "exs": []
+ },
+ "名词所有格": {
+  "name": "名词所有格",
+  "descs": [
+   "'s 表「某人的」",
+   "'s 表所属",
+   "mother's hair、twins' hair"
+  ],
+  "exs": [
+   "Elephant's back",
+   "Grandad's home、Elephant's back",
+   "复数名词只加 '"
+  ]
+ },
+ "hair作不可数名词，一般不加-s": {
+  "name": "hair 作不可数名词，一般不加 -s",
+  "descs": [],
+  "exs": []
+ },
+ "介词about表「关于」": {
+  "name": "介词 about 表「关于」",
+  "descs": [
+   "books about sports"
+  ],
+  "exs": []
+ },
+ "人称代词与物主代词": {
+  "name": "人称代词与物主代词",
+  "descs": [
+   "She、He、My",
+   "it、its、their"
+  ],
+  "exs": [
+   "My father likes to play sports.",
+   "They took its picture."
+  ]
+ },
+ "Therebe句型": {
+  "name": "There be 句型",
+  "descs": [
+   "There is + 单数，There are + 复数",
+   "There is a big light at the top.",
+   "表示某地有某物"
+  ],
+  "exs": [
+   "There are deserts in very hot places.",
+   "There is a scooter."
+  ]
+ },
+ "be动词否定": {
+  "name": "be 动词否定",
+  "descs": [
+   "aren't / isn't",
+   "is not / are not"
+  ],
+  "exs": [
+   "It's not Grandad's skateboard.",
+   "They aren't birds."
+  ]
+ },
+ "一般疑问句Isthis…?用Yes/No回答（IsthisoneGrandad'shome?）": {
+  "name": "一般疑问句 Is this…? 用 Yes / No 回答（Is this one Grandad's home?）",
+  "descs": [],
+  "exs": []
+ },
+ "can't+动词原形": {
+  "name": "can't + 动词原形",
+  "descs": [
+   "表不能",
+   "表没有能力",
+   "表能力否定"
+  ],
+  "exs": [
+   "Grandad can't play baseball.",
+   "They can't fly.",
+   "You can't swim with your tail."
+  ]
+ },
+ "likedoing": {
+  "name": "like doing",
+  "descs": [
+   "like + 动词 ing，表爱好"
+  ],
+  "exs": [
+   "Grandad likes fishing."
+  ]
+ },
+ "be动词单复数": {
+  "name": "be 动词单复数",
+  "descs": [
+   "was / were"
+  ],
+  "exs": [
+   "All the animals were hot."
+  ]
+ },
+ "形容词并列": {
+  "name": "形容词并列",
+  "descs": [
+   "hot and itchy",
+   "hungry and thirsty"
+  ],
+  "exs": [
+   "用 and 连接两个形容词"
+  ]
+ },
+ "looklike": {
+  "name": "look like",
+  "descs": [
+   "表「看起来像」"
+  ],
+  "exs": [
+   "It looks like a cow."
+  ]
+ },
+ "have/has表拥有（Ithasblackandyellowstripes.）": {
+  "name": "have/has 表拥有（It has black and yellow stripes.）",
+  "descs": [],
+  "exs": []
+ },
+ "be+颜色+with": {
+  "name": "be + 颜色 + with",
+  "descs": [
+   "描述外形"
+  ],
+  "exs": [
+   "It is red with black spots."
+  ]
+ },
+ "缩写It's=Itis（It'saturtle!）": {
+  "name": "缩写 It's = It is（It's a turtle!）",
+  "descs": [],
+  "exs": []
+ },
+ "Whereis…?询问位置（Whereisthatbird'shead?）": {
+  "name": "Where is…? 询问位置（Where is that bird's head?）",
+  "descs": [],
+  "exs": []
+ },
+ "形容词性物主代词": {
+  "name": "形容词性物主代词",
+  "descs": [
+   "its / his",
+   "my、her、his、our",
+   "your、its"
+  ],
+  "exs": [
+   "Its head is under its wing.",
+   "its head"
+  ]
+ },
+ "be动词+介词短语": {
+  "name": "be 动词 + 介词短语",
+  "descs": [
+   "描述位置"
+  ],
+  "exs": [
+   "Its head is in its shell."
+  ]
+ },
+ "look+形容词": {
+  "name": "look + 形容词",
+  "descs": [
+   "表「看起来…」",
+   "表看起来怎样"
+  ],
+  "exs": [
+   "That snail looks funny.",
+   "You look hungry."
+  ]
+ },
+ "缩写That's=Thatis（That'safunnybird.）": {
+  "name": "缩写 That's = That is（That's a funny bird.）",
+  "descs": [],
+  "exs": []
+ },
+ "have/has表拥有（Ihaveashadow.Anelephanthasabigshadow.）": {
+  "name": "have/has 表拥有（I have a shadow. An elephant has a big shadow.）",
+  "descs": [],
+  "exs": []
+ },
+ "否定祈使句": {
+  "name": "否定祈使句",
+  "descs": [
+   "Don't + 动词原形"
+  ],
+  "exs": [
+   "Don't get lost.",
+   "Don't go so fast!",
+   "Don't smile."
+  ]
+ },
+ "介词on表交通方式": {
+  "name": "介词 on 表交通方式",
+  "descs": [
+   "on your bike、on your skates"
+  ],
+  "exs": []
+ },
+ "程度副词too/so修饰副词（toofast、sofast）": {
+  "name": "程度副词 too / so 修饰副词（too fast、so fast）",
+  "descs": [],
+  "exs": []
+ },
+ "物主代词your": {
+  "name": "物主代词 your",
+  "descs": [
+   "your bike、your skis"
+  ],
+  "exs": []
+ },
+ "be+名词": {
+  "name": "be + 名词",
+  "descs": [
+   "表判断"
+  ],
+  "exs": [
+   "A volcano is a mountain.",
+   "This house is a log cabin."
+  ]
+ },
+ "be+介词短语": {
+  "name": "be + 介词短语",
+  "descs": [
+   "表位置"
+  ],
+  "exs": [
+   "It is on a mountain."
+  ]
+ },
+ "介词短语表地点": {
+  "name": "介词短语表地点",
+  "descs": [
+   "in a forest、in the desert",
+   "in the grass、in the water、at the zoo",
+   "on farms、on the sea、in the sky"
+  ],
+  "exs": []
+ },
+ "help+动词原形": {
+  "name": "help + 动词原形",
+  "descs": [
+   "表帮忙做某事"
+  ],
+  "exs": [
+   "help make a building"
+  ]
+ },
+ "副词up表方向": {
+  "name": "副词 up 表方向",
+  "descs": [
+   "fly up、lift off"
+  ],
+  "exs": []
+ },
+ "Howold询问年龄（Howoldareyou?）": {
+  "name": "How old 询问年龄（How old are you?）",
+  "descs": [],
+  "exs": []
+ },
+ "When询问时间（Whenisyourbirthday?）": {
+  "name": "When 询问时间（When is your birthday?）",
+  "descs": [],
+  "exs": []
+ },
+ "一般将来时will+动词原形（Howoldwillyoube?）": {
+  "name": "一般将来时 will + 动词原形（How old will you be?）",
+  "descs": [],
+  "exs": []
+ },
+ "形容词比较级+than": {
+  "name": "形容词比较级 + than",
+  "descs": [
+   "older than、younger than"
+  ],
+  "exs": []
+ },
+ "Do引导的一般疑问句（Doyouhavebrothersandsisters?）": {
+  "name": "Do 引导的一般疑问句（Do you have brothers and sisters?）",
+  "descs": [],
+  "exs": []
+ },
+ "or表选择（olderoryounger）": {
+  "name": "or 表选择（older or younger）",
+  "descs": [],
+  "exs": []
+ },
+ "haveto+动词原形": {
+  "name": "have to + 动词原形",
+  "descs": [
+   "Astronauts have to wear masks.",
+   "We have to wait for the green light.",
+   "表不得不"
+  ],
+  "exs": [
+   "Some children have to ride on a train."
+  ]
+ },
+ "介词表交通方式": {
+  "name": "介词表交通方式",
+  "descs": [
+   "in a car、on a train、on bicycles"
+  ],
+  "exs": []
+ },
+ "with+名词": {
+  "name": "with + 名词",
+  "descs": [
+   "表伴随"
+  ],
+  "exs": [
+   "with their friends"
+  ]
+ },
+ "宾格代词them": {
+  "name": "宾格代词 them",
+  "descs": [
+   "take them to school"
+  ],
+  "exs": []
+ },
+ "asetof": {
+  "name": "a set of",
+  "descs": [
+   "表「一组、一套」"
+  ],
+  "exs": [
+   "a set of big, round shells"
+  ]
+ },
+ "形容词并列作定语": {
+  "name": "形容词并列作定语",
+  "descs": [
+   "big, round shells"
+  ],
+  "exs": [
+   "两个形容词并列"
+  ]
+ },
+ "but连接两个并列分句（Ostricheshavetwowings,buttheycan'tfly.）": {
+  "name": "but 连接两个并列分句（Ostriches have two wings, but they can't fly.）",
+  "descs": [],
+  "exs": []
+ },
+ "介词短语表时间地点": {
+  "name": "介词短语表时间地点",
+  "descs": [
+   "at night、in the dark"
+  ],
+  "exs": []
+ },
+ "with表伴随": {
+  "name": "with 表伴随",
+  "descs": [
+   "with their wings out"
+  ],
+  "exs": [
+   "张开翅膀"
+  ]
+ },
+ "too放句末表「也」（Beeshavefourwings,too.）": {
+  "name": "too 放句末表「也」（Bees have four wings, too.）",
+  "descs": [],
+  "exs": []
+ },
+ "频率副词often": {
+  "name": "频率副词 often",
+  "descs": [
+   "常放句末"
+  ],
+  "exs": [
+   "blow up very often"
+  ]
+ },
+ "三单形式": {
+  "name": "三单形式",
+  "descs": [
+   "go 变 goes、take 变 takes",
+   "主语是第三人称单数时动词加 s"
+  ],
+  "exs": [
+   "A big tanker goes to the farm.",
+   "Fuel makes the bus go."
+  ]
+ },
+ "need+todo": {
+  "name": "need + to do",
+  "descs": [
+   "表示需要做某事"
+  ],
+  "exs": [
+   "It needs wind to make it go."
+  ]
+ },
+ "What引导的特殊疑问句（Whatmakesthecargo?）": {
+  "name": "What 引导的特殊疑问句（What makes the car go?）",
+  "descs": [],
+  "exs": []
+ },
+ "名词复数（含不规则变化）": {
+  "name": "名词复数（含不规则变化）",
+  "descs": [
+   "mice、bats、teeth"
+  ],
+  "exs": [
+   "Hungry mice come out."
+  ]
+ },
+ "介词短语表示时间": {
+  "name": "介词短语表示时间",
+  "descs": [
+   "at / in night"
+  ],
+  "exs": [
+   "They come out at night."
+  ]
+ },
+ "somethingtoeat": {
+  "name": "something to eat",
+  "descs": [
+   "something 后加 to do"
+  ],
+  "exs": [
+   "They look for something to eat."
+  ]
+ },
+ "Who引导的特殊疑问句（Wholivesinthatriver?）": {
+  "name": "Who 引导的特殊疑问句（Who lives in that river?）",
+  "descs": [],
+  "exs": []
+ },
+ "have/has的三单形式（Whohasahomeinthatcave?）": {
+  "name": "have / has 的三单形式（Who has a home in that cave?）",
+  "descs": [],
+  "exs": []
+ },
+ "can/can't": {
+  "name": "can / can't",
+  "descs": [
+   "It can fly. It can't fly.",
+   "表示能或不能"
+  ],
+  "exs": [
+   "I can count... / I can't count...",
+   "Penguins can't fly but can swim."
+  ]
+ },
+ "介词短语表示地点": {
+  "name": "介词短语表示地点",
+  "descs": [
+   "in / on",
+   "in / up",
+   "on / in / to"
+  ],
+  "exs": [
+   "A tiger made that track in the snow.",
+   "Some people ride horses on the plains.",
+   "Squirrels live up in the trees."
+  ]
+ },
+ "and连接并列主语（Swansandfrogsandduckslivethere.）": {
+  "name": "and 连接并列主语（Swans and frogs and ducks live there.）",
+  "descs": [],
+  "exs": []
+ },
+ "动词+todo表示目的（Wegotothesupermarkettogetsomemilk.）": {
+  "name": "动词 + to do 表示目的（We go to the supermarket to get some milk.）",
+  "descs": [],
+  "exs": []
+ },
+ "with短语": {
+  "name": "with 短语",
+  "descs": [
+   "表示使用的工具",
+   "表示带有"
+  ],
+  "exs": [
+   "I have one head with one neck.",
+   "They get milk with a milking machine.",
+   "We dig with our spades."
+  ]
+ },
+ "some的用法": {
+  "name": "some 的用法",
+  "descs": [
+   "some glue、some string",
+   "修饰名词"
+  ],
+  "exs": [
+   "Have you got some marbles?",
+   "Some milk goes into bottles."
+  ]
+ },
+ "begoodat+动词ing（Areyougoodathoppingandcounting?）": {
+  "name": "be good at + 动词ing（Are you good at hopping and counting?）",
+  "descs": [],
+  "exs": []
+ },
+ "Haveyougot...?": {
+  "name": "Have you got...?",
+  "descs": [
+   "询问拥有"
+  ],
+  "exs": [
+   "Have you got some marbles?"
+  ]
+ },
+ "Do引导的一般疑问句及回答（Doyouliketoplaygames?Yes,wedo!）": {
+  "name": "Do 引导的一般疑问句及回答（Do you like to play games? Yes, we do!）",
+  "descs": [],
+  "exs": []
+ },
+ "have表示拥有（Allspidershaveeightlegs.）": {
+  "name": "have 表示拥有（All spiders have eight legs.）",
+  "descs": [],
+  "exs": []
+ },
+ "动词+todo表示目的（Somespidersmakewebstocatchinsects.）": {
+  "name": "动词 + to do 表示目的（Some spiders make webs to catch insects.）",
+  "descs": [],
+  "exs": []
+ },
+ "liketodo表示喜欢（Birdsliketoeatspiders.）": {
+  "name": "like to do 表示喜欢（Birds like to eat spiders.）",
+  "descs": [],
+  "exs": []
+ },
+ "be+形容词": {
+  "name": "be + 形容词",
+  "descs": [
+   "His hand was stuck.",
+   "描述感受",
+   "描述颜色、外形"
+  ],
+  "exs": [
+   "Some spiders are red or black.",
+   "The birds were scared of the balloons."
+  ]
+ },
+ "or表示选择（Somespidersarewhiteorgreenororange.）": {
+  "name": "or 表示选择（Some spiders are white or green or orange.）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词": {
+  "name": "be 动词",
+  "descs": [
+   "is、are",
+   "主语是单数用 is",
+   "描述地方的特点"
+  ],
+  "exs": [
+   "A mountain is a big, high place.",
+   "That's... / Here are...",
+   "The sea is very strong."
+  ]
+ },
+ "have表示拥有（Theyhavetreesandwaterandmud.）": {
+  "name": "have 表示拥有（They have trees and water and mud.）",
+  "descs": [],
+  "exs": []
+ },
+ "liketodo表示喜欢（Somepeopleliketowalkintheforest.）": {
+  "name": "like to do 表示喜欢（Some people like to walk in the forest.）",
+  "descs": [],
+  "exs": []
+ },
+ "数词one/two/ten": {
+  "name": "数词 one / two / ten",
+  "descs": [
+   "与名词搭配"
+  ],
+  "exs": [
+   "I have ten fingers."
+  ]
+ },
+ "介词over/on": {
+  "name": "介词 over / on",
+  "descs": [
+   "表示位置"
+  ],
+  "exs": [
+   "I have two eyebrows over my eyes."
+  ]
+ },
+ "lotsof": {
+  "name": "lots of",
+  "descs": [
+   "表示许多"
+  ],
+  "exs": [
+   "My eyes have lots of eyelashes."
+  ]
+ },
+ "一般将来时": {
+  "name": "一般将来时",
+  "descs": [
+   "will + 动词原形"
+  ],
+  "exs": [
+   "I will be a dancer.",
+   "The storm will have a lot of rain."
+  ]
+ },
+ "when表示“当…的时候”（IwillbeafarmerwhenIambig.）": {
+  "name": "when 表示“当…的时候”（I will be a farmer when I am big.）",
+  "descs": [],
+  "exs": []
+ },
+ "and连接并列动作（Iwillplaythepianoandwritesongs.）": {
+  "name": "and 连接并列动作（I will play the piano and write songs.）",
+  "descs": [],
+  "exs": []
+ },
+ "playthe+乐器": {
+  "name": "play the + 乐器",
+  "descs": [
+   "乐器名词前加 the"
+  ],
+  "exs": [
+   "I will play the piano."
+  ]
+ },
+ "can的用法": {
+  "name": "can 的用法",
+  "descs": [
+   "表示可能",
+   "表示能力"
+  ],
+  "exs": [
+   "Water can go over the roads.",
+   "We can eat honey from a jar.",
+   "We can work faster with tools.",
+   "Which ones can we put together?"
+  ]
+ },
+ "have表示带有（Somestormshavethunderandlightning.）": {
+  "name": "have 表示带有（Some storms have thunder and lightning.）",
+  "descs": [],
+  "exs": []
+ },
+ "动词短语": {
+  "name": "动词短语",
+  "descs": [
+   "go away / take away / put...in",
+   "go for a run / have a race / play games",
+   "put on / put up / go out"
+  ],
+  "exs": [
+   "Children have fun when they go for a run.",
+   "It makes the birds go away.",
+   "They will put on coats and boots."
+  ]
+ },
+ "No+名词": {
+  "name": "No + 名词",
+  "descs": [
+   "表示“没有”",
+   "表示禁止"
+  ],
+  "exs": [
+   "No cars can go on the roads.",
+   "No dogs in the park."
+  ]
+ },
+ "have/hasgot": {
+  "name": "have / has got",
+  "descs": [
+   "表示拥有，常用于询问特征"
+  ],
+  "exs": [
+   "What has this dog got?"
+  ]
+ },
+ "形容词描述特征": {
+  "name": "形容词描述特征",
+  "descs": [
+   "big、little、long、short"
+  ],
+  "exs": [
+   "This big dog has long legs."
+  ]
+ },
+ "very修饰形容词（Itisverybig.）": {
+  "name": "very 修饰形容词（It is very big.）",
+  "descs": [],
+  "exs": []
+ },
+ "Thisis...": {
+  "name": "This is...",
+  "descs": [
+   "介绍事物"
+  ],
+  "exs": [
+   "This is a little dog."
+  ]
+ },
+ "helptodo": {
+  "name": "help to do",
+  "descs": [
+   "帮助做某事"
+  ],
+  "exs": [
+   "The water helps the garden to grow.",
+   "They help to keep it clean."
+  ]
+ },
+ "make+宾语+动词原形（Itmakesthebirdsgoaway.）": {
+  "name": "make + 宾语 + 动词原形（It makes the birds go away.）",
+  "descs": [],
+  "exs": []
+ },
+ "then表示先后顺序（Thenweeatthevegetables.）": {
+  "name": "then 表示先后顺序（Then we eat the vegetables.）",
+  "descs": [],
+  "exs": []
+ },
+ "代词them指代复数名词（Weputtheminawheelbarrow.）": {
+  "name": "代词 them 指代复数名词（We put them in a wheelbarrow.）",
+  "descs": [],
+  "exs": []
+ },
+ "What引导的特殊疑问句（Whatmadethetracksinthesnow?）": {
+  "name": "What 引导的特殊疑问句（What made the tracks in the snow?）",
+  "descs": [],
+  "exs": []
+ },
+ "that的用法": {
+  "name": "that 的用法",
+  "descs": [
+   "指单个的、稍远的事物"
+  ],
+  "exs": [
+   "that track"
+  ]
+ },
+ "when表示“当…的时候”（Childrenhavefunwhentheywalkorrun.）": {
+  "name": "when 表示“当…的时候”（Children have fun when they walk or run.）",
+  "descs": [],
+  "exs": []
+ },
+ "or表示选择（Theycanskiporjumpoverarope.）": {
+  "name": "or 表示选择（They can skip or jump over a rope.）",
+  "descs": [],
+  "exs": []
+ },
+ "have表拥有": {
+  "name": "have 表拥有",
+  "descs": [
+   "主语是复数或 I、you 时用 have"
+  ],
+  "exs": [
+   "Dogs have hair."
+  ]
+ },
+ "people作复数": {
+  "name": "people 作复数",
+  "descs": [
+   "本身表复数，后接 have"
+  ],
+  "exs": [
+   "People have clothes!"
+  ]
+ },
+ "代词they指代前文的复数名词（Theyhavefur.）": {
+  "name": "代词 they 指代前文的复数名词（They have fur.）",
+  "descs": [],
+  "exs": []
+ },
+ "it指代前面提到的物品或自然事物（Itcandigbigholes.）": {
+  "name": "it 指代前面提到的物品或自然事物（It can dig big holes.）",
+  "descs": [],
+  "exs": []
+ },
+ "like表「像…一样」": {
+  "name": "like 表「像…一样」",
+  "descs": [
+   "like a car、like this one"
+  ],
+  "exs": []
+ },
+ "代词they指代前文的explorers": {
+  "name": "代词 they 指代前文的 explorers",
+  "descs": [],
+  "exs": []
+ },
+ "but表转折（Butshewasnotfrightened.）": {
+  "name": "but 表转折（But she was not frightened.）",
+  "descs": [],
+  "exs": []
+ },
+ "人称代词she指代Grace": {
+  "name": "人称代词 she 指代 Grace",
+  "descs": [],
+  "exs": []
+ },
+ "不定冠词": {
+  "name": "不定冠词",
+  "descs": [
+   "a bat、a crab、a bee"
+  ],
+  "exs": []
+ },
+ "一般过去时否定": {
+  "name": "一般过去时否定",
+  "descs": [
+   "didn't + 动词原形"
+  ],
+  "exs": [
+   "He didn't wait."
+  ]
+ },
+ "一般过去时疑问": {
+  "name": "一般过去时疑问",
+  "descs": [
+   "Did + 主语 + 动词原形"
+  ],
+  "exs": [
+   "Did Buddy wait?"
+  ]
+ },
+ "can与can't+动词原形": {
+  "name": "can 与 can't + 动词原形",
+  "descs": [
+   "表能力与不允许"
+  ],
+  "exs": []
+ },
+ "todo表目的": {
+  "name": "to do 表目的",
+  "descs": [
+   "went to the beach to ride"
+  ],
+  "exs": []
+ },
+ "介词onto表「到…上面」（jumpedontothesurfboard）": {
+  "name": "介词 onto 表「到…上面」（jumped onto the surfboard）",
+  "descs": [],
+  "exs": []
+ },
+ "物主代词his": {
+  "name": "物主代词 his",
+  "descs": [
+   "his hands、his smile",
+   "his surfboard、his skateboard"
+  ],
+  "exs": []
+ },
+ "人称代词宾格me（withme）": {
+  "name": "人称代词宾格 me（with me）",
+  "descs": [],
+  "exs": []
+ },
+ "like、love、hate后接名词表喜好（Welovemud.）": {
+  "name": "like、love、hate 后接名词表喜好（We love mud.）",
+  "descs": [],
+  "exs": []
+ },
+ "人称代词they与we的区别（Theywerenothappy.）": {
+  "name": "人称代词 they 与 we 的区别（They were not happy.）",
+  "descs": [],
+  "exs": []
+ },
+ "be+too+形容词": {
+  "name": "be + too + 形容词",
+  "descs": [
+   "表程度过度"
+  ],
+  "exs": [
+   "They are too noisy."
+  ]
+ },
+ "toomuch+不可数名词（toomuchnoise）": {
+  "name": "too much + 不可数名词（too much noise）",
+  "descs": [],
+  "exs": []
+ },
+ "副词past表「经过」（Abigplaneflewpast.）": {
+  "name": "副词 past 表「经过」（A big plane flew past.）",
+  "descs": [],
+  "exs": []
+ },
+ "缩写形式": {
+  "name": "缩写形式",
+  "descs": [
+   "he's = he is",
+   "it's = it is",
+   "that's、it's"
+  ],
+  "exs": [
+   "He's not too fast!",
+   "Sometimes it's a castle.",
+   "That's my tail."
+  ]
+ },
+ "祈使句的宾语": {
+  "name": "祈使句的宾语",
+  "descs": [
+   "数词 + 名词复数"
+  ],
+  "exs": [
+   "six steps"
+  ]
+ },
+ "表示次数": {
+  "name": "表示次数",
+  "descs": [
+   "数词 + times"
+  ],
+  "exs": [
+   "Jump six times."
+  ]
+ },
+ "Whereis…?询问地点（Whereisthetreasure?）": {
+  "name": "Where is…? 询问地点（Where is the treasure?）",
+  "descs": [],
+  "exs": []
+ },
+ "Hereis…表「这里是…」（Hereisthetreasure!）": {
+  "name": "Here is… 表「这里是…」（Here is the treasure!）",
+  "descs": [],
+  "exs": []
+ },
+ "数词one到ten的认读与书写": {
+  "name": "数词 one 到 ten 的认读与书写",
+  "descs": [],
+  "exs": []
+ },
+ "have与has表拥有": {
+  "name": "have 与 has 表拥有",
+  "descs": [
+   "I have… / Who has…?"
+  ],
+  "exs": []
+ },
+ "no+名词表否定": {
+  "name": "no + 名词表否定",
+  "descs": [
+   "no legs"
+  ],
+  "exs": [
+   "I have no legs."
+  ]
+ },
+ "with表「用、带着」": {
+  "name": "with 表「用、带着」",
+  "descs": [
+   "with my two legs"
+  ],
+  "exs": []
+ },
+ "Who引导的特殊疑问句（Whohassixlegs?）": {
+  "name": "Who 引导的特殊疑问句（Who has six legs?）",
+  "descs": [],
+  "exs": []
+ },
+ "物主代词my（withmyfourlegs）": {
+  "name": "物主代词 my（with my four legs）",
+  "descs": [],
+  "exs": []
+ },
+ "数词与名词搭配（fourlegs、eightlegs）": {
+  "name": "数词与名词搭配（four legs、eight legs）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词复数": {
+  "name": "be 动词复数",
+  "descs": [
+   "We are…"
+  ],
+  "exs": [
+   "We are the clowns."
+  ]
+ },
+ "todo表目的（Comeuptoplay.）": {
+  "name": "to do 表目的（Come up to play.）",
+  "descs": [],
+  "exs": []
+ },
+ "sometimes表频率，可放句首（Sometimesit'sajungle.）": {
+  "name": "sometimes 表频率，可放句首（Sometimes it's a jungle.）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词表判断": {
+  "name": "be 动词表判断",
+  "descs": [
+   "My tail is a very good tail."
+  ],
+  "exs": []
+ },
+ "begoodfor+动词ing": {
+  "name": "be good for + 动词 ing",
+  "descs": [
+   "表用途"
+  ],
+  "exs": [
+   "It's good for sliding."
+  ]
+ },
+ "介词with表「用」（withyourtail）": {
+  "name": "介词 with 表「用」（with your tail）",
+  "descs": [],
+  "exs": []
+ },
+ "动词加ing作介词宾语": {
+  "name": "动词加 ing 作介词宾语",
+  "descs": [
+   "sliding、jumping、swimming"
+  ],
+  "exs": []
+ },
+ "be动词一般疑问句": {
+  "name": "be 动词一般疑问句",
+  "descs": [
+   "Are we all here?"
+  ],
+  "exs": []
+ },
+ "Where引导的特殊疑问句（WhereisNumber6?）": {
+  "name": "Where 引导的特殊疑问句（Where is Number 6?）",
+  "descs": [],
+  "exs": []
+ },
+ "noone作主语表「没有人」（Nooneislost.）": {
+  "name": "no one 作主语表「没有人」（No one is lost.）",
+  "descs": [],
+  "exs": []
+ },
+ "数词+形容词+名词复数（sixsillyducklings）": {
+  "name": "数词 + 形容词 + 名词复数（six silly ducklings）",
+  "descs": [],
+  "exs": []
+ },
+ "形容词比较级": {
+  "name": "形容词比较级",
+  "descs": [
+   "bigger",
+   "stronger + than",
+   "taller than、bigger and fiercer than"
+  ],
+  "exs": [
+   "His smile got bigger.",
+   "You are stronger than we are."
+  ]
+ },
+ "abagof、apieceof表数量（apieceofbread）": {
+  "name": "a bag of、a piece of 表数量（a piece of bread）",
+  "descs": [],
+  "exs": []
+ },
+ "givesthtosb": {
+  "name": "give sth to sb",
+  "descs": [
+   "把某物给某人"
+  ],
+  "exs": [
+   "She gave a piece of bread to the mouse."
+  ]
+ },
+ "be动词疑问句": {
+  "name": "be 动词疑问句",
+  "descs": [
+   "Are you hungry?"
+  ],
+  "exs": []
+ },
+ "too放句末表「也」（Sheateapiece,too.）": {
+  "name": "too 放句末表「也」（She ate a piece, too.）",
+  "descs": [],
+  "exs": []
+ },
+ "数量短语的复数": {
+  "name": "数量短语的复数",
+  "descs": [
+   "two pieces of bread"
+  ],
+  "exs": [
+   "piece 加 s"
+  ]
+ },
+ "一般现在时（三单）": {
+  "name": "一般现在时（三单）",
+  "descs": [
+   "likes、plays、loves、goes",
+   "reads、puts、makes、sells、checks"
+  ],
+  "exs": []
+ },
+ "liketodosth.": {
+  "name": "like to do sth.",
+  "descs": [
+   "My mother likes to play her violin.",
+   "Turtles like to sleep a lot."
+  ],
+  "exs": []
+ },
+ "too表示\"也\"": {
+  "name": "too 表示\"也\"",
+  "descs": [
+   "I swim here, too.",
+   "Our dog loves music too!"
+  ],
+  "exs": []
+ },
+ "人称代词": {
+  "name": "人称代词",
+  "descs": [
+   "I、he、she、they、we"
+  ],
+  "exs": []
+ },
+ "What疑问句": {
+  "name": "What 疑问句",
+  "descs": [
+   "What is that animal?"
+  ],
+  "exs": []
+ },
+ "call的用法": {
+  "name": "call 的用法",
+  "descs": [
+   "We call that a rhino."
+  ],
+  "exs": []
+ },
+ "with短语描述特征": {
+  "name": "with 短语描述特征",
+  "descs": [
+   "a bus with lots of windows",
+   "the animal with spots"
+  ],
+  "exs": []
+ },
+ "一般过去时（不规则动词）": {
+  "name": "一般过去时（不规则动词）",
+  "descs": [
+   "came、had、saw、bit、ran",
+   "got、ate、took、forgot",
+   "went、ran、fell、won"
+  ],
+  "exs": []
+ },
+ "be动词过去式was/were": {
+  "name": "be 动词过去式 was/were",
+  "descs": [
+   "It was delicious. / They were delicious.",
+   "The children were very sad."
+  ],
+  "exs": []
+ },
+ "lovetodosth.": {
+  "name": "love to do sth.",
+  "descs": [
+   "I love to eat fruit."
+  ],
+  "exs": []
+ },
+ "on+星期": {
+  "name": "on + 星期",
+  "descs": [
+   "On Monday morning"
+  ],
+  "exs": []
+ },
+ "代词it/them": {
+  "name": "代词 it/them",
+  "descs": [
+   "I ate it / I ate them",
+   "Stick it / Stick them"
+  ],
+  "exs": []
+ },
+ "didn't否定过去": {
+  "name": "didn't 否定过去",
+  "descs": [
+   "We didn't swim there!"
+  ],
+  "exs": []
+ },
+ "in/at表地点": {
+  "name": "in / at 表地点",
+  "descs": [
+   "in the sea、at the beach"
+  ],
+  "exs": []
+ },
+ "直接引语+said": {
+  "name": "直接引语 + said",
+  "descs": [
+   "\"I swim here,\" said Hippo."
+  ],
+  "exs": []
+ },
+ "will表将来": {
+  "name": "will 表将来",
+  "descs": [
+   "I will make soup.",
+   "It will come out soon.",
+   "You will use glue and scissors."
+  ],
+  "exs": []
+ },
+ "比较级and比较级": {
+  "name": "比较级 and 比较级",
+  "descs": [
+   "looser and looser"
+  ],
+  "exs": [
+   "越来越……"
+  ]
+ },
+ "showsth.tosb.": {
+  "name": "show sth. to sb.",
+  "descs": [
+   "I showed it to my mother."
+  ],
+  "exs": []
+ },
+ "代词it": {
+  "name": "代词 it",
+  "descs": [
+   "I wiggled it."
+  ],
+  "exs": []
+ },
+ "be动词过去式was": {
+  "name": "be 动词过去式 was",
+  "descs": [
+   "He was hungry and thirsty.",
+   "It was a red fire engine."
+  ],
+  "exs": []
+ },
+ "can表能力": {
+  "name": "can 表能力",
+  "descs": [
+   "I can make good soup.",
+   "I can win this race!"
+  ],
+  "exs": []
+ },
+ "with表方式/工具": {
+  "name": "with 表方式/工具",
+  "descs": [
+   "with this magic stone"
+  ],
+  "exs": []
+ },
+ "wanttodosth.": {
+  "name": "want to do sth.",
+  "descs": [
+   "Do you want to make one?"
+  ],
+  "exs": []
+ },
+ "Canyou...?表请求/能力": {
+  "name": "Can you...? 表请求/能力",
+  "descs": [
+   "Can you find an old sock?"
+  ],
+  "exs": []
+ },
+ "can't表不能": {
+  "name": "can't 表不能",
+  "descs": [
+   "I can't get my hand out!"
+  ],
+  "exs": []
+ },
+ "havegot表示\"有\"": {
+  "name": "have got 表示\"有\"",
+  "descs": [
+   "You have got too many nuts."
+  ],
+  "exs": []
+ },
+ "alotof+名词": {
+  "name": "a lot of + 名词",
+  "descs": [
+   "a lot of nuts"
+  ],
+  "exs": []
+ },
+ "letgoof": {
+  "name": "let go of",
+  "descs": [
+   "So the boy let go of some of the nuts."
+  ],
+  "exs": []
+ },
+ "lotsof+名词": {
+  "name": "lots of + 名词",
+  "descs": [
+   "lots of windows and wheels"
+  ],
+  "exs": []
+ },
+ "moreandmore": {
+  "name": "more and more",
+  "descs": [
+   "越来越多"
+  ],
+  "exs": []
+ },
+ "asksb.todosth.": {
+  "name": "ask sb. to do sth.",
+  "descs": [
+   "The fish asked Snake to make him go away."
+  ],
+  "exs": []
+ },
+ "befrightenedof": {
+  "name": "be frightened of",
+  "descs": [
+   "I am frightened of him."
+  ],
+  "exs": []
+ },
+ "on+身体部位": {
+  "name": "on + 身体部位",
+  "descs": [
+   "Fly bit him on his tail."
+  ],
+  "exs": []
+ },
+ "him/his": {
+  "name": "him / his",
+  "descs": [
+   "人称代词宾格与形容词性物主代词"
+  ],
+  "exs": []
+ },
+ "Therebe过去式": {
+  "name": "There be 过去式",
+  "descs": [
+   "There was a big flood!"
+  ],
+  "exs": []
+ },
+ "behappytodosth.": {
+  "name": "be happy to do sth.",
+  "descs": [
+   "All the children were happy to see Tilly."
+  ],
+  "exs": []
+ },
+ "can表可能": {
+  "name": "can 表可能",
+  "descs": [
+   "They can look like rainbows."
+  ],
+  "exs": []
+ },
+ "代词it/they/us/them": {
+  "name": "代词 it/they/us/them",
+  "descs": [
+   "It gives us shade."
+  ],
+  "exs": []
+ },
+ "on+形容词+day": {
+  "name": "on + 形容词 + day",
+  "descs": [
+   "on a rainy day"
+  ],
+  "exs": []
+ },
+ "stoptodosth.": {
+  "name": "stop to do sth.",
+  "descs": [
+   "Tom stopped to help Joe."
+  ],
+  "exs": []
+ },
+ "and并列": {
+  "name": "and 并列",
+  "descs": [
+   "They ran and ran to get to their friends.",
+   "long neck and long legs"
+  ],
+  "exs": []
+ },
+ "副词fast修饰动词": {
+  "name": "副词 fast 修饰动词",
+  "descs": [
+   "ran fast"
+  ],
+  "exs": []
+ },
+ "all的用法": {
+  "name": "all 的用法",
+  "descs": [
+   "all his friends、They all ran"
+  ],
+  "exs": []
+ },
+ "形容词比较级和最高级": {
+  "name": "形容词比较级和最高级",
+  "descs": [
+   "smaller、taller、bigger；the tallest、the biggest"
+  ],
+  "exs": []
+ },
+ "have/has表示\"有\"": {
+  "name": "have/has 表示\"有\"",
+  "descs": [
+   "It has very long ears."
+  ],
+  "exs": []
+ },
+ "be动词is/are": {
+  "name": "be 动词 is/are",
+  "descs": [
+   "A rabbit is a small animal."
+  ],
+  "exs": []
+ },
+ "but表转折": {
+  "name": "but 表转折",
+  "descs": [
+   "Birds have beaks, but no teeth.",
+   "Its back legs are big, but its tail is short."
+  ],
+  "exs": []
+ },
+ "its的用法": {
+  "name": "its 的用法",
+  "descs": [
+   "Its horn…",
+   "Its tail is like a big fan.",
+   "Its tail is short."
+  ],
+  "exs": [
+   "it 的形容词性物主代词",
+   "它的"
+  ]
+ },
+ "主语是复数时动词用原形": {
+  "name": "主语是复数时动词用原形",
+  "descs": [
+   "builders make、farmers grow、dentists fix"
+  ],
+  "exs": []
+ },
+ "helpsb.todosth.": {
+  "name": "help sb. to do sth.",
+  "descs": [
+   "help to keep people safe、help them see",
+   "help us get well、help children to learn"
+  ],
+  "exs": []
+ },
+ "动词不定式表目的": {
+  "name": "动词不定式表目的",
+  "descs": [
+   "to dry、to make chocolate",
+   "to make them move、to make the boat move",
+   "work to help us、grow fruit to feed us"
+  ],
+  "exs": []
+ },
+ "haveto/hasto+动词原形": {
+  "name": "have to / has to + 动词原形",
+  "descs": [
+   "The author has to have a good idea."
+  ],
+  "exs": []
+ },
+ "of短语表所属": {
+  "name": "of 短语表所属",
+  "descs": [
+   "a copy of the book、lots of copies of the book"
+  ],
+  "exs": []
+ },
+ "可数名词单复数": {
+  "name": "可数名词单复数",
+  "descs": [
+   "a copy、lots of copies、book、books"
+  ],
+  "exs": []
+ },
+ "冠词用法": {
+  "name": "冠词用法",
+  "descs": [
+   "a good idea、the author、the story"
+  ],
+  "exs": []
+ },
+ "祝愿表达": {
+  "name": "祝愿表达",
+  "descs": [
+   "Happy reading!"
+  ],
+  "exs": []
+ },
+ "haveto/hasto": {
+  "name": "have to / has to",
+  "descs": [
+   "表示\"必须、得\""
+  ],
+  "exs": []
+ },
+ "liketodo与learntodo": {
+  "name": "like to do 与 learn to do",
+  "descs": [
+   "like to run、learn to sit"
+  ],
+  "exs": []
+ },
+ "祈使句（训练口令）": {
+  "name": "祈使句（训练口令）",
+  "descs": [
+   "Come. Sit. Stay. Wait."
+  ],
+  "exs": []
+ },
+ "一般现在时复数主语": {
+  "name": "一般现在时复数主语",
+  "descs": [
+   "Dogs pull、They pull",
+   "People use the wind."
+  ],
+  "exs": []
+ },
+ "or连接并列动作": {
+  "name": "or 连接并列动作",
+  "descs": [
+   "pull or push"
+  ],
+  "exs": []
+ },
+ "have+名词复数表拥有": {
+  "name": "have + 名词复数表拥有",
+  "descs": [
+   "Horses have teeth.、Birds have beaks."
+  ],
+  "exs": []
+ },
+ "keep+动词-ing": {
+  "name": "keep + 动词 -ing",
+  "descs": [
+   "Their teeth keep growing."
+  ],
+  "exs": []
+ },
+ "副词later表时间": {
+  "name": "副词 later 表时间",
+  "descs": [
+   "They can eat it later."
+  ],
+  "exs": []
+ },
+ "be+过去分词表示\"被……\"": {
+  "name": "be + 过去分词表示\"被……\"",
+  "descs": [
+   "The beans are put into a box."
+  ],
+  "exs": [
+   "了解即可"
+  ]
+ },
+ "as...as同级比较": {
+  "name": "as...as 同级比较",
+  "descs": [
+   "as big as six elephants"
+  ],
+  "exs": []
+ },
+ "call+宾语+名字": {
+  "name": "call + 宾语 + 名字",
+  "descs": [
+   "We call it T Rex."
+  ],
+  "exs": []
+ },
+ "Here+be结构": {
+  "name": "Here + be 结构",
+  "descs": [
+   "Here are the bones."
+  ],
+  "exs": []
+ },
+ "介词短语作定语和状语": {
+  "name": "介词短语作定语和状语",
+  "descs": [
+   "of an enormous dinosaur、on two legs、with sharp claws"
+  ],
+  "exs": []
+ },
+ "主语复数+动词原形": {
+  "name": "主语复数 + 动词原形",
+  "descs": [
+   "diggers work、trucks come、cars drive"
+  ],
+  "exs": []
+ },
+ "make+宾语+形容词": {
+  "name": "make + 宾语 + 形容词",
+  "descs": [
+   "make it hard、make the road smooth"
+  ],
+  "exs": []
+ },
+ "并列结构": {
+  "name": "并列结构",
+  "descs": [
+   "up and down、trees and rocks"
+  ],
+  "exs": []
+ },
+ "lovetodo与liketodo": {
+  "name": "love to do 与 like to do",
+  "descs": [
+   "love to dance、like to wear"
+  ],
+  "exs": []
+ },
+ "动名词作主语": {
+  "name": "动名词作主语",
+  "descs": [
+   "Dancing is good fun!"
+  ],
+  "exs": []
+ },
+ "make+人+动词原形": {
+  "name": "make + 人 + 动词原形",
+  "descs": [
+   "It makes them keep away from the rocks.",
+   "Music makes people want to dance."
+  ],
+  "exs": []
+ },
+ "频率副词sometimes": {
+  "name": "频率副词 sometimes",
+  "descs": [
+   "Sometimes they dance to the music."
+  ],
+  "exs": []
+ },
+ "感叹表达": {
+  "name": "感叹表达",
+  "descs": [
+   "Dancing is good fun!"
+  ],
+  "exs": []
+ },
+ "三单动词加-s": {
+  "name": "三单动词加 -s",
+  "descs": [
+   "grows、gets、has"
+  ],
+  "exs": []
+ },
+ "and/or连接并列成分": {
+  "name": "and / or 连接并列成分",
+  "descs": [
+   "leaves and flowers、wool or fur"
+  ],
+  "exs": []
+ },
+ "How引导的特殊疑问句": {
+  "name": "How 引导的特殊疑问句",
+  "descs": [
+   "How do the seeds go away?"
+  ],
+  "exs": []
+ },
+ "keep+宾语+形容词": {
+  "name": "keep + 宾语 + 形容词",
+  "descs": [
+   "keep people safe"
+  ],
+  "exs": []
+ },
+ "don't+动词原形表否定": {
+  "name": "don't + 动词原形表否定",
+  "descs": [
+   "We don't play games at the side of a road."
+  ],
+  "exs": []
+ },
+ "It's+形容词+todosth.": {
+  "name": "It's + 形容词 + to do sth.",
+  "descs": [
+   "It's good to use a crossing."
+  ],
+  "exs": []
+ },
+ "waitforsb.todosth.": {
+  "name": "wait for sb. to do sth.",
+  "descs": [
+   "We wait for cars to stop."
+  ],
+  "exs": []
+ },
+ "三单动词": {
+  "name": "三单动词",
+  "descs": [
+   "grows、has"
+  ],
+  "exs": []
+ },
+ "bemadefrom/into表示\"由……制成\"": {
+  "name": "be made from / into 表示\"由……制成\"",
+  "descs": [
+   "Paper is made from wood."
+  ],
+  "exs": []
+ },
+ "usesth.todosth.": {
+  "name": "use sth. to do sth.",
+  "descs": [
+   "We use paper to make our books."
+  ],
+  "exs": []
+ },
+ "getsth.from/outof": {
+  "name": "get sth. from / out of",
+  "descs": [
+   "People get the clay out of the ground."
+  ],
+  "exs": []
+ },
+ "seesb.dosth.": {
+  "name": "see sb. do sth.",
+  "descs": [
+   "We can see it move things."
+  ],
+  "exs": []
+ },
+ "动词不定式todo": {
+  "name": "动词不定式 to do",
+  "descs": [
+   "a teacher to help you",
+   "表示目的"
+  ],
+  "exs": [
+   "to get the coconuts",
+   "用来帮助你的老师"
+  ]
+ },
+ "help+人+动词原形": {
+  "name": "help + 人 + 动词原形",
+  "descs": [
+   "Animals can help people do their work."
+  ],
+  "exs": []
+ },
+ "they/their的用法": {
+  "name": "they / their 的用法",
+  "descs": [
+   "They carry heavy things on their backs."
+  ],
+  "exs": []
+ },
+ "will将来时": {
+  "name": "will 将来时",
+  "descs": [
+   "The eggs will grow into caterpillars.",
+   "表示将要发生"
+  ],
+  "exs": [
+   "Lava will run down the mountain.",
+   "Your muscles will grow bigger and stronger."
+  ]
+ },
+ "Therewillbe": {
+  "name": "There will be",
+  "descs": [
+   "Soon there will be more new butterflies!"
+  ],
+  "exs": []
+ },
+ "some和more的用法": {
+  "name": "some 和 more 的用法",
+  "descs": [
+   "some eggs、more new butterflies"
+  ],
+  "exs": []
+ },
+ "人称代词they/her/their": {
+  "name": "人称代词 they / her / their",
+  "descs": [
+   "They grow in her eggs."
+  ],
+  "exs": []
+ },
+ "don't否定": {
+  "name": "don't 否定",
+  "descs": [
+   "They don't look like caterpillars!"
+  ],
+  "exs": []
+ },
+ "give+人+物": {
+  "name": "give + 人 + 物",
+  "descs": [
+   "give us wood、give us fruit"
+  ],
+  "exs": []
+ },
+ "give+物+to+人": {
+  "name": "give + 物 + to + 人",
+  "descs": [
+   "give homes to little animals"
+  ],
+  "exs": []
+ },
+ "for+doing": {
+  "name": "for + doing",
+  "descs": [
+   "wood for making things"
+  ],
+  "exs": [
+   "用来做…"
+  ]
+ },
+ "these的用法": {
+  "name": "these 的用法",
+  "descs": [
+   "These trees…"
+  ],
+  "exs": [
+   "这些树"
+  ]
+ },
+ "形容词最高级": {
+  "name": "形容词最高级",
+  "descs": [
+   "the best",
+   "the biggest、the smallest",
+   "the strongest + of"
+  ],
+  "exs": [
+   "I have the best tail.",
+   "Mouse is the strongest animal of all.",
+   "the + 最高级"
+  ]
+ },
+ "a/an的用法": {
+  "name": "a / an 的用法",
+  "descs": [
+   "a parrot、an ostrich、an owl"
+  ],
+  "exs": []
+ },
+ "一般将来时will": {
+  "name": "一般将来时 will",
+  "descs": [
+   "'ll 是 will 的缩写",
+   "You will have a teacher.",
+   "表示将要发生的事"
+  ],
+  "exs": [
+   "I will cut this rope.",
+   "I'll blow your house down."
+  ]
+ },
+ "疑问词how+todo": {
+  "name": "疑问词 how + to do",
+  "descs": [
+   "find out how to swim"
+  ],
+  "exs": [
+   "怎样…"
+  ]
+ },
+ "and连接并列动作": {
+  "name": "and 连接并列动作",
+  "descs": [
+   "It can run and hide and keep very still.",
+   "You will walk and jump in the water."
+  ],
+  "exs": []
+ },
+ "your/you的用法": {
+  "name": "your / you 的用法",
+  "descs": [
+   "your teacher、float on your back"
+  ],
+  "exs": []
+ },
+ "时间顺序词": {
+  "name": "时间顺序词",
+  "descs": [
+   "then、next、soon、some day"
+  ],
+  "exs": [
+   "表示先后顺序"
+  ]
+ },
+ "人称代词they/them/their/it": {
+  "name": "人称代词 they / them / their / it",
+  "descs": [
+   "They put them into people's mouths."
+  ],
+  "exs": []
+ },
+ "make+名词+形容词": {
+  "name": "make + 名词 + 形容词",
+  "descs": [
+   "make things look big"
+  ],
+  "exs": [
+   "让东西看起来大"
+  ]
+ },
+ "频度副词sometimes放句首": {
+  "name": "频度副词 sometimes 放句首",
+  "descs": [],
+  "exs": []
+ },
+ "tell+人+todo": {
+  "name": "tell + 人 + to do",
+  "descs": [
+   "tell people to stop"
+  ],
+  "exs": []
+ },
+ "动词不定式todo表目的": {
+  "name": "动词不定式 to do 表目的",
+  "descs": [
+   "to tell the time"
+  ],
+  "exs": []
+ },
+ "物主代词its/his": {
+  "name": "物主代词 its / his",
+  "descs": [
+   "on its neck、his cow"
+  ],
+  "exs": []
+ },
+ "Where引导的特殊疑问句": {
+  "name": "Where 引导的特殊疑问句",
+  "descs": [
+   "Where does the water go?",
+   "Where is Tiger?"
+  ],
+  "exs": []
+ },
+ "all与some的用法": {
+  "name": "all 与 some 的用法",
+  "descs": [
+   "All people need water. Some rain makes puddles."
+  ],
+  "exs": []
+ },
+ "一般过去时said": {
+  "name": "一般过去时 said",
+  "descs": [
+   "said Tom"
+  ],
+  "exs": [
+   "say 的过去式"
+  ]
+ },
+ "Let+宾语+动词原形": {
+  "name": "Let + 宾语 + 动词原形",
+  "descs": [
+   "Let me help you."
+  ],
+  "exs": []
+ },
+ "Could礼貌请求": {
+  "name": "Could 礼貌请求",
+  "descs": [
+   "Could I help you? Could you help me?"
+  ],
+  "exs": []
+ },
+ "wouldliketodo": {
+  "name": "would like to do",
+  "descs": [
+   "I would like to help you."
+  ],
+  "exs": []
+ },
+ "want/like+人+todo": {
+  "name": "want / like + 人 + to do",
+  "descs": [
+   "want me to help、likes me to feed"
+  ],
+  "exs": []
+ },
+ "bymyself": {
+  "name": "by myself",
+  "descs": [
+   "I can do it all by myself."
+  ],
+  "exs": [
+   "独立地做"
+  ]
+ },
+ "begetting+形容词": {
+  "name": "be getting + 形容词",
+  "descs": [
+   "I'm getting very hungry."
+  ],
+  "exs": [
+   "变得…"
+  ]
+ },
+ "形容词描述状态": {
+  "name": "形容词描述状态",
+  "descs": [
+   "hungry、thirsty、dirty、sleepy"
+  ],
+  "exs": []
+ },
+ "this/his/my的用法": {
+  "name": "this / his / my 的用法",
+  "descs": [
+   "this knot、his tail、my trunk"
+  ],
+  "exs": []
+ },
+ "didnot+动词原形": {
+  "name": "did not + 动词原形",
+  "descs": [
+   "did not wake up"
+  ],
+  "exs": [
+   "过去时否定"
+  ]
+ },
+ "we/us/you的用法": {
+  "name": "we / us / you 的用法",
+  "descs": [
+   "We are hungry. Give us some food."
+  ],
+  "exs": []
+ },
+ "I'msorry": {
+  "name": "I'm sorry",
+  "descs": [
+   "表达歉意的常用语"
+  ],
+  "exs": []
+ },
+ "this的指示用法": {
+  "name": "this 的指示用法",
+  "descs": [
+   "this tree、this hill、this rock"
+  ],
+  "exs": []
+ },
+ "was/were": {
+  "name": "was / were",
+  "descs": [
+   "The lions were not easy to find."
+  ],
+  "exs": []
+ },
+ "her/she的用法": {
+  "name": "her / she 的用法",
+  "descs": [
+   "She ran to see… in her dress"
+  ],
+  "exs": []
+ },
+ "颜色形容词": {
+  "name": "颜色形容词",
+  "descs": [
+   "blue、brown、green"
+  ],
+  "exs": [
+   "作定语"
+  ]
+ },
+ "getlost": {
+  "name": "get lost",
+  "descs": [
+   "表示“迷路”的固定说法"
+  ],
+  "exs": []
+ },
+ "情态动词could": {
+  "name": "情态动词 could",
+  "descs": [
+   "表示能够、可以"
+  ],
+  "exs": [
+   "I could cut this rope."
+  ]
+ },
+ "物主代词my": {
+  "name": "物主代词 my",
+  "descs": [
+   "表示所属"
+  ],
+  "exs": [
+   "my scissors、my hair"
+  ]
+ },
+ "be动词否定句": {
+  "name": "be 动词否定句",
+  "descs": [
+   "is not 表示不是",
+   "was not"
+  ],
+  "exs": [
+   "He was not happy!",
+   "That's not a rope."
+  ]
+ },
+ "特殊疑问句What": {
+  "name": "特殊疑问句 What",
+  "descs": [
+   "What + will + 主语 + 动词原形"
+  ],
+  "exs": [
+   "What will I cut today?"
+  ]
+ },
+ "一般疑问句": {
+  "name": "一般疑问句",
+  "descs": [
+   "Can + 主语 + 动词原形",
+   "Could I + 动词原形，客气地请求"
+  ],
+  "exs": [
+   "Can you read the map?",
+   "Could I cut this rope?"
+  ]
+ },
+ "一般现在时like": {
+  "name": "一般现在时 like",
+  "descs": [
+   "表示喜好"
+  ],
+  "exs": [
+   "We like the story."
+  ]
+ },
+ "can的否定can't": {
+  "name": "can 的否定 can't",
+  "descs": [
+   "表示不能"
+  ],
+  "exs": [
+   "You can't catch me."
+  ]
+ },
+ "感叹句What": {
+  "name": "感叹句 What",
+  "descs": [
+   "What + 形容词 + 名词"
+  ],
+  "exs": [
+   "What big teeth you have!"
+  ]
+ },
+ "Therebe句型过去式": {
+  "name": "There be 句型过去式",
+  "descs": [
+   "There were + 复数名词",
+   "was / were"
+  ],
+  "exs": [
+   "There were five chairs.",
+   "There were three little pigs."
+  ]
+ },
+ "be动词+形容词": {
+  "name": "be 动词 + 形容词",
+  "descs": [
+   "表示状态"
+  ],
+  "exs": [
+   "I'm late for school."
+  ]
+ },
+ "时间表达": {
+  "name": "时间表达",
+  "descs": [
+   "It's + 数字 + o'clock"
+  ],
+  "exs": [
+   "It's nine o'clock."
+  ]
+ },
+ "一般过去时规则动词": {
+  "name": "一般过去时规则动词",
+  "descs": [
+   "laughed、walked、stopped",
+   "加 -ed"
+  ],
+  "exs": [
+   "painted、wanted",
+   "played、walked、listened、picked"
+  ]
+ },
+ "一般过去时不规则动词": {
+  "name": "一般过去时不规则动词",
+  "descs": [
+   "came、ran、woke、saw",
+   "put、sat、got、ran",
+   "went、had、made、caught、flew、saw、took、got"
+  ],
+  "exs": []
+ },
+ "It+be+形容词": {
+  "name": "It + be + 形容词",
+  "descs": [
+   "表示天气"
+  ],
+  "exs": [
+   "It was sunny on Thursday."
+  ]
+ },
+ "so表示结果": {
+  "name": "so 表示结果",
+  "descs": [
+   "前因后果"
+  ],
+  "exs": [
+   "Monday was a hot day, so we went to the beach."
+  ]
+ },
+ "todo表示目的（totakehome）": {
+  "name": "to do 表示目的（to take home）",
+  "descs": [],
+  "exs": []
+ },
+ "介词on+星期": {
+  "name": "介词 on + 星期",
+  "descs": [
+   "在某一天"
+  ],
+  "exs": [
+   "on Tuesday、on Friday"
+  ]
+ },
+ "频率表达everyday": {
+  "name": "频率表达 every day",
+  "descs": [
+   "表示每天"
+  ],
+  "exs": [
+   "We had fun every day."
+  ]
+ },
+ "wantto+动词原形": {
+  "name": "want to + 动词原形",
+  "descs": [
+   "表示想要做某事"
+  ],
+  "exs": [
+   "I want to be in your picture."
+  ]
+ },
+ "祈使句+please": {
+  "name": "祈使句 + please",
+  "descs": [
+   "表示礼貌请求"
+  ],
+  "exs": [
+   "Put me in your picture, please."
+  ]
+ },
+ "with短语表示特征": {
+  "name": "with 短语表示特征",
+  "descs": [
+   "an animal with stripes"
+  ],
+  "exs": []
+ },
+ "介词of表示所属": {
+  "name": "介词 of 表示所属",
+  "descs": [
+   "a picture of Elephant"
+  ],
+  "exs": []
+ },
+ "be动词+形容词作表语（Youareslow.）": {
+  "name": "be 动词 + 形容词作表语（You are slow.）",
+  "descs": [],
+  "exs": []
+ },
+ "can+动词原形表示能力（Icanrunfast.）": {
+  "name": "can + 动词原形表示能力（I can run fast.）",
+  "descs": [],
+  "exs": []
+ },
+ "can't+动词原形表示不能（Ican'tseeTortoisecoming.）": {
+  "name": "can't + 动词原形表示不能（I can't see Tortoise coming.）",
+  "descs": [],
+  "exs": []
+ },
+ "too+形容词表示程度（tooshort、toolate）": {
+  "name": "too + 形容词表示程度（too short、too late）",
+  "descs": [],
+  "exs": []
+ },
+ "keep+动词-ing表示持续做（I'llkeepwalking.）": {
+  "name": "keep + 动词-ing 表示持续做（I'll keep walking.）",
+  "descs": [],
+  "exs": []
+ },
+ "Therebe否定句": {
+  "name": "There be 否定句",
+  "descs": [
+   "There wasn't a chair."
+  ],
+  "exs": [
+   "单数用 wasn't"
+  ]
+ },
+ "only的位置": {
+  "name": "only 的位置",
+  "descs": [
+   "放在所限定的数量前"
+  ],
+  "exs": [
+   "only five chairs"
+  ]
+ },
+ "be+介词短语表示状态（Hewasoutofthegame.）": {
+  "name": "be + 介词短语表示状态（He was out of the game.）",
+  "descs": [],
+  "exs": []
+ },
+ "can+动词原形表示能力（Itcanwiggleitsears.）": {
+  "name": "can + 动词原形表示能力（It can wiggle its ears.）",
+  "descs": [],
+  "exs": []
+ },
+ "could+动词原形表示可能（Itcouldbeadog.）": {
+  "name": "could + 动词原形表示可能（It could be a dog.）",
+  "descs": [],
+  "exs": []
+ },
+ "介词with表示特征（abirdwithbigwings）": {
+  "name": "介词 with 表示特征（a bird with big wings）",
+  "descs": [],
+  "exs": []
+ },
+ "形容词性物主代词its（itstrunk、itsears）": {
+  "name": "形容词性物主代词 its（its trunk、its ears）",
+  "descs": [],
+  "exs": []
+ },
+ "or表示选择（adogorawolf）": {
+  "name": "or 表示选择（a dog or a wolf）",
+  "descs": [],
+  "exs": []
+ },
+ "whatelse表示还有什么（Whatelsecoulditbe?）": {
+  "name": "what else 表示还有什么（What else could it be?）",
+  "descs": [],
+  "exs": []
+ },
+ "一般过去时否定句": {
+  "name": "一般过去时否定句",
+  "descs": [
+   "didn't + 动词原形"
+  ],
+  "exs": [
+   "He didn't see a big net.",
+   "It didn't like the wash!"
+  ]
+ },
+ "can/can't+动词原形（Ican'tgetoutofthenet.）": {
+  "name": "can / can't + 动词原形（I can't get out of the net.）",
+  "descs": [],
+  "exs": []
+ },
+ "could/couldn't+动词原形（Thesharkcouldn'tswimaway.）": {
+  "name": "could / couldn't + 动词原形（The shark couldn't swim away.）",
+  "descs": [],
+  "exs": []
+ },
+ "let+宾语+动词原形（Thesharkletthecrabgo.）": {
+  "name": "let + 宾语 + 动词原形（The shark let the crab go.）",
+  "descs": [],
+  "exs": []
+ },
+ "介词短语表示方向": {
+  "name": "介词短语表示方向",
+  "descs": [
+   "out of、into"
+  ],
+  "exs": [
+   "swam out of the net"
+  ]
+ },
+ "too+形容词（toobig）": {
+  "name": "too + 形容词（too big）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词过去式were（Theywerethesame.）": {
+  "name": "be 动词过去式 were（They were the same.）",
+  "descs": [],
+  "exs": []
+ },
+ "as+形容词+as同级比较（asstrongasyou）": {
+  "name": "as + 形容词 + as 同级比较（as strong as you）",
+  "descs": [],
+  "exs": []
+ },
+ "Let's+动词原形表示建议（Let'shaveatug-of-war!）": {
+  "name": "Let's + 动词原形表示建议（Let's have a tug-of-war!）",
+  "descs": [],
+  "exs": []
+ },
+ "helpsb.todosth.（helpedthewildanimalstopull）": {
+  "name": "help sb. to do sth.（helped the wild animals to pull）",
+  "descs": [],
+  "exs": []
+ },
+ "have/has表示拥有（birdshavewings、ithasfeathers）": {
+  "name": "have / has 表示拥有（birds have wings、it has feathers）",
+  "descs": [],
+  "exs": []
+ },
+ "can/can't+动词原形表示能力（Anostrichcan'tfly.）": {
+  "name": "can / can't + 动词原形表示能力（An ostrich can't fly.）",
+  "descs": [],
+  "exs": []
+ },
+ "some/no修饰名词复数（Someanimalshavefur./Nootheranimalshavefeathers.）": {
+  "name": "some / no 修饰名词复数（Some animals have fur. / No other animals have feathers.）",
+  "descs": [],
+  "exs": []
+ },
+ "most+名词复数表示大多数（Mostbirdsbuildnests.）": {
+  "name": "most + 名词复数表示大多数（Most birds build nests.）",
+  "descs": [],
+  "exs": []
+ },
+ "couldnot+动词原形表示过去不能（Bearcouldnotgetthejaroff.）": {
+  "name": "could not + 动词原形表示过去不能（Bear could not get the jar off.）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词过去式was/were（Hewasstuck.）": {
+  "name": "be 动词过去式 was / were（He was stuck.）",
+  "descs": [],
+  "exs": []
+ },
+ "or用于否定句连接并列成分（Hecouldnoteatordrink.）": {
+  "name": "or 用于否定句连接并列成分（He could not eat or drink.）",
+  "descs": [],
+  "exs": []
+ },
+ "put...into...表示位置移动（puthimintothecage）": {
+  "name": "put ... into ... 表示位置移动（put him into the cage）",
+  "descs": [],
+  "exs": []
+ },
+ "givesb.sth.双宾语（gaveitadrinkofwater）": {
+  "name": "give sb. sth. 双宾语（gave it a drink of water）",
+  "descs": [],
+  "exs": []
+ },
+ "put...in/on/to表示位置（putawarmsweateronthebird）": {
+  "name": "put ... in / on / to 表示位置（put a warm sweater on the bird）",
+  "descs": [],
+  "exs": []
+ },
+ "be+形容词表示状态（Itwascoldanddirty.）": {
+  "name": "be + 形容词表示状态（It was cold and dirty.）",
+  "descs": [],
+  "exs": []
+ },
+ "bereadytodo表示准备做（wasreadytogoback）": {
+  "name": "be ready to do 表示准备做（was ready to go back）",
+  "descs": [],
+  "exs": []
+ },
+ "letsb.dosth.（lettheirpenguinsgo）": {
+  "name": "let sb. do sth.（let their penguins go）",
+  "descs": [],
+  "exs": []
+ },
+ "everyday表示频率（Itswaminthepooleveryday.）": {
+  "name": "every day 表示频率（It swam in the pool every day.）",
+  "descs": [],
+  "exs": []
+ },
+ "couldnot+动词原形表示不能（Storkcouldnoteatfood.）": {
+  "name": "could not + 动词原形表示不能（Stork could not eat food.）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词过去式was/were（Hewassohungry.）": {
+  "name": "be 动词过去式 was / were（He was so hungry.）",
+  "descs": [],
+  "exs": []
+ },
+ "haveno+名词表示没有（Foxhadnodinneratall.）": {
+  "name": "have no + 名词表示没有（Fox had no dinner at all.）",
+  "descs": [],
+  "exs": []
+ },
+ "so+形容词表示程度（sohungry）": {
+  "name": "so + 形容词表示程度（so hungry）",
+  "descs": [],
+  "exs": []
+ },
+ "介词for表示对象（goodfoodforhungryStork）": {
+  "name": "介词 for 表示对象（good food for hungry Stork）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词was/were": {
+  "name": "be 动词 was/were",
+  "descs": [
+   "描述状态"
+  ],
+  "exs": [
+   "He was not happy."
+  ]
+ },
+ "can/could": {
+  "name": "can/could",
+  "descs": [
+   "表示可以或建议",
+   "表示能力",
+   "表示能够或建议"
+  ],
+  "exs": [
+   "They could make a scarecrow.",
+   "What could he do all day?",
+   "You can make people with your seven tans.",
+   "You could take a dog for a walk."
+  ]
+ },
+ "动词不定式todo表示目的（Thepeopleranfasttohelphim.）": {
+  "name": "动词不定式 to do 表示目的（The people ran fast to help him.）",
+  "descs": [],
+  "exs": []
+ },
+ "hadto": {
+  "name": "had to",
+  "descs": [
+   "表示“必须”"
+  ],
+  "exs": [
+   "All the family had to help.",
+   "The children had to run."
+  ]
+ },
+ "if条件句": {
+  "name": "if 条件句",
+  "descs": [
+   "表示“如果”"
+  ],
+  "exs": [
+   "A snake can slide away fast if it sees an enemy.",
+   "If it fell off, they had to stop.",
+   "If you want to dig, cut, or build, how will you do it?"
+  ]
+ },
+ "be动词过去式was/were（Theirfeetwereverybig!）": {
+  "name": "be 动词过去式 was/were（Their feet were very big!）",
+  "descs": [],
+  "exs": []
+ },
+ "but连接转折（Somepeoplefellover,buttheyallhadfun!）": {
+  "name": "but 连接转折（Some people fell over, but they all had fun!）",
+  "descs": [],
+  "exs": []
+ },
+ "be动词过去式were": {
+  "name": "be 动词过去式 were",
+  "descs": [
+   "描述状态"
+  ],
+  "exs": [
+   "They were very frightened."
+  ]
+ },
+ "人称代词they/them": {
+  "name": "人称代词 they/them",
+  "descs": [
+   "指代动物"
+  ],
+  "exs": [
+   "The fire came after them."
+  ]
+ },
+ "数词two/three+复数名词（Threeparrotswentflyingoverthetrees.）": {
+  "name": "数词 two/three + 复数名词（Three parrots went flying over the trees.）",
+  "descs": [],
+  "exs": []
+ },
+ "didnot构成否定（Thebirdsdidnotcomeback.）": {
+  "name": "did not 构成否定（The birds did not come back.）",
+  "descs": [],
+  "exs": []
+ },
+ "help+todo": {
+  "name": "help + to do",
+  "descs": [
+   "帮助做某事"
+  ],
+  "exs": [
+   "Joe helped to take the seal back to its home."
+  ]
+ },
+ "as...as同级比较（aslongassevenelephantsinarow）": {
+  "name": "as ... as 同级比较（as long as seven elephants in a row）",
+  "descs": [],
+  "exs": []
+ },
+ "could": {
+  "name": "could",
+  "descs": [
+   "表示可能",
+   "表示能力"
+  ],
+  "exs": [
+   "A horse could be a good pet.",
+   "Some dinosaurs could fly."
+  ]
+ },
+ "belike/looklike": {
+  "name": "be like / look like",
+  "descs": [
+   "表示“像”"
+  ],
+  "exs": [
+   "Some dinosaurs were like birds."
+  ]
+ },
+ "will": {
+  "name": "will",
+  "descs": [
+   "一般将来时"
+  ],
+  "exs": [
+   "How will you do it?"
+  ]
+ },
+ "help+某人+动词原形": {
+  "name": "help + 某人 + 动词原形",
+  "descs": [
+   "帮助某人做某事"
+  ],
+  "exs": [
+   "Inventions help us talk to each other."
+  ]
+ },
+ "动词不定式todo表示目的（Tofindoutmore,wecanuseabookorcomputer.）": {
+  "name": "动词不定式 to do 表示目的（To find out more, we can use a book or computer.）",
+  "descs": [],
+  "exs": []
+ },
+ "haveto": {
+  "name": "have to",
+  "descs": [
+   "表示“必须”"
+  ],
+  "exs": [
+   "Beekeepers have to wear special clothes.",
+   "People have to wear warm clothes."
+  ]
+ },
+ "from...to...": {
+  "name": "from ... to ...",
+  "descs": [
+   "从……到……"
+  ],
+  "exs": [
+   "Bees fly from flower to flower."
+  ]
+ },
+ "物主代词their、its（Theymakehoneyintheirhomes.）": {
+  "name": "物主代词 their、its（They make honey in their homes.）",
+  "descs": [],
+  "exs": []
+ },
+ "befor": {
+  "name": "be for",
+  "descs": [
+   "表示用途"
+  ],
+  "exs": [
+   "One is for food."
+  ]
+ },
+ "动词不定式todo表示目的（Thebeesmakeahoneycombtokeeptheirhoneyin.）": {
+  "name": "动词不定式 to do 表示目的（The bees make a honeycomb to keep their honey in.）",
+  "descs": [],
+  "exs": []
+ },
+ "thesame...as/differentfrom": {
+  "name": "the same ... as / different from",
+  "descs": [
+   "比较表达"
+  ],
+  "exs": [
+   "The green car is not the same colour as the others."
+  ]
+ },
+ "指示代词this/these（Lookatthesetoycars.）": {
+  "name": "指示代词 this/these（Look at these toy cars.）",
+  "descs": [],
+  "exs": []
+ },
+ "when": {
+  "name": "when",
+  "descs": [
+   "表示“当……时候”"
+  ],
+  "exs": [
+   "They go out in the snow when it is cold.",
+   "When the ostriches see a lion, they call out."
+  ]
+ },
+ "keep+形容词": {
+  "name": "keep + 形容词",
+  "descs": [
+   "保持……",
+   "表示保持"
+  ],
+  "exs": [
+   "Baby rabbits keep safe and warm.",
+   "Their fur keeps them warm."
+  ]
+ },
+ "Itisfuntodo": {
+  "name": "It is fun to do",
+  "descs": [
+   "做某事很有趣"
+  ],
+  "exs": [
+   "It is fun to ride on snow."
+  ]
+ },
+ "make+某物+动词原形（Thesunmakesthesnowmeltaway.）": {
+  "name": "make + 某物 + 动词原形（The sun makes the snow melt away.）",
+  "descs": [],
+  "exs": []
+ },
+ "频率副词always": {
+  "name": "频率副词 always",
+  "descs": [
+   "位于 be 动词之后"
+  ],
+  "exs": [
+   "It is always the same shape."
+  ]
+ },
+ "don't/won't否定式（SoIwon'tgetadogafterall.）": {
+  "name": "don't / won't 否定式（So I won't get a dog after all.）",
+  "descs": [],
+  "exs": []
+ },
+ "much修饰不可数名词": {
+  "name": "much 修饰不可数名词",
+  "descs": [
+   "noise、space"
+  ],
+  "exs": [
+   "Frogs don't need much space."
+  ]
+ },
+ "havegot": {
+  "name": "have got",
+  "descs": [
+   "表示“有”"
+  ],
+  "exs": [
+   "I have got a pet."
+  ]
+ },
+ "couldnot": {
+  "name": "could not",
+  "descs": [
+   "表示“不能”"
+  ],
+  "exs": [
+   "People could not wash and dry their clothes in machines."
+  ]
+ },
+ "let+某人+动词原形": {
+  "name": "let + 某人 + 动词原形",
+  "descs": [
+   "让某人做某事"
+  ],
+  "exs": [
+   "The giraffe opens its mouth to let the bird eat."
+  ]
+ },
+ "give+某人+某物": {
+  "name": "give + 某人 + 某物",
+  "descs": [
+   "给某人某物"
+  ],
+  "exs": [
+   "The turtle can give the small fish a ride."
+  ]
+ },
+ "need+名词": {
+  "name": "need + 名词",
+  "descs": [
+   "表示需要"
+  ],
+  "exs": [
+   "You need good food to give you energy."
+  ]
+ },
+ "Howmuch疑问句": {
+  "name": "How much 疑问句",
+  "descs": [
+   "询问数量"
+  ],
+  "exs": [
+   "How much sleep do you need?"
+  ]
+ },
+ "be动词+名词": {
+  "name": "be 动词 + 名词",
+  "descs": [
+   "说明是什么"
+  ],
+  "exs": [
+   "Icebergs are big lumps of ice."
+  ]
+ },
+ "have+名词": {
+  "name": "have + 名词",
+  "descs": [
+   "表示“有”"
+  ],
+  "exs": [
+   "Other icebergs have big, long tunnels."
+  ]
+ },
+ "as...as": {
+  "name": "as...as",
+  "descs": [
+   "表示“和……一样”"
+  ],
+  "exs": [
+   "Some icebergs are as big as tall buildings."
+  ]
+ },
+ "序数词first/then/next": {
+  "name": "序数词 first / then / next",
+  "descs": [
+   "表示先后顺序"
+  ],
+  "exs": [
+   "First... Then... Next..."
+  ]
+ },
+ "can't": {
+  "name": "can't",
+  "descs": [
+   "表示不能"
+  ],
+  "exs": [
+   "Hungry birds can't see them down there.",
+   "Then the oceans can't keep healthy."
+  ]
+ },
+ "do开头一般疑问句": {
+  "name": "do 开头一般疑问句",
+  "descs": [
+   "Do you know more animals?"
+  ],
+  "exs": []
+ },
+ "bereadytodo": {
+  "name": "be ready to do",
+  "descs": [
+   "表示可以做了"
+  ],
+  "exs": [
+   "It's ready to eat now."
+  ]
+ },
+ "数词+量词": {
+  "name": "数词 + 量词",
+  "descs": [
+   "two cups of flour、half a teaspoon of salt"
+  ],
+  "exs": []
+ },
+ "What/When特殊疑问句": {
+  "name": "What / When 特殊疑问句",
+  "descs": [
+   "询问信息"
+  ],
+  "exs": [
+   "When do you use a key?"
+  ]
+ },
+ "when引导时间状语": {
+  "name": "when 引导时间状语",
+  "descs": [
+   "It helps to keep us dry when it rains.",
+   "Work with an adult when you cook."
+  ],
+  "exs": []
+ },
+ "without介词": {
+  "name": "without 介词",
+  "descs": [
+   "表示“没有”"
+  ],
+  "exs": [
+   "without scissors、without a key"
+  ]
+ },
+ "动词不定式表用途": {
+  "name": "动词不定式表用途",
+  "descs": [
+   "We have knives to cut our food."
+  ],
+  "exs": []
+ },
+ "名词复数（含不规则）": {
+  "name": "名词复数（含不规则）",
+  "descs": [
+   "knives、scissors、things",
+   "people、fishermen、oceans"
+  ],
+  "exs": []
+ },
+ "What/How疑问句": {
+  "name": "What / How 疑问句",
+  "descs": [
+   "询问信息"
+  ],
+  "exs": [
+   "What animals can you make?"
+  ]
+ },
+ "Howold/Howfast疑问句": {
+  "name": "How old / How fast 疑问句",
+  "descs": [
+   "询问年龄和速度"
+  ],
+  "exs": [
+   "How fast can you make a square?"
+  ]
+ },
+ "helpsbtodo": {
+  "name": "help sb to do",
+  "descs": [
+   "表示帮助某人做某事"
+  ],
+  "exs": [
+   "Good drawings help children to read the story."
+  ]
+ },
+ "It'stimetodo": {
+  "name": "It's time to do",
+  "descs": [
+   "表示“该做某事了”"
+  ],
+  "exs": [
+   "It's time to make the final art."
+  ]
+ },
+ "频度副词sometimes": {
+  "name": "频度副词 sometimes",
+  "descs": [
+   "位于句首"
+  ],
+  "exs": [
+   "Sometimes the author wants things changed."
+  ]
+ },
+ "don't否定句": {
+  "name": "don't 否定句",
+  "descs": [
+   "They don't make any noise."
+  ],
+  "exs": []
+ },
+ "when/as引导时间": {
+  "name": "when / as 引导时间",
+  "descs": [
+   "They sing when the sun shines."
+  ],
+  "exs": []
+ },
+ "when/after时间表达": {
+  "name": "when / after 时间表达",
+  "descs": [
+   "After 9 weeks, tadpoles grow little front legs."
+  ],
+  "exs": []
+ },
+ "名词所有格与复数": {
+  "name": "名词所有格与复数",
+  "descs": [
+   "frogs' eggs、tadpoles、legs"
+  ],
+  "exs": []
+ },
+ "looklike/belike": {
+  "name": "look like / be like",
+  "descs": [
+   "表示“像”"
+  ],
+  "exs": [
+   "They look like small frogs."
+  ]
+ },
+ "must/mustnot": {
+  "name": "must / must not",
+  "descs": [
+   "表示必要和禁止"
+  ],
+  "exs": [
+   "We must not put bad things into the oceans."
+  ]
+ },
+ "give+双宾语": {
+  "name": "give + 双宾语",
+  "descs": [
+   "表示“给某人某物”"
+  ],
+  "exs": [
+   "They give us good food."
+  ]
+ },
+ "toomuch+不可数名词": {
+  "name": "too much + 不可数名词",
+  "descs": [
+   "Some fishermen take too much fish."
+  ],
+  "exs": []
+ },
+ "Be+形容词": {
+  "name": "Be + 形容词",
+  "descs": [
+   "表示提醒"
+  ],
+  "exs": [
+   "Be careful with sharp things."
+  ]
+ },
+ "will/won't": {
+  "name": "will / won't",
+  "descs": [
+   "表示将来"
+  ],
+  "exs": [
+   "Soon the Polar Bears won't have much ice."
+  ]
+ },
+ "alotof": {
+  "name": "a lot of",
+  "descs": [
+   "表示“很多”"
+  ],
+  "exs": [
+   "They have a lot of fur and fat."
+  ]
+ },
+ "频率副词": {
+  "name": "频率副词",
+  "descs": [
+   "always、sometimes 位于实义动词前"
+  ],
+  "exs": [
+   "We always see…"
+  ]
+ }
+}

@@ -1,0 +1,327 @@
+[
+ {
+  "name": "be 动词与主谓一致",
+  "group": "动词",
+  "count": 25,
+  "descs": [
+   "A cat 配 has",
+   "A rabbit is a small animal.",
+   "I am hungry. 与 He is climbing.",
+   "I like… 和 Friends like… 都用原形",
+   "I will hop over、you will fly over",
+   "Is that…? It is…",
+   "It is a river. 说明是什么",
+   "It is flying very high!"
+  ],
+  "exs": [
+   "A is for apples.",
+   "A rabbit has whiskers.",
+   "A tree is tall.",
+   "All the animals were hot.",
+   "B is for bath.",
+   "Cranes are big machines.",
+   "G is for golf.",
+   "G is for grapes."
+  ]
+ },
+ {
+  "name": "陈述句与语序",
+  "group": "句型",
+  "count": 28,
+  "descs": [
+   "Here are the bones.",
+   "His hand was stuck.",
+   "Hop! 表示让人做动作",
+   "It's a whale.",
+   "Lift off!、Ready!",
+   "That's snow.",
+   "That's 等于 That is",
+   "What's that?"
+  ],
+  "exs": [
+   "A snail is quiet.",
+   "A storm is noisy.",
+   "A story is fun.",
+   "A volcano is a mountain.",
+   "Be careful with sharp things.",
+   "He's not too fast!",
+   "Here is the food.",
+   "It is on a mountain."
+  ]
+ },
+ {
+  "name": "定冠词 the 与零冠词",
+  "group": "冠词",
+  "count": 21,
+  "descs": [
+   "a forest、a butterfly",
+   "a good idea、the author、the story",
+   "a muffin；orange 前用 an",
+   "a plane、an ostrich",
+   "a tail、a pig",
+   "in the sky、at night",
+   "is for 后的可数名词用单数，不加冠词",
+   "the bees、the balloons"
+  ],
+  "exs": [
+   "One is for food.",
+   "a penguin、a whale",
+   "an orange",
+   "beaks、eggs",
+   "drum、guitar、violin",
+   "king、farmer",
+   "nest、pond、cave",
+   "read about space"
+  ]
+ },
+ {
+  "name": "专有名词与书写规范",
+  "group": "名词",
+  "count": 10,
+  "descs": [
+   "Grace",
+   "good 用句号，bad 用感叹号",
+   "句首与单词首字母大写",
+   "句首大写，单词首字母与所给字母一致",
+   "句首大写，单词首字母跟所给字母对应",
+   "句首字母、单词首字母大写，句末用句号",
+   "句首字母与单词首字母大写",
+   "句首字母与所代表单词的首字母都用大写"
+  ],
+  "exs": [
+   "\"I am big,\" said …",
+   "D is for dinosaur.",
+   "F is for fish.",
+   "H is for hat.",
+   "P is for pilot.",
+   "S is for snowman.",
+   "That's bad!",
+   "W is for whale."
+  ]
+ },
+ {
+  "name": "一般现在时",
+  "group": "时态",
+  "count": 100,
+  "descs": [
+   "A frog can jump high.",
+   "A kangaroo can jump.",
+   "Animals can help people do their work.",
+   "Animals can pull things.",
+   "Astronauts have to wear masks.",
+   "Birds and squirrels do.",
+   "Do you want to make one?",
+   "Dogs pull、They pull"
+  ],
+  "exs": [
+   "A big tanker goes to the farm.",
+   "A bird can fly.",
+   "A cat can jump.",
+   "A rabbit goes in and out.",
+   "Do you like to play...? / Do you like playing...?",
+   "Fuel makes the bus go.",
+   "Grandad likes fishing.",
+   "He likes to sing."
+  ]
+ },
+ {
+  "name": "名词复数",
+  "group": "名词",
+  "count": 54,
+  "descs": [
+   "2 tigers、8 hippos",
+   "a copy、lots of copies、book、books",
+   "a drum 是单数，drums 是复数",
+   "a lot of shells、a lot of coins",
+   "a story 是单数，复数加 s 变 stories",
+   "all the flags、all the kites",
+   "balls 加 -s",
+   "bears 加 -s，表示一类或一家"
+  ],
+  "exs": [
+   "B is for bears.",
+   "Can you see 8 hippos?",
+   "F is for foot.",
+   "Hungry mice come out.",
+   "People have clothes!",
+   "T is for teeth.",
+   "We are slow, said the hippos.",
+   "We are slow, said the snails."
+  ]
+ },
+ {
+  "name": "不可数名词",
+  "group": "名词",
+  "count": 14,
+  "descs": [
+   "Some fishermen take too much fish.",
+   "That's snow、That's mud",
+   "banana 可数，cheese 不可数",
+   "food、rain 不可数，前面不加 a",
+   "fruit 表示水果总称，不加 -s",
+   "hay、meat、fish 不加 s",
+   "music 不加 -s，不用 a 修饰",
+   "noise、space"
+  ],
+  "exs": [
+   "A party is fun, too.",
+   "Frogs don't need much space.",
+   "Fruit for You",
+   "He likes to watch games, too.",
+   "M is for music.",
+   "My head is itchy, too.",
+   "P is for porridge.",
+   "The candle is hot, too."
+  ]
+ },
+ {
+  "name": "感叹句",
+  "group": "句型",
+  "count": 17,
+  "descs": [
+   "Dancing is good fun!",
+   "Happy birthday!",
+   "Help!",
+   "Look how fast I can go.",
+   "Puff!",
+   "SPUFF、HUFF 模仿声音，可单独成句",
+   "The forest was on fire!",
+   "What + 形容词 + 名词"
+  ],
+  "exs": [
+   "F is for feathers and f is for fly!",
+   "Get Moving!",
+   "Help!、Yum!",
+   "How tall?",
+   "L is for little.",
+   "SPUFF! HUFF!",
+   "Splash!",
+   "What big teeth you have!"
+  ]
+ },
+ {
+  "name": "不定冠词 a / an",
+  "group": "冠词",
+  "count": 20,
+  "descs": [
+   "a banana、an orange、an apple",
+   "a bat、a crab、a bee",
+   "a beak、an ostrich",
+   "a big pie",
+   "a big tail、a little tail",
+   "a digger、a big truck",
+   "a farm 泛指一个农场",
+   "a glacier、an iceberg、an igloo"
+  ],
+  "exs": [
+   "a big wind",
+   "a carrot、a hat",
+   "a car、a van",
+   "a clown、a party",
+   "a crab、an eel",
+   "a lion、a fox",
+   "a pot、the oven",
+   "a rabbit、a dog"
+  ]
+ },
+ {
+  "name": "祈使句与日常用语",
+  "group": "句型",
+  "count": 17,
+  "descs": [
+   "Come. Sit. Stay. Wait.",
+   "Don't + 动词原形",
+   "Happy reading!",
+   "Let's + 动词原形，表示建议",
+   "Look at + 名词，提醒别人看",
+   "Look in the sea.",
+   "动词原形开头",
+   "动词原形开头，提醒别人注意"
+  ],
+  "exs": [
+   "Come in!",
+   "Don't get lost.",
+   "Don't go so fast!",
+   "Don't smile.",
+   "Let's Go Riding",
+   "Let's go home.",
+   "Let's play ball.",
+   "Look at my home."
+  ]
+ },
+ {
+  "name": "现在进行时",
+  "group": "时态",
+  "count": 27,
+  "descs": [
+   "Dancing is good fun!",
+   "I、we、they、it",
+   "Looking at Bugs 表示正在看",
+   "Their teeth keep growing.",
+   "This is soft.",
+   "am + 动词-ing",
+   "be + 动词 ing，表正在发生",
+   "be + 动词ing，表示正在做"
+  ],
+  "exs": [
+   "A is for apples.",
+   "A train is going past.",
+   "Are you good at hiding?",
+   "C is for counting.",
+   "E is for eel.",
+   "He is climbing.",
+   "I am going up the mountain.",
+   "I is for insect."
+  ]
+ },
+ {
+  "name": "形容词的用法",
+  "group": "形容词与副词",
+  "count": 39,
+  "descs": [
+   "I'm getting very hungry.",
+   "a little ball、big balls",
+   "a long long tail",
+   "baby chickens",
+   "big 放在 be 动词后说明主语",
+   "bigger",
+   "big、little、long、short",
+   "blue、brown、green"
+  ],
+  "exs": [
+   "Baby rabbits keep safe and warm.",
+   "His smile got bigger.",
+   "I am big.",
+   "I have the best tail.",
+   "I'm late for school.",
+   "It is red with black spots.",
+   "M is for middle-sized.",
+   "Mouse is the strongest animal of all."
+  ]
+ },
+ {
+  "name": "并列与转折（and / or / but）",
+  "group": "句型",
+  "count": 35,
+  "descs": [
+   "Bats and bears",
+   "Birds have beaks, but no teeth.",
+   "But the zookeeper did not wake up.",
+   "It can run and hide and keep very still.",
+   "It can't fly, but it runs fast.",
+   "Its back legs are big, but its tail is short.",
+   "They ran and ran to get to their friends.",
+   "You will walk and jump in the water."
+  ],
+  "exs": [
+   "B is for butterfly and b is for bee.",
+   "C is for cake and c is for candles.",
+   "F is for feathers and f is for fly!",
+   "F is for fox and x is in fox.",
+   "H is for horse and h is for hen.",
+   "T is for tiger and t is for turtle.",
+   "This gate can open and close.",
+   "This is big. But this is little."
+  ]
+ }
+]

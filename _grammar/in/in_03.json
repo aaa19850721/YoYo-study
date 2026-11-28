@@ -1,0 +1,305 @@
+[
+ {
+  "name": "名词所有格",
+  "group": "名词",
+  "count": 9,
+  "descs": [
+   "'s 表「某人的」",
+   "'s 表所属",
+   "Charlie's boat",
+   "a copy of the book、lots of copies of the book",
+   "a picture of Elephant",
+   "come out of these eggs",
+   "made of ice",
+   "mother's hair、twins' hair"
+  ],
+  "exs": [
+   "Elephant's back",
+   "Grandad's home、Elephant's back",
+   "donkey's tail",
+   "the shape of a ship",
+   "the taste of juice",
+   "复数名词只加 '",
+   "由冰做成",
+   "这只老鼠的耳朵"
+  ]
+ },
+ {
+  "name": "情态动词 can / could",
+  "group": "动词",
+  "count": 13,
+  "descs": [
+   "Can + 主语 + 动词原形",
+   "Can you find an old sock?",
+   "Could I help you? Could you help me?",
+   "I can make good soup.",
+   "I can win this race!",
+   "I、he、they 后面都用 can",
+   "They can look like rainbows.",
+   "You can have half of my pie."
+  ],
+  "exs": [
+   "A horse could be a good pet.",
+   "A top can go.",
+   "Can the horses go fast?",
+   "Can you make hats?",
+   "I could cut this rope.",
+   "People could not wash and dry their clothes in machines.",
+   "Some dinosaurs could fly.",
+   "They could make a scarecrow."
+  ]
+ },
+ {
+  "name": "一般疑问句",
+  "group": "句型",
+  "count": 19,
+  "descs": [
+   "Are we all here?",
+   "Are you hungry?",
+   "Can + 主语 + 动词原形",
+   "Can the kangaroo cross over the river? 回答 Yes, I will.",
+   "Can you see clouds? 回答 Yes, I can.",
+   "Can you whistle? 回答 Yes, I can. / No, I can't.",
+   "Could I + 动词原形，客气地请求",
+   "Do you know more animals?"
+  ],
+  "exs": [
+   "A mountain is a big, high place.",
+   "Can you count the wheels?",
+   "Can you read the map?",
+   "Could I cut this rope?",
+   "Have you got some marbles?",
+   "I have spots.",
+   "My head.",
+   "That's... / Here are..."
+  ]
+ },
+ {
+  "name": "感官动词与 like 表比喻",
+  "group": "动词",
+  "count": 11,
+  "descs": [
+   "I am frightened of him.",
+   "like a bird",
+   "like a car、like this one",
+   "like me、like this",
+   "round like the sun",
+   "后面接形容词，不接副词",
+   "后面直接接闻到的对象",
+   "表「看起来…」"
+  ],
+  "exs": [
+   "It looks like a cow.",
+   "Some dinosaurs were like birds.",
+   "That snail looks funny.",
+   "The ice feels cold.",
+   "They look like small frogs.",
+   "You look hungry.",
+   "smell the soup"
+  ]
+ },
+ {
+  "name": "There be 句型",
+  "group": "句型",
+  "count": 9,
+  "descs": [
+   "Soon there will be more new butterflies!",
+   "There is + 单数，There are + 复数",
+   "There is a big light at the top.",
+   "There was a big flood!",
+   "There wasn't a chair.",
+   "There were + 复数名词",
+   "a big snail、a hose",
+   "was / were"
+  ],
+  "exs": [
+   "How will you do it?",
+   "Show me the shape.",
+   "There are deserts in very hot places.",
+   "There is a scooter.",
+   "There were five chairs.",
+   "There were three little pigs.",
+   "the flowers",
+   "单数用 wasn't"
+  ]
+ },
+ {
+  "name": "have / has 表拥有",
+  "group": "动词",
+  "count": 24,
+  "descs": [
+   "A fireman has a hat.",
+   "Horses have teeth.、Birds have beaks.",
+   "I have a banana.",
+   "I have a big apple.",
+   "I have… / Who has…?",
+   "It has",
+   "It has very long ears.",
+   "Our dad has short hair."
+  ],
+  "exs": [
+   "A dog has whiskers.",
+   "A whale has a big tail.",
+   "Dogs have hair.",
+   "I have got a pet.",
+   "I have two hands. / My face has one chin.",
+   "Other icebergs have big, long tunnels.",
+   "She has a dancing dress.",
+   "The rainbow has a colour pattern."
+  ]
+ },
+ {
+  "name": "物主代词",
+  "group": "代词",
+  "count": 13,
+  "descs": [
+   "Its horn…",
+   "Its tail is like a big fan.",
+   "Its tail is short.",
+   "her back、his shoulders",
+   "his hands、his smile",
+   "his head、his nose",
+   "his surfboard、his skateboard",
+   "his tooth、his tongue"
+  ],
+  "exs": [
+   "Its head is under its wing.",
+   "it 的形容词性物主代词",
+   "its head",
+   "my scissors、my hair",
+   "他的树",
+   "它的",
+   "我们的手",
+   "我的小眼睛"
+  ]
+ },
+ {
+  "name": "let / make / help + 动词原形",
+  "group": "动词",
+  "count": 24,
+  "descs": [
+   "I showed it to my mother.",
+   "Show me the shape",
+   "So the boy let go of some of the nuts.",
+   "We call it T Rex.",
+   "We call that a rhino.",
+   "We can see it move things.",
+   "We put a hat on his head.",
+   "all his friends、They all ran"
+  ],
+  "exs": [
+   "She gave a piece of bread to the mouse.",
+   "The turtle can give the small fish a ride.",
+   "They give us good food.",
+   "gave them some bananas",
+   "make kites out of junk",
+   "me 是人，the shape 是物",
+   "让东西看起来大",
+   "跟着某人或某物"
+  ]
+ },
+ {
+  "name": "动词不定式 to do",
+  "group": "动词",
+  "count": 35,
+  "descs": [
+   "All the children were happy to see Tilly.",
+   "It's good to use a crossing.",
+   "The fish asked Snake to make him go away.",
+   "Tom stopped to help Joe.",
+   "We have knives to cut our food.",
+   "We use paper to make our books.",
+   "We wait for cars to stop.",
+   "a teacher to help you"
+  ],
+  "exs": [
+   "Good drawings help children to read the story.",
+   "Have you got some marbles?",
+   "It is fun to ride on snow.",
+   "It needs wind to make it go.",
+   "It's ready to eat now.",
+   "It's time to make the final art.",
+   "Joe helped to take the seal back to its home.",
+   "Some milk goes into bottles."
+  ]
+ },
+ {
+  "name": "一般将来时",
+  "group": "时态",
+  "count": 6,
+  "descs": [
+   "'ll 是 will 的缩写",
+   "I will make soup.",
+   "It will come out soon.",
+   "The eggs will grow into caterpillars.",
+   "You will have a teacher.",
+   "You will use glue and scissors.",
+   "will + 动词原形",
+   "表示将要发生"
+  ],
+  "exs": [
+   "I will be a dancer.",
+   "I will cut this rope.",
+   "I'll blow your house down.",
+   "Lava will run down the mountain.",
+   "The storm will have a lot of rain.",
+   "We are going to have some hay.",
+   "Your muscles will grow bigger and stronger."
+  ]
+ },
+ {
+  "name": "比较级与最高级",
+  "group": "形容词与副词",
+  "count": 8,
+  "descs": [
+   "as big as six elephants",
+   "faster than you、higher than you",
+   "looser and looser",
+   "两者用比较级，三者及以上用最高级",
+   "比较表达",
+   "表示“和……一样”",
+   "越来越多"
+  ],
+  "exs": [
+   "Some icebergs are as big as tall buildings.",
+   "The green car is not the same colour as the others.",
+   "越来越……"
+  ]
+ },
+ {
+  "name": "时间与条件从句",
+  "group": "句型",
+  "count": 6,
+  "descs": [
+   "After 9 weeks, tadpoles grow little front legs.",
+   "It helps to keep us dry when it rains.",
+   "It's + 数字 + o'clock",
+   "They sing when the sun shines.",
+   "Work with an adult when you cook.",
+   "表示“如果”"
+  ],
+  "exs": [
+   "A snake can slide away fast if it sees an enemy.",
+   "If it fell off, they had to stop.",
+   "If you want to dig, cut, or build, how will you do it?",
+   "It's nine o'clock."
+  ]
+ },
+ {
+  "name": "have to / must",
+  "group": "动词",
+  "count": 4,
+  "descs": [
+   "表示\"必须、得\"",
+   "表示“必须”",
+   "表示必要和禁止"
+  ],
+  "exs": [
+   "All the family had to help.",
+   "Beekeepers have to wear special clothes.",
+   "People have to wear warm clothes.",
+   "The children had to run.",
+   "We must not put bad things into the oceans."
+  ]
+ }
+]

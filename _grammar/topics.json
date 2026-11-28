@@ -1,0 +1,927 @@
+[
+ {
+  "name": "be 动词与主谓一致",
+  "group": "动词",
+  "count": 25,
+  "descs": [
+   "A cat 配 has",
+   "A rabbit is a small animal.",
+   "I am hungry. 与 He is climbing.",
+   "I like… 和 Friends like… 都用原形",
+   "I will hop over、you will fly over",
+   "Is that…? It is…",
+   "It is a river. 说明是什么",
+   "It is flying very high!"
+  ],
+  "exs": [
+   "A is for apples.",
+   "A rabbit has whiskers.",
+   "A tree is tall.",
+   "All the animals were hot.",
+   "B is for bath.",
+   "Cranes are big machines.",
+   "G is for golf.",
+   "G is for grapes."
+  ]
+ },
+ {
+  "name": "陈述句与语序",
+  "group": "句型",
+  "count": 28,
+  "descs": [
+   "Here are the bones.",
+   "His hand was stuck.",
+   "Hop! 表示让人做动作",
+   "It's a whale.",
+   "Lift off!、Ready!",
+   "That's snow.",
+   "That's 等于 That is",
+   "What's that?"
+  ],
+  "exs": [
+   "A snail is quiet.",
+   "A storm is noisy.",
+   "A story is fun.",
+   "A volcano is a mountain.",
+   "Be careful with sharp things.",
+   "He's not too fast!",
+   "Here is the food.",
+   "It is on a mountain."
+  ]
+ },
+ {
+  "name": "定冠词 the 与零冠词",
+  "group": "冠词",
+  "count": 21,
+  "descs": [
+   "a forest、a butterfly",
+   "a good idea、the author、the story",
+   "a muffin；orange 前用 an",
+   "a plane、an ostrich",
+   "a tail、a pig",
+   "in the sky、at night",
+   "is for 后的可数名词用单数，不加冠词",
+   "the bees、the balloons"
+  ],
+  "exs": [
+   "One is for food.",
+   "a penguin、a whale",
+   "an orange",
+   "beaks、eggs",
+   "drum、guitar、violin",
+   "king、farmer",
+   "nest、pond、cave",
+   "read about space"
+  ]
+ },
+ {
+  "name": "专有名词与书写规范",
+  "group": "名词",
+  "count": 10,
+  "descs": [
+   "Grace",
+   "good 用句号，bad 用感叹号",
+   "句首与单词首字母大写",
+   "句首大写，单词首字母与所给字母一致",
+   "句首大写，单词首字母跟所给字母对应",
+   "句首字母、单词首字母大写，句末用句号",
+   "句首字母与单词首字母大写",
+   "句首字母与所代表单词的首字母都用大写"
+  ],
+  "exs": [
+   "\"I am big,\" said …",
+   "D is for dinosaur.",
+   "F is for fish.",
+   "H is for hat.",
+   "P is for pilot.",
+   "S is for snowman.",
+   "That's bad!",
+   "W is for whale."
+  ]
+ },
+ {
+  "name": "一般现在时",
+  "group": "时态",
+  "count": 100,
+  "descs": [
+   "A frog can jump high.",
+   "A kangaroo can jump.",
+   "Animals can help people do their work.",
+   "Animals can pull things.",
+   "Astronauts have to wear masks.",
+   "Birds and squirrels do.",
+   "Do you want to make one?",
+   "Dogs pull、They pull"
+  ],
+  "exs": [
+   "A big tanker goes to the farm.",
+   "A bird can fly.",
+   "A cat can jump.",
+   "A rabbit goes in and out.",
+   "Do you like to play...? / Do you like playing...?",
+   "Fuel makes the bus go.",
+   "Grandad likes fishing.",
+   "He likes to sing."
+  ]
+ },
+ {
+  "name": "名词复数",
+  "group": "名词",
+  "count": 54,
+  "descs": [
+   "2 tigers、8 hippos",
+   "a copy、lots of copies、book、books",
+   "a drum 是单数，drums 是复数",
+   "a lot of shells、a lot of coins",
+   "a story 是单数，复数加 s 变 stories",
+   "all the flags、all the kites",
+   "balls 加 -s",
+   "bears 加 -s，表示一类或一家"
+  ],
+  "exs": [
+   "B is for bears.",
+   "Can you see 8 hippos?",
+   "F is for foot.",
+   "Hungry mice come out.",
+   "People have clothes!",
+   "T is for teeth.",
+   "We are slow, said the hippos.",
+   "We are slow, said the snails."
+  ]
+ },
+ {
+  "name": "不可数名词",
+  "group": "名词",
+  "count": 14,
+  "descs": [
+   "Some fishermen take too much fish.",
+   "That's snow、That's mud",
+   "banana 可数，cheese 不可数",
+   "food、rain 不可数，前面不加 a",
+   "fruit 表示水果总称，不加 -s",
+   "hay、meat、fish 不加 s",
+   "music 不加 -s，不用 a 修饰",
+   "noise、space"
+  ],
+  "exs": [
+   "A party is fun, too.",
+   "Frogs don't need much space.",
+   "Fruit for You",
+   "He likes to watch games, too.",
+   "M is for music.",
+   "My head is itchy, too.",
+   "P is for porridge.",
+   "The candle is hot, too."
+  ]
+ },
+ {
+  "name": "感叹句",
+  "group": "句型",
+  "count": 17,
+  "descs": [
+   "Dancing is good fun!",
+   "Happy birthday!",
+   "Help!",
+   "Look how fast I can go.",
+   "Puff!",
+   "SPUFF、HUFF 模仿声音，可单独成句",
+   "The forest was on fire!",
+   "What + 形容词 + 名词"
+  ],
+  "exs": [
+   "F is for feathers and f is for fly!",
+   "Get Moving!",
+   "Help!、Yum!",
+   "How tall?",
+   "L is for little.",
+   "SPUFF! HUFF!",
+   "Splash!",
+   "What big teeth you have!"
+  ]
+ },
+ {
+  "name": "不定冠词 a / an",
+  "group": "冠词",
+  "count": 20,
+  "descs": [
+   "a banana、an orange、an apple",
+   "a bat、a crab、a bee",
+   "a beak、an ostrich",
+   "a big pie",
+   "a big tail、a little tail",
+   "a digger、a big truck",
+   "a farm 泛指一个农场",
+   "a glacier、an iceberg、an igloo"
+  ],
+  "exs": [
+   "a big wind",
+   "a carrot、a hat",
+   "a car、a van",
+   "a clown、a party",
+   "a crab、an eel",
+   "a lion、a fox",
+   "a pot、the oven",
+   "a rabbit、a dog"
+  ]
+ },
+ {
+  "name": "祈使句与日常用语",
+  "group": "句型",
+  "count": 17,
+  "descs": [
+   "Come. Sit. Stay. Wait.",
+   "Don't + 动词原形",
+   "Happy reading!",
+   "Let's + 动词原形，表示建议",
+   "Look at + 名词，提醒别人看",
+   "Look in the sea.",
+   "动词原形开头",
+   "动词原形开头，提醒别人注意"
+  ],
+  "exs": [
+   "Come in!",
+   "Don't get lost.",
+   "Don't go so fast!",
+   "Don't smile.",
+   "Let's Go Riding",
+   "Let's go home.",
+   "Let's play ball.",
+   "Look at my home."
+  ]
+ },
+ {
+  "name": "现在进行时",
+  "group": "时态",
+  "count": 27,
+  "descs": [
+   "Dancing is good fun!",
+   "I、we、they、it",
+   "Looking at Bugs 表示正在看",
+   "Their teeth keep growing.",
+   "This is soft.",
+   "am + 动词-ing",
+   "be + 动词 ing，表正在发生",
+   "be + 动词ing，表示正在做"
+  ],
+  "exs": [
+   "A is for apples.",
+   "A train is going past.",
+   "Are you good at hiding?",
+   "C is for counting.",
+   "E is for eel.",
+   "He is climbing.",
+   "I am going up the mountain.",
+   "I is for insect."
+  ]
+ },
+ {
+  "name": "形容词的用法",
+  "group": "形容词与副词",
+  "count": 39,
+  "descs": [
+   "I'm getting very hungry.",
+   "a little ball、big balls",
+   "a long long tail",
+   "baby chickens",
+   "big 放在 be 动词后说明主语",
+   "bigger",
+   "big、little、long、short",
+   "blue、brown、green"
+  ],
+  "exs": [
+   "Baby rabbits keep safe and warm.",
+   "His smile got bigger.",
+   "I am big.",
+   "I have the best tail.",
+   "I'm late for school.",
+   "It is red with black spots.",
+   "M is for middle-sized.",
+   "Mouse is the strongest animal of all."
+  ]
+ },
+ {
+  "name": "并列与转折（and / or / but）",
+  "group": "句型",
+  "count": 35,
+  "descs": [
+   "Bats and bears",
+   "Birds have beaks, but no teeth.",
+   "But the zookeeper did not wake up.",
+   "It can run and hide and keep very still.",
+   "It can't fly, but it runs fast.",
+   "Its back legs are big, but its tail is short.",
+   "They ran and ran to get to their friends.",
+   "You will walk and jump in the water."
+  ],
+  "exs": [
+   "B is for butterfly and b is for bee.",
+   "C is for cake and c is for candles.",
+   "F is for feathers and f is for fly!",
+   "F is for fox and x is in fox.",
+   "H is for horse and h is for hen.",
+   "T is for tiger and t is for turtle.",
+   "This gate can open and close.",
+   "This is big. But this is little."
+  ]
+ },
+ {
+  "name": "名词的构成与类别",
+  "group": "名词",
+  "count": 9,
+  "descs": [
+   "bark 既是名词狗叫声，也是动词吠",
+   "fire engine、police car、racing car 由两个词组成一个名称",
+   "jack-in-the-box 用连字符连接",
+   "plant、water 都可作名词，也可作动词",
+   "playground 由 play + ground 组成，写作一个词",
+   "racing car driver、zoo keeper 由两个以上名词组成，中心词在后面",
+   "racing car 由两个词组成",
+   "snowman、ladybug 由两个词合成，写作一个词"
+  ],
+  "exs": [
+   "J is for jack-in-the-box.",
+   "R is for racing car.",
+   "duckling"
+  ]
+ },
+ {
+  "name": "副词的用法",
+  "group": "形容词与副词",
+  "count": 28,
+  "descs": [
+   "Sometimes they dance to the music.",
+   "They can eat it later.",
+   "Today we went out.",
+   "always、sometimes 位于实义动词前",
+   "come in 表示进来",
+   "fast→faster，表“更快”",
+   "high → higher、fast → faster",
+   "jump high、run fast、dive deep"
+  ],
+  "exs": [
+   "Come in!",
+   "I am tall, too.",
+   "It is always the same shape.",
+   "Monday was a hot day, so we went to the beach.",
+   "Sometimes the author wants things changed.",
+   "We always see…",
+   "blow up very often",
+   "swim fast"
+  ]
+ },
+ {
+  "name": "其他介词",
+  "group": "介词",
+  "count": 46,
+  "descs": [
+   "Green is for GO.",
+   "I can do it all by myself.",
+   "a bus with lots of windows",
+   "an animal with stripes",
+   "at / in night",
+   "at night",
+   "at night、in the dark",
+   "at the park 表示地点"
+  ],
+  "exs": [
+   "A tiger made that track in the snow.",
+   "Animals in Danger",
+   "Bees fly from flower to flower.",
+   "C is for crab.",
+   "Fun at the Park",
+   "I have one head with one neck.",
+   "Its head is in its shell.",
+   "Out in Space"
+  ]
+ },
+ {
+  "name": "方位与方向介词",
+  "group": "介词",
+  "count": 44,
+  "descs": [
+   "At the beach, I got sand...",
+   "At the zoo",
+   "Fly bit him on his tail.",
+   "On Monday morning",
+   "On Monday、On Tuesday",
+   "at the hospital、at my school",
+   "cross over、hop over、fly over",
+   "fly up、lift off"
+  ],
+  "exs": [
+   "I have two eyebrows over my eyes.",
+   "go up、come down",
+   "in space",
+   "in the lake",
+   "look at the ears",
+   "on Tuesday、on Friday",
+   "on the stove、on a fire",
+   "on the yak"
+  ]
+ },
+ {
+  "name": "特殊疑问句",
+  "group": "句型",
+  "count": 27,
+  "descs": [
+   "How do the seeds go away?",
+   "What + will + 主语 + 动词原形",
+   "What do + 主语 + have?",
+   "What is that animal?",
+   "Where does the water go?",
+   "Where is Tiger?",
+   "Who has claws?",
+   "Who helps me?"
+  ],
+  "exs": [
+   "How fast can you make a square?",
+   "How much sleep do you need?",
+   "They go out in the snow when it is cold.",
+   "What animals can you make?",
+   "What do fish have on the outside?",
+   "What will I cut today?",
+   "When do you use a key?",
+   "When the ostriches see a lion, they call out."
+  ]
+ },
+ {
+  "name": "动词短语",
+  "group": "动词",
+  "count": 11,
+  "descs": [
+   "Paper is made from wood.",
+   "People get the clay out of the ground.",
+   "at 后面接看的人或物",
+   "go away / take away / put...in",
+   "go for a run / have a race / play games",
+   "go to the park；但 go home 不加 to",
+   "look after 表示「照顾」",
+   "put on / put up / go out"
+  ],
+  "exs": [
+   "Children have fun when they go for a run.",
+   "I will play the piano.",
+   "It makes the birds go away.",
+   "Look After Pets",
+   "Look at the boy.",
+   "They will put on coats and boots."
+  ]
+ },
+ {
+  "name": "数量表达",
+  "group": "名词",
+  "count": 22,
+  "descs": [
+   "1 snake",
+   "All people need water. Some rain makes puddles.",
+   "a lot of nuts",
+   "half of my banana",
+   "lots of windows and wheels",
+   "one moon、one rainbow",
+   "one、two、ten 表示数量",
+   "some carrots、some bread"
+  ],
+  "exs": [
+   "Can you see 1 snake?",
+   "First... Then... Next...",
+   "I have ten fingers.",
+   "Jump six times.",
+   "My eyes have lots of eyelashes.",
+   "O is for one.",
+   "They have a lot of fur and fat.",
+   "a set of big, round shells"
+  ]
+ },
+ {
+  "name": "否定句",
+  "group": "句型",
+  "count": 33,
+  "descs": [
+   "-ing 结尾的词在这里当名词用，表示一种活动",
+   "-ing 结尾的运动名称",
+   "He has no hair.",
+   "I can't get my hand out!",
+   "I can't whistle.",
+   "It can fly. It can't fly.",
+   "They don't look like caterpillars!",
+   "They don't make any noise."
+  ],
+  "exs": [
+   "A snake is not quiet.",
+   "Grandad can't play baseball.",
+   "He didn't see a big net.",
+   "He didn't wait.",
+   "He was not happy!",
+   "Hungry birds can't see them down there.",
+   "I can count... / I can't count...",
+   "I have no legs."
+  ]
+ },
+ {
+  "name": "直接引语",
+  "group": "句型",
+  "count": 6,
+  "descs": [
+   "\"I swim here,\" said Hippo.",
+   "said + 人名，常放在引语之后",
+   "said 加说话人，放在引语后面",
+   "说的话加引号，said 后接说话的对象",
+   "说的话放在引号里，said 后面接说话的对象",
+   "说的话放在引号里，后面用 said 引出说话的一方"
+  ],
+  "exs": [
+   "\"I am big,\" said the bear.",
+   "\"We are slow,\" said the turtles.",
+   "\"We can hop,\" said the birds."
+  ]
+ },
+ {
+  "name": "人称代词",
+  "group": "代词",
+  "count": 27,
+  "descs": [
+   "I ate it / I ate them",
+   "I wiggled it.",
+   "It gives us shade.",
+   "She ran to see… in her dress",
+   "She、He、My",
+   "Stick it / Stick them",
+   "They carry heavy things on their backs.",
+   "They grow in her eggs."
+  ],
+  "exs": [
+   "My father likes to play sports.",
+   "The fire came after them.",
+   "They took its picture.",
+   "talk to me"
+  ]
+ },
+ {
+  "name": "指示代词 this / that / these",
+  "group": "代词",
+  "count": 11,
+  "descs": [
+   "These trees…",
+   "this old junk",
+   "this tree、this hill、this rock",
+   "介绍事物",
+   "前者后接名词，后者后接形容词",
+   "指代前面提到的单数事物",
+   "指眼前这一个",
+   "指眼前这一只"
+  ],
+  "exs": [
+   "This door can open and close.",
+   "This is a little dog.",
+   "This is wet.",
+   "this glue、this honey",
+   "this peach、this pie",
+   "this pig、this dog",
+   "this train",
+   "这些树"
+  ]
+ },
+ {
+  "name": "一般过去时",
+  "group": "时态",
+  "count": 26,
+  "descs": [
+   "Did + 主语 + 动词原形",
+   "He was hungry and thirsty.",
+   "It was a red fire engine.",
+   "It was delicious. / They were delicious.",
+   "It was like a bird.",
+   "The beans are put into a box.",
+   "The children were very sad.",
+   "The fish was...、The mouse was..."
+  ],
+  "exs": [
+   "Did Buddy wait?",
+   "He was not happy.",
+   "I got... / I made...",
+   "My balloon went up.",
+   "She was not frightened.",
+   "The butter went in.",
+   "They were not happy.",
+   "They were very frightened."
+  ]
+ },
+ {
+  "name": "too 的用法",
+  "group": "形容词与副词",
+  "count": 11,
+  "descs": [
+   "I swim here, too.",
+   "It has four wheels, too.",
+   "It tastes good, too!",
+   "Our dog loves music too!",
+   "The world is round, too.",
+   "放句末，前面加逗号",
+   "表示“也”，前面加逗号"
+  ],
+  "exs": []
+ },
+ {
+  "name": "名词所有格",
+  "group": "名词",
+  "count": 9,
+  "descs": [
+   "'s 表「某人的」",
+   "'s 表所属",
+   "Charlie's boat",
+   "a copy of the book、lots of copies of the book",
+   "a picture of Elephant",
+   "come out of these eggs",
+   "made of ice",
+   "mother's hair、twins' hair"
+  ],
+  "exs": [
+   "Elephant's back",
+   "Grandad's home、Elephant's back",
+   "donkey's tail",
+   "the shape of a ship",
+   "the taste of juice",
+   "复数名词只加 '",
+   "由冰做成",
+   "这只老鼠的耳朵"
+  ]
+ },
+ {
+  "name": "情态动词 can / could",
+  "group": "动词",
+  "count": 13,
+  "descs": [
+   "Can + 主语 + 动词原形",
+   "Can you find an old sock?",
+   "Could I help you? Could you help me?",
+   "I can make good soup.",
+   "I can win this race!",
+   "I、he、they 后面都用 can",
+   "They can look like rainbows.",
+   "You can have half of my pie."
+  ],
+  "exs": [
+   "A horse could be a good pet.",
+   "A top can go.",
+   "Can the horses go fast?",
+   "Can you make hats?",
+   "I could cut this rope.",
+   "People could not wash and dry their clothes in machines.",
+   "Some dinosaurs could fly.",
+   "They could make a scarecrow."
+  ]
+ },
+ {
+  "name": "一般疑问句",
+  "group": "句型",
+  "count": 19,
+  "descs": [
+   "Are we all here?",
+   "Are you hungry?",
+   "Can + 主语 + 动词原形",
+   "Can the kangaroo cross over the river? 回答 Yes, I will.",
+   "Can you see clouds? 回答 Yes, I can.",
+   "Can you whistle? 回答 Yes, I can. / No, I can't.",
+   "Could I + 动词原形，客气地请求",
+   "Do you know more animals?"
+  ],
+  "exs": [
+   "A mountain is a big, high place.",
+   "Can you count the wheels?",
+   "Can you read the map?",
+   "Could I cut this rope?",
+   "Have you got some marbles?",
+   "I have spots.",
+   "My head.",
+   "That's... / Here are..."
+  ]
+ },
+ {
+  "name": "感官动词与 like 表比喻",
+  "group": "动词",
+  "count": 11,
+  "descs": [
+   "I am frightened of him.",
+   "like a bird",
+   "like a car、like this one",
+   "like me、like this",
+   "round like the sun",
+   "后面接形容词，不接副词",
+   "后面直接接闻到的对象",
+   "表「看起来…」"
+  ],
+  "exs": [
+   "It looks like a cow.",
+   "Some dinosaurs were like birds.",
+   "That snail looks funny.",
+   "The ice feels cold.",
+   "They look like small frogs.",
+   "You look hungry.",
+   "smell the soup"
+  ]
+ },
+ {
+  "name": "There be 句型",
+  "group": "句型",
+  "count": 9,
+  "descs": [
+   "Soon there will be more new butterflies!",
+   "There is + 单数，There are + 复数",
+   "There is a big light at the top.",
+   "There was a big flood!",
+   "There wasn't a chair.",
+   "There were + 复数名词",
+   "a big snail、a hose",
+   "was / were"
+  ],
+  "exs": [
+   "How will you do it?",
+   "Show me the shape.",
+   "There are deserts in very hot places.",
+   "There is a scooter.",
+   "There were five chairs.",
+   "There were three little pigs.",
+   "the flowers",
+   "单数用 wasn't"
+  ]
+ },
+ {
+  "name": "have / has 表拥有",
+  "group": "动词",
+  "count": 24,
+  "descs": [
+   "A fireman has a hat.",
+   "Horses have teeth.、Birds have beaks.",
+   "I have a banana.",
+   "I have a big apple.",
+   "I have… / Who has…?",
+   "It has",
+   "It has very long ears.",
+   "Our dad has short hair."
+  ],
+  "exs": [
+   "A dog has whiskers.",
+   "A whale has a big tail.",
+   "Dogs have hair.",
+   "I have got a pet.",
+   "I have two hands. / My face has one chin.",
+   "Other icebergs have big, long tunnels.",
+   "She has a dancing dress.",
+   "The rainbow has a colour pattern."
+  ]
+ },
+ {
+  "name": "物主代词",
+  "group": "代词",
+  "count": 13,
+  "descs": [
+   "Its horn…",
+   "Its tail is like a big fan.",
+   "Its tail is short.",
+   "her back、his shoulders",
+   "his hands、his smile",
+   "his head、his nose",
+   "his surfboard、his skateboard",
+   "his tooth、his tongue"
+  ],
+  "exs": [
+   "Its head is under its wing.",
+   "it 的形容词性物主代词",
+   "its head",
+   "my scissors、my hair",
+   "他的树",
+   "它的",
+   "我们的手",
+   "我的小眼睛"
+  ]
+ },
+ {
+  "name": "let / make / help + 动词原形",
+  "group": "动词",
+  "count": 24,
+  "descs": [
+   "I showed it to my mother.",
+   "Show me the shape",
+   "So the boy let go of some of the nuts.",
+   "We call it T Rex.",
+   "We call that a rhino.",
+   "We can see it move things.",
+   "We put a hat on his head.",
+   "all his friends、They all ran"
+  ],
+  "exs": [
+   "She gave a piece of bread to the mouse.",
+   "The turtle can give the small fish a ride.",
+   "They give us good food.",
+   "gave them some bananas",
+   "make kites out of junk",
+   "me 是人，the shape 是物",
+   "让东西看起来大",
+   "跟着某人或某物"
+  ]
+ },
+ {
+  "name": "动词不定式 to do",
+  "group": "动词",
+  "count": 35,
+  "descs": [
+   "All the children were happy to see Tilly.",
+   "It's good to use a crossing.",
+   "The fish asked Snake to make him go away.",
+   "Tom stopped to help Joe.",
+   "We have knives to cut our food.",
+   "We use paper to make our books.",
+   "We wait for cars to stop.",
+   "a teacher to help you"
+  ],
+  "exs": [
+   "Good drawings help children to read the story.",
+   "Have you got some marbles?",
+   "It is fun to ride on snow.",
+   "It needs wind to make it go.",
+   "It's ready to eat now.",
+   "It's time to make the final art.",
+   "Joe helped to take the seal back to its home.",
+   "Some milk goes into bottles."
+  ]
+ },
+ {
+  "name": "一般将来时",
+  "group": "时态",
+  "count": 6,
+  "descs": [
+   "'ll 是 will 的缩写",
+   "I will make soup.",
+   "It will come out soon.",
+   "The eggs will grow into caterpillars.",
+   "You will have a teacher.",
+   "You will use glue and scissors.",
+   "will + 动词原形",
+   "表示将要发生"
+  ],
+  "exs": [
+   "I will be a dancer.",
+   "I will cut this rope.",
+   "I'll blow your house down.",
+   "Lava will run down the mountain.",
+   "The storm will have a lot of rain.",
+   "We are going to have some hay.",
+   "Your muscles will grow bigger and stronger."
+  ]
+ },
+ {
+  "name": "比较级与最高级",
+  "group": "形容词与副词",
+  "count": 8,
+  "descs": [
+   "as big as six elephants",
+   "faster than you、higher than you",
+   "looser and looser",
+   "两者用比较级，三者及以上用最高级",
+   "比较表达",
+   "表示“和……一样”",
+   "越来越多"
+  ],
+  "exs": [
+   "Some icebergs are as big as tall buildings.",
+   "The green car is not the same colour as the others.",
+   "越来越……"
+  ]
+ },
+ {
+  "name": "时间与条件从句",
+  "group": "句型",
+  "count": 6,
+  "descs": [
+   "After 9 weeks, tadpoles grow little front legs.",
+   "It helps to keep us dry when it rains.",
+   "It's + 数字 + o'clock",
+   "They sing when the sun shines.",
+   "Work with an adult when you cook.",
+   "表示“如果”"
+  ],
+  "exs": [
+   "A snake can slide away fast if it sees an enemy.",
+   "If it fell off, they had to stop.",
+   "If you want to dig, cut, or build, how will you do it?",
+   "It's nine o'clock."
+  ]
+ },
+ {
+  "name": "have to / must",
+  "group": "动词",
+  "count": 4,
+  "descs": [
+   "表示\"必须、得\"",
+   "表示“必须”",
+   "表示必要和禁止"
+  ],
+  "exs": [
+   "All the family had to help.",
+   "Beekeepers have to wear special clothes.",
+   "People have to wear warm clothes.",
+   "The children had to run.",
+   "We must not put bad things into the oceans."
+  ]
+ }
+]
