@@ -104,14 +104,10 @@ header{text-align:center;padding:16px 8px 6px}
 .switch::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;background:#fff;border-radius:50%;transition:.2s}
 .switch.on{background:var(--blue)} .switch.on::after{left:23px}
 .listen-stage{background:linear-gradient(160deg,#eef4fd,#f0e9ff);border-radius:16px;padding:28px 20px;text-align:center}
-.listen-stage .em{font-size:64px}
-.listen-text{font-size:26px;font-weight:900;margin-top:14px;min-height:40px}
+.listen-text{font-size:26px;font-weight:900;margin-top:10px;min-height:40px}
 .listen-text.blur{filter:blur(9px);user-select:none;color:#9bb4d6}
 .listen-cn{font-size:12pt;color:var(--muted);margin-top:6px}
 .listen-cn.blur{filter:blur(5px);user-select:none}
-.scene-strip{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:16px}
-.scene-strip .s{font-size:30px;background:#fff;border-radius:10px;padding:4px 8px;box-shadow:var(--shadow);cursor:pointer}
-.scene-strip .s:hover{transform:scale(1.12)}
 
 .seg-view{overflow-x:auto;scroll-snap-type:x mandatory;border-radius:16px;scrollbar-width:none;-ms-overflow-style:none}
 .seg-view::-webkit-scrollbar{display:none}
@@ -158,8 +154,6 @@ header{text-align:center;padding:16px 8px 6px}
 #storyTrack .seg-pics img{cursor:pointer}
 
 .page-scene-img{display:block;margin:0 auto;border-radius:12px;box-shadow:var(--shadow);max-width:100%}
-.scene-strip .s{padding:3px;background:#fff;border-radius:10px}
-.scene-strip .s img{width:58px;height:auto;border-radius:7px;display:block}
 .recall-imgs{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:8px}
 .recall-imgs img{width:140px;height:192px;object-fit:cover;border-radius:9px;box-shadow:var(--shadow);border:2px solid #fff}
 .sr-cn{display:block;font-size:12pt;color:var(--muted);font-weight:600;margin-top:3px}
@@ -306,16 +300,17 @@ header{text-align:center;padding:16px 8px 6px}
   <div data-page-node-id="JD3Z1TvXG5bouSlGGeHT0t" class="step-desc"><!--pnid:XmDtKE9vZ8KuwwWhEEscRW-->复习阶段要<b data-page-node-id="FiBhBbJ9R0ch20zgURIaiQ"><!--pnid:mjbZHJBaXGaOutIXBgIQGL-->练耳朵和整体理解</b><!--pnid:tnZnLwUFKxl47RnoTYNPJk-->：默认打开盲听，文字被遮住，先整本连贯听 1–2 遍，再看文字核对。能听懂大意就算过关，不要逐词翻译。</div>
 
   <div data-page-node-id="CwLu8gIk3lxEZ1M2Yto48b" class="blind-toggle"><span data-page-node-id="QH5VpTa9XsneibATrym787"><!--pnid:ZUSEW3K6KM44fQ16I3e0Uy-->🙈 盲听模式（遮住文字，只看图听音）</span><div data-page-node-id="mbdkPBmqHk4todtnsN7jDp" class="switch" id="blindSw"></div></div>
-  <div data-page-node-id="qRNclOfC1vk4hPKMULM0Az" class="listen-stage">
-    <div data-page-node-id="nujdos0HS8L9mplziIRRJm" class="em" id="listenEm"><!--pnid:CO1c3U1MSusdwxUfpYmIUw-->🐦</div>
-    <div data-page-node-id="dSYqA91X2QCcycZ8M4EgG7" class="listen-text" id="listenText"><!--pnid:RXTn24gUEHVFvD5skme2Ic-->Do you know a bird that can talk?</div>
-    <div data-page-node-id="zLXuqhijpaMNvY1tuIEZUE" class="listen-cn" id="listenCn"><!--pnid:ZG5py0riBuHF92XfZEAVPU-->「你知道有一种会说话的鸟吗？」</div>
-    <div data-page-node-id="8IALfIM3NYcpe0QK8wHHMX" class="toolrow">
-      <button data-page-node-id="DpiuQ6N9L9ALhvIOqZVBBJ" class="btn blue sm" id="listenBtn"><!--pnid:0y8mqM2Y740yNY2YWL7lHk-->🔊 听这一句</button>
-      <button data-page-node-id="mUtFLTvpPh4ZnefoJTI2GU" class="btn sm" id="listenAll"><!--pnid:ADbRr9J8PjBbSvv4Y5tYF4-->▶ 盲听整本（1 遍）</button>
-      <button data-page-node-id="e0AzYRF9rTFW7rnC9nznxg" class="btn ghost sm" id="listenStop"><!--pnid:YOsUP16IOSeTdk9CDzscp4-->⏹ 停止</button>
+  <div class="listen-stage">
+    <div class="seg-view" id="listenView"><div class="seg-track" id="listenTrack"></div></div>
+    <div class="seg-nav">
+      <button class="btn ghost sm" id="listenPrev">← 上一段</button>
+      <span class="seg-pos" id="listenPos">第 1 / 8 段</span>
+      <button class="btn ghost sm" id="listenNext">下一段 →</button>
     </div>
-    <div data-page-node-id="B9RXIkaMeQzYxRap2yuO7j" class="scene-strip" id="sceneStrip"></div>
+    <div class="toolrow">
+      <button class="btn sm" id="listenAll">▶ 盲听整本（1 遍）</button>
+      <button class="btn ghost sm" id="listenStop">⏹ 停止</button>
+    </div>
   </div>
 
   <div data-page-node-id="WOnWYVKgrbgDVuTmIb5TNv" class="keypoint"><b data-page-node-id="94ovp0RNodLpNOsjHp5l42"><!--pnid:iUu8kehhAgATNVDIdnYnwu-->复习要点：</b><!--pnid:8JqkzHqSHR2X0ttJegW8gp-->复习时故意"遮住文字"制造适度难度，逼大脑靠声音和图回忆，这正是从"看懂"到"听懂"的关键。点下面的图可跳到对应句子。<b data-page-node-id="wNm51kzqv9yHxjpcJ1wmlU"><!--pnid:1TQifpt4VN1lOkXXteJmRj-->注意听：</b><!--pnid:i7NAT66yFfzedCaGMSbYYA-->重点听 <b data-page-node-id="lyHogwA2i4w7SVHCSuYucE"><!--pnid:Ln5V3H2hR7tj2GkhKPM8Vc-->Do you know... / It is called...</b><!--pnid:tD3nwD9TTxesU6vCwztHbh--> 一问一答的语调，注意 <b data-page-node-id="Ki8UGLVv2uDavsWZXtNNk6"><!--pnid:vj3dYqEjsIhbZHj4NIxghS-->that / but / but it can</b><!--pnid:AZ8r1qVUEC2IedM38qN3Z0--> 连接特征时的停顿；复习时读出"卖关子再揭晓"的语气。</div>
@@ -648,28 +643,51 @@ document.querySelectorAll('.done-btn').forEach(b=>{
 });
 refreshProgress();
 
-/* ===== STEP1 盲听整本 ===== */
-let blind=true,listenIdx=0;
-const blindSw=document.getElementById('blindSw');blindSw.classList.add('on');
-blindSw.onclick=()=>{blind=!blind;blindSw.classList.toggle('on',blind);renderListen();};
-function renderListen(){
- const s=SENTS[listenIdx];
- document.getElementById('listenEm').innerHTML='<img class="page-scene-img" style="width:260px" src="'+PAGE_IMGS[listenIdx]+'" alt="绘本原图">';
- const t=document.getElementById('listenText'),c=document.getElementById('listenCn');
- t.textContent=s.en;c.textContent=s.cn;
- t.classList.toggle('blur',blind);c.classList.toggle('blur',blind);
+/* 段落左右切换通用函数（一段一屏，点按钮横滑；第一/二/三步共用） */
+function makeSlider(viewId,prevId,posId,nextId,count){
+ const view=document.getElementById(viewId),pos=document.getElementById(posId),
+       prev=document.getElementById(prevId),next=document.getElementById(nextId);
+ const GAP=14;let idx=0,timer=null;
+ const X=i=>i*(view.clientWidth+GAP);
+ const upd=()=>{pos.textContent='第 '+(idx+1)+' / '+count+' 段';prev.disabled=idx<=0;next.disabled=idx>=count-1;};
+ const go=i=>{idx=Math.max(0,Math.min(count-1,i));view.scrollTo({left:X(idx),behavior:'smooth'});upd();};
+ prev.onclick=()=>go(idx-1);next.onclick=()=>go(idx+1);
+ view.addEventListener('scroll',()=>{ /* 手指/滚轮滑动后同步当前段号 */
+  clearTimeout(timer);
+  timer=setTimeout(()=>{idx=Math.max(0,Math.min(count-1,Math.round(view.scrollLeft/(view.clientWidth+GAP))));upd();},120);
+ });
+ window.addEventListener('resize',()=>view.scrollTo({left:X(idx)}));
+ upd();
+ return go;
 }
-document.getElementById('listenBtn').onclick=()=>speak(SENTS[listenIdx].en);
+
+/* ===== STEP1 盲听整本（8 段横滑） ===== */
+let blind=true;
+const blindSw=document.getElementById('blindSw');blindSw.classList.add('on');
+blindSw.onclick=()=>{blind=!blind;blindSw.classList.toggle('on',blind);listenBlur();};
+function listenCnOf(i){return SENTS.slice(2*i,2*i+2).filter(s=>s).map(s=>s.cn).join(' ');}
+document.getElementById('listenTrack').innerHTML=SEGS.map((en,i)=>
+ `<div class="seg-card" data-li="${i}">
+   <div class="seg-t">第 ${i+1} 段 · 盲听</div>
+   <div class="seg-pics">${[2*i,2*i+1].filter(k=>k<PAGE_IMGS.length).map(k=>`<img src="${PAGE_IMGS[k]}" alt="第 ${k+1} 页配图">`).join('')}</div>
+   <div class="listen-text">${en}</div>
+   <div class="listen-cn">${listenCnOf(i)}</div>
+   <div class="seg-ctrl">
+     <button class="icon-btn" title="听这一段" data-ls="${i}">🔊</button>
+   </div></div>`).join('');
+function listenBlur(){
+ document.querySelectorAll('#listenTrack .listen-text,#listenTrack .listen-cn').forEach(el=>el.classList.toggle('blur',blind));
+}
+listenBlur();
+document.querySelectorAll('[data-ls]').forEach(b=>b.onclick=()=>speak(SEGS[+b.dataset.ls],b,b.closest('.seg-card').querySelector('.listen-text')));
 let listeningAll=false;
+const listenGo=makeSlider('listenView','listenPrev','listenPos','listenNext',SEGS.length);
 document.getElementById('listenAll').onclick=async()=>{
  stopSpeak();listeningAll=true;
- for(const s of SENTS){if(!listeningAll)break;listenIdx=SENTS.indexOf(s);renderListen();await speak(s.en);}
+ for(let i=0;i<SEGS.length;i++){if(!listeningAll)break;listenGo(i);await speak(SEGS[i]);}
  listeningAll=false;
 };
 document.getElementById('listenStop').onclick=()=>{listeningAll=false;stopSpeak();};
-document.getElementById('sceneStrip').innerHTML=SENTS.map((s,i)=>`<div class="s" data-i="${i}" title="第 ${i+1} 句"><img src="${PAGE_IMGS[i]}" alt="第 ${i+1} 页"></div>`).join('');
-document.querySelectorAll('.scene-strip .s').forEach(d=>d.onclick=()=>{listenIdx=+d.dataset.i;renderListen();speak(SENTS[listenIdx].en);});
-renderListen();
 
 /* ===== STEP2 连贯跟读 + 打分 ===== */
 function segTexts(){
@@ -694,22 +712,7 @@ document.getElementById('segTrack').innerHTML=SEGS.map((en,i)=>
      <button class="icon-btn" title="听范读" data-fan="${i}">🔊</button>
    </div></div>`).join('');
 document.querySelectorAll('[data-fan]').forEach(b=>b.onclick=()=>speak(SEGS[+b.dataset.fan],b,b.closest('.seg-card').querySelector('.seg-en')));
-/* 段落左右切换通用函数（类似闯关小测：一段一屏，点按钮横滑） */
-function makeSlider(viewId,prevId,posId,nextId,count){
- const view=document.getElementById(viewId),pos=document.getElementById(posId),
-       prev=document.getElementById(prevId),next=document.getElementById(nextId);
- const GAP=14;let idx=0,timer=null;
- const X=i=>i*(view.clientWidth+GAP);
- const upd=()=>{pos.textContent='第 '+(idx+1)+' / '+count+' 段';prev.disabled=idx<=0;next.disabled=idx>=count-1;};
- const go=i=>{idx=Math.max(0,Math.min(count-1,i));view.scrollTo({left:X(idx),behavior:'smooth'});upd();};
- prev.onclick=()=>go(idx-1);next.onclick=()=>go(idx+1);
- view.addEventListener('scroll',()=>{ /* 手指/滚轮滑动后同步当前段号 */
-  clearTimeout(timer);
-  timer=setTimeout(()=>{idx=Math.max(0,Math.min(count-1,Math.round(view.scrollLeft/(view.clientWidth+GAP))));upd();},120);
- });
- window.addEventListener('resize',()=>view.scrollTo({left:X(idx)}));
- upd();
-}
+/* 段落左右切换（通用函数 makeSlider 定义见第一步上方） */
 makeSlider('segView','segPrev','segPos','segNext',SEGS.length);
 /* ===== STEP3 合书复述（8 段横滑，点图片看句子） ===== */
 document.getElementById('storyTrack').innerHTML=SEGS.map((en,i)=>{
